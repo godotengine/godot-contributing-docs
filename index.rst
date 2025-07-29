@@ -35,7 +35,7 @@ TODO
    :caption: Sharing ideas and proposing changes
    :name: sec-proposals
 
-   proposals/about
+   proposals/first_steps
    proposals/guidelines
 
 .. toctree::
