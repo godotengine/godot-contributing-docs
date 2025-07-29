@@ -18,6 +18,7 @@ TODO
    engine/code_style
    engine/compatibility_breakages
    engine/unit_tests
+   engine/debugging/index
 
 .. toctree::
    :hidden:
