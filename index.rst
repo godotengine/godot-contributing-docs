@@ -53,6 +53,10 @@ TODO
    :name: sec-triage
 
    triage/about
+   triage/workflow
+   triage/guidelines
+   triage/release_blockers
+   triage/team_trackers
    triage/bisecting
 
 .. toctree::
@@ -72,3 +76,5 @@ TODO
    :name: sec-maintainers
 
    maintainers/about
+   maintainers/merge_queue
+   maintainers/building_releases
