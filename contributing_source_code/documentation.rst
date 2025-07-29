@@ -1,4 +1,4 @@
-Contributing to Documentation
-=============================
+Documentation
+=============
 
 TODO
