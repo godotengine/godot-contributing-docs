@@ -1,2 +1,2 @@
-About Maintainers
-=================
+About Godot Maintainers
+=======================
