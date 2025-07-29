@@ -45,6 +45,7 @@ TODO
    :name: sec-reporting-issues
 
    reporting_issues/first_steps
+   reporting_issues/bisecting
 
 .. toctree::
    :hidden:
@@ -57,7 +58,6 @@ TODO
    triage/guidelines
    triage/release_blockers
    triage/team_trackers
-   triage/bisecting
 
 .. toctree::
    :hidden:
