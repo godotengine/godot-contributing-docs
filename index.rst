@@ -17,6 +17,7 @@ TODO
    engine/cpp_usage_guidelines
    engine/code_style
    engine/compatibility_breakages
+   engine/unit_tests
 
 .. toctree::
    :hidden:
