@@ -32,6 +32,9 @@ templates_path = ['_templates']
 html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
+    'flyout_display': 'hidden',
+    'version_selector': False,
+    'language_selector': False,
     'display_version': False,
 }
 
