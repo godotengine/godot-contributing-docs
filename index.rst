@@ -26,7 +26,9 @@ TODO
    :caption: Contributing documentation
    :name: sec-engine
 
-   documentation/first_steps
+   documentation/overview
+   documentation/class_reference
+   documentation/documentation
    documentation/translation
 
 .. toctree::

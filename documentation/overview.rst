@@ -1,5 +1,5 @@
-Getting started
-===============
+Overview
+========
 
 There are two separate resources referred to as "documentation" in Godot:
 
