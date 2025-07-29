@@ -9,23 +9,33 @@ TODO
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Contributing Source Code
-   :name: sec-contributing-source-code
+   :caption: Contributing to the engine
+   :name: sec-engine
 
-   contributing_source_code/first_steps
-   contributing_source_code/creating_pull_requests
-   contributing_source_code/reviewing_pull_requests
-   contributing_source_code/code_style
-   contributing_source_code/documentation
-   contributing_source_code/unit_tests
+   engine/first_steps
+   engine/creating_pull_requests
+   engine/cpp_usage_guidelines
+   engine/code_style
+   engine/compatibility_breakages
+   engine/unit_tests
 
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Contributing Translations
-   :name: sec-translations
+   :caption: Contributing documentation
+   :name: sec-engine
 
-   translation/first_steps
+   documentation/first_steps
+   documentation/translation
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Sharing ideas and proposing changes
+   :name: sec-proposals
+
+   proposals/about
+   proposals/guidelines
 
 .. toctree::
    :hidden:
@@ -34,19 +44,22 @@ TODO
    :name: sec-triage
 
    triage/about
+   triage/bisecting
 
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Godot Implementation Proposals
-   :name: sec-proposals
+   :caption: Pull Request Review
+   :name: sec-pull-request-review
 
-   proposals/about
+   pull_request_review/process
+   pull_request_review/guidelines
+   pull_request_review/testing
 
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Maintainers Documentation
+   :caption: Maintainers documentation
    :name: sec-maintainers
 
    maintainers/about
