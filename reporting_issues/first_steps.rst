@@ -1,4 +1,4 @@
-Getting Started
+Getting started
 ===============
 
 Another great way of contributing to the engine is to test development releases
