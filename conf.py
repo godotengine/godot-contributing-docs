@@ -31,5 +31,13 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+html_context = {
+    "display_github": True,
+    "github_user": "Ivorforce",
+    "github_repo": "godot-contributing-docs",
+    "github_version": "main",
+    "conf_py_path": "/",
+}
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
