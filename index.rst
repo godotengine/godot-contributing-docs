@@ -17,7 +17,6 @@ TODO
    engine/cpp_usage_guidelines
    engine/code_style
    engine/compatibility_breakages
-   engine/unit_tests
 
 .. toctree::
    :hidden:
@@ -36,6 +35,14 @@ TODO
 
    proposals/about
    proposals/guidelines
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Testing and reporting issues
+   :name: sec-reporting-issues
+
+   reporting_issues/first_steps
 
 .. toctree::
    :hidden:
