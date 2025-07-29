@@ -31,6 +31,10 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+html_theme_options = {
+    'display_version': False,
+}
+
 html_context = {
     "display_github": True,
     "github_user": "Ivorforce",
