@@ -1,7 +1,7 @@
 .. _doc_updating_the_class_reference:
 
-Contributing to the class reference
-===================================
+Making Changes
+==============
 
 .. highlight:: shell
 

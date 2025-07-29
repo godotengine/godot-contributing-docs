@@ -1,6 +1,6 @@
 .. _doc_editor_and_docs_localization:
 
-Contributing translations
+Contributing Translations
 =========================
 
 .. highlight:: none

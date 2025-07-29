@@ -1,6 +1,13 @@
 Overview
 ========
 
+We always need help to improve the documentation, be it the class reference or
+the manual. Below, you can find our content and writing guidelines and
+concrete guides to make changes to the documentation.
+
+Be sure to also check the :ref:`workflow guidelines <doc_contributing_workflow>`,
+especially if you're new to using Git or GitHub.
+
 There are two separate resources referred to as "documentation" in Godot:
 
 - **The class reference.** This is the documentation for the complete Godot API

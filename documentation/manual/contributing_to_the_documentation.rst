@@ -1,7 +1,7 @@
 .. _doc_contributing_to_the_documentation:
 
-Contributing to the documentation
-=================================
+Writing the manual
+==================
 
 This guide explains how to contribute to Godot's documentation, be it by
 writing or reviewing pages.

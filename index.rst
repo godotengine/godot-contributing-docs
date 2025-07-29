@@ -27,9 +27,10 @@ TODO
    :name: sec-engine
 
    documentation/overview
-   documentation/class_reference
-   documentation/documentation
-   documentation/translation
+   documentation/guidelines/index
+   documentation/class_reference/index
+   documentation/manual/index
+   documentation/translation/index
 
 .. toctree::
    :hidden:
