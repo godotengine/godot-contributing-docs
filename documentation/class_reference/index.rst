@@ -1,6 +1,6 @@
 :allow_comments: False
 
-.. _doc_contributing_writing_documentation:
+.. _doc_contributing_class_reference:
 
 Contributing to the class reference
 ===================================

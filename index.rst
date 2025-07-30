@@ -31,14 +31,13 @@ TODO
    :hidden:
    :maxdepth: 1
    :caption: Contributing documentation
-   :name: sec-engine
+   :name: sec-documentation
 
    documentation/overview
    documentation/guidelines/index
    documentation/class_reference/index
    documentation/manual/index
    documentation/translation/index
-   documentation/demos/index
 
 .. toctree::
    :hidden:
