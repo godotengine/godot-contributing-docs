@@ -17,39 +17,39 @@ Core
 
 Low-level Core API: Object, Variant, templates, base nodes like Node, Viewport, etc. (everything under core and scene/main).
 
-* Triage: `Core issue triage <https://github.com/orgs/godotengine/projects/95>`_
-* RC channel: `#core <https://chat.godotengine.org/channel/core>`_
-* GitHub team: `godotengine/core <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fcore>`_
-* GitHub label: ``topic:core`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Acore>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Acore>`_
+* Triage: `Core issue triage <https://github.com/orgs/godotengine/projects/95>`__
+* RC channel: `#core <https://chat.godotengine.org/channel/core>`__
+* GitHub team: `godotengine/core <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fcore>`__
+* GitHub label: ``topic:core`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Acore>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Acore>`__
 
 Input
 ~~~~~
 
-* GitHub team: `godotengine/input <https://github.com/orgs/godotengine/teams/input>`_
-* RC channel: `#input <https://chat.godotengine.org/channel/input>`_
-* GitHub label: ``topic:input`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Ainput>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Ainput>`_
+* GitHub team: `godotengine/input <https://github.com/orgs/godotengine/teams/input>`__
+* RC channel: `#input <https://chat.godotengine.org/channel/input>`__
+* GitHub label: ``topic:input`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Ainput>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Ainput>`__
 
 GUI
 ---
 
 Everything that inherits Control (everything under scene/gui) and can be used to build Graphical User Interfaces (both game UI and editor tools).
 
-* Triage: `GUI issue triage <https://github.com/orgs/godotengine/projects/100>`_
-* RC channel: `#gui <https://chat.godotengine.org/channel/gui>`_
-* GitHub team: `godotengine/gui-nodes <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fgui-nodes>`_
-* GitHub label: ``topic:gui`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Agui>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Agui>`_
+* Triage: `GUI issue triage <https://github.com/orgs/godotengine/projects/100>`__
+* RC channel: `#gui <https://chat.godotengine.org/channel/gui>`__
+* GitHub team: `godotengine/gui-nodes <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fgui-nodes>`__
+* GitHub label: ``topic:gui`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Agui>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Agui>`__
 
 2D
 --
 
 * RC channel: `#2d <https://chat.godotengine.org/channel/2d>`__
-* GitHub team: `godotengine/2d-nodes <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2F2d-nodes>`_
-* GitHub label: ``topic:2d`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3A2d>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3A2d>`_
+* GitHub team: `godotengine/2d-nodes <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2F2d-nodes>`__
+* GitHub label: ``topic:2d`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3A2d>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3A2d>`__
 
 3D
 --
 
-* GitHub team: `godotengine/3d-nodes <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2F3d-nodes>`_
+* GitHub team: `godotengine/3d-nodes <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2F3d-nodes>`__
 * GitHub label: ``topic:3d`` · issues · PRs
 
 Editor
@@ -57,22 +57,22 @@ Editor
 
 All things related to the editor, both tools and usability (editor).
 
-* Triage: `Editor issue triage <https://github.com/orgs/godotengine/projects/111>`_
+* Triage: `Editor issue triage <https://github.com/orgs/godotengine/projects/111>`__
 * RC channels
-    * `godotengine/editor <https://chat.godotengine.org/channel/editor>`_
-    * `godotengine/editor-design <https://chat.godotengine.org/channel/editor-design>`_
+    * `godotengine/editor <https://chat.godotengine.org/channel/editor>`__
+    * `godotengine/editor-design <https://chat.godotengine.org/channel/editor-design>`__
 * GitHub labels
-    * ``topic:editor`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aeditor>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aeditor>`_
-    * ``topic:export`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aexport>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aexport>`_
-    * ``topic:i18n`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Ai18n>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Ai18n>`_
-    * ``topic:plugin`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aplugin>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aplugin>`_
+    * ``topic:editor`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aeditor>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aeditor>`__
+    * ``topic:export`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aexport>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aexport>`__
+    * ``topic:i18n`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Ai18n>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Ai18n>`__
+    * ``topic:plugin`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aplugin>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aplugin>`__
 * GitHub teams
-    * `godotengine/2d-editor <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2F2d-editor>`_
-    * `godotengine/3d-editor <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2F3d-editor>`_
-    * `godotengine/debugger <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fdebugger>`_
-    * `godotengine/docs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fdocks>`_
-    * `godotengine/script-editor <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fscript-editor>`_
-    * `godotengine/usability <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fusability>`_
+    * `godotengine/2d-editor <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2F2d-editor>`__
+    * `godotengine/3d-editor <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2F3d-editor>`__
+    * `godotengine/debugger <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fdebugger>`__
+    * `godotengine/docs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fdocks>`__
+    * `godotengine/script-editor <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fscript-editor>`__
+    * `godotengine/usability <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fusability>`__
 
 Scripting
 ---------
@@ -85,67 +85,67 @@ GDExtension
 
 GDExtension and godot-cpp.
 
-* Triage: `GDExtension issue triage <https://github.com/orgs/godotengine/projects/81/views/1>`_
-* RC Channel: `#gdextension <https://chat.godotengine.org/channel/gdextension>`_
-* GitHub team: `godotengine/gdextension <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fgdextension>`_
-* GitHub label: ``topic:gdextension`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Agdextension>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Agdextension>`_
+* Triage: `GDExtension issue triage <https://github.com/orgs/godotengine/projects/81/views/1>`__
+* RC Channel: `#gdextension <https://chat.godotengine.org/channel/gdextension>`__
+* GitHub team: `godotengine/gdextension <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fgdextension>`__
+* GitHub label: ``topic:gdextension`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Agdextension>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Agdextension>`__
 
 GDScript
 ~~~~~~~~
 
 GDScript language implementation.
 
-* Triage: `GDScript issue triage <https://github.com/orgs/godotengine/projects/79>`_
-* RC channel: `#gdscript <https://chat.godotengine.org/channel/gdscript>`_
-* GitHub team: `godotengine/gdscript <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fgdscript>`_
-* GitHub label: ``topic:gdscript`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Agdscript>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Agdscript>`_
+* Triage: `GDScript issue triage <https://github.com/orgs/godotengine/projects/79>`__
+* RC channel: `#gdscript <https://chat.godotengine.org/channel/gdscript>`__
+* GitHub team: `godotengine/gdscript <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fgdscript>`__
+* GitHub label: ``topic:gdscript`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Agdscript>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Agdscript>`__
 
 C# / .NET / Mono
 ~~~~~~~~~~~~~~~~
 
-* Triage: `Dotnet issue triage <https://github.com/orgs/godotengine/projects/83>`_
-* RC channel: `#dotnet <https://chat.godotengine.org/channel/dotnet>`_
-* GitHub team: `godotengine/dotnet <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fdotnet>`_
-* GitHub label: ``topic:dotnet`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Adotnet>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Adotnet>`_
+* Triage: `Dotnet issue triage <https://github.com/orgs/godotengine/projects/83>`__
+* RC channel: `#dotnet <https://chat.godotengine.org/channel/dotnet>`__
+* GitHub team: `godotengine/dotnet <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fdotnet>`__
+* GitHub label: ``topic:dotnet`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Adotnet>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Adotnet>`__
 
 Buildsystem
 -----------
 
 Tools and scripts that we use to compile and maintain Godot, both for development purpose (SCons, CI) and releases (official build containers).
 
-* Triage: `Buildsystem issue triage <https://github.com/orgs/godotengine/projects/53>`_
-* RC channel: `#buildsystem <https://chat.godotengine.org/channel/buildsystem>`_
-* GitHub team: `godotengine/buildsystem <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fbuildsystem>`_
-* GitHub label: ``topic:buildsystem`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Abuildsystem>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Abuildsystem>`_
+* Triage: `Buildsystem issue triage <https://github.com/orgs/godotengine/projects/53>`__
+* RC channel: `#buildsystem <https://chat.godotengine.org/channel/buildsystem>`__
+* GitHub team: `godotengine/buildsystem <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fbuildsystem>`__
+* GitHub label: ``topic:buildsystem`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Abuildsystem>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Abuildsystem>`__
 
 Platforms
 ---------
 
 Platform specific layers that reside in platform, with shared components (Unix, Win32, Apple, etc.) in drivers.
 
-* Triage: `Platforms issue triage <https://github.com/orgs/godotengine/projects/84>`_
+* Triage: `Platforms issue triage <https://github.com/orgs/godotengine/projects/84>`__
 * RC channels
-    * `#platforms <https://chat.godotengine.org/channel/platforms>`_
-    * `#apple <https://chat.godotengine.org/channel/apple>`_
-    * `#android <https://chat.godotengine.org/channel/android>`_
-    * `#web <https://chat.godotengine.org/channel/web>`_
+    * `#platforms <https://chat.godotengine.org/channel/platforms>`__
+    * `#apple <https://chat.godotengine.org/channel/apple>`__
+    * `#android <https://chat.godotengine.org/channel/android>`__
+    * `#web <https://chat.godotengine.org/channel/web>`__
 * GitHub teams
-    * `godotengine/android <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fandroid>`_
-    * `godotengine/ios <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fios>`_
-    * `godotengine/linux-bsd <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Flinux-bsd>`_
-    * `godotengine/macos <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fmacos>`_
-    * `godotengine/uwp <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fuwp>`_
-    * `godotengine/web <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fweb>`_
-    * `godotengine/windows <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fwindows>`_
+    * `godotengine/android <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fandroid>`__
+    * `godotengine/ios <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fios>`__
+    * `godotengine/linux-bsd <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Flinux-bsd>`__
+    * `godotengine/macos <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fmacos>`__
+    * `godotengine/uwp <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fuwp>`__
+    * `godotengine/web <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fweb>`__
+    * `godotengine/windows <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fwindows>`__
 * GitHub labels
-    * ``topic:porting`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aporting>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aporting>`_
-    * ``topic:android`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplatform%3Aandroid>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Aplatform%3Aandroid>`_
-    * ``topic:ios`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplatform%3Aios>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Aplatform%3Aios>`_
-    * ``topic:linuxbsd`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplatform%3Alinuxbsd>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Aplatform%3Alinuxbsd>`_
-    * ``topic:macos`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplatform%3Amacos>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Aplatform%3Amacos>`_
-    * ``topic:uwp`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplatform%3Auwp>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Aplatform%3Auwp>`_
-    * ``topic:web`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplatform%3Aweb>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Aplatform%3Aweb>`_
-    * ``topic:windows`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplatform%3Awindows>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Aplatform%3Awindows>`_
+    * ``topic:porting`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aporting>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aporting>`__
+    * ``topic:android`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplatform%3Aandroid>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Aplatform%3Aandroid>`__
+    * ``topic:ios`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplatform%3Aios>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Aplatform%3Aios>`__
+    * ``topic:linuxbsd`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplatform%3Alinuxbsd>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Aplatform%3Alinuxbsd>`__
+    * ``topic:macos`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplatform%3Amacos>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Aplatform%3Amacos>`__
+    * ``topic:uwp`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplatform%3Auwp>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Aplatform%3Auwp>`__
+    * ``topic:web`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplatform%3Aweb>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Aplatform%3Aweb>`__
+    * ``topic:windows`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aplatform%3Awindows>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Aplatform%3Awindows>`__
 
 Animation
 ---------
@@ -164,8 +164,8 @@ All audio-related features, from low-level AudioServer and drivers to high-level
 
 * Triage: `Audio issue triage <https://github.com/orgs/godotengine/projects/101>`__
 * RC channel: `#audio <https://chat.godotengine.org/channel/audio>`__
-* GitHub team: `godotengine/audio <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Faudio>`_
-* GitHub label: ``topic:audio`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aaudio>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aaudio>`_
+* GitHub team: `godotengine/audio <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Faudio>`__
+* GitHub label: ``topic:audio`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aaudio>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aaudio>`__
 
 Import
 ------
@@ -174,71 +174,71 @@ Asset import pipeline for 2D (textures) and 3D (scenes, models, animations, etc.
 
 * Triage: `Asset pipeline issue triage <https://github.com/orgs/godotengine/projects/72>`__
 * RC channel: `#asset-pipeline <https://chat.godotengine.org/channel/asset-pipeline>`__
-* GitHub team: `godotengine/import <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fimport>`_
-* GitHub label: ``topic:import`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aimport>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aimport>`_
+* GitHub team: `godotengine/import <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fimport>`__
+* GitHub label: ``topic:import`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aimport>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aimport>`__
 
 Networking
 ----------
 
 Networked multiplayer, RPCs and replication, HTTP/TCP/UDP/DNS, WebSockets, ENet, encryption.
 
-* Triage: `Network issue triage <https://github.com/orgs/godotengine/projects/96>`_
+* Triage: `Network issue triage <https://github.com/orgs/godotengine/projects/96>`__
 * RC channels
-    * `#networking <https://chat.godotengine.org/channel/networking>`_
-    * `#voip <https://chat.godotengine.org/channel/voip>`_
-* GitHub team: `godotengine/network <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fnetwork>`_
+    * `#networking <https://chat.godotengine.org/channel/networking>`__
+    * `#voip <https://chat.godotengine.org/channel/voip>`__
+* GitHub team: `godotengine/network <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fnetwork>`__
 * GitHub labels
-    * ``topic:network`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Anetwork>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Anetwork>`_
-    * ``topic:multiplayer`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Amultiplayer>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Amultiplayer>`_
+    * ``topic:network`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Anetwork>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Anetwork>`__
+    * ``topic:multiplayer`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Amultiplayer>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Amultiplayer>`__
 
 Physics
 -------
 
 Physics servers and their implementation in 2D and 3D.
 
-* Triage: `Physics issue triage <https://github.com/orgs/godotengine/projects/102>`_
-* RC channel: `#physics <https://chat.godotengine.org/channel/physics>`_
-* GitHub team: `godotengine/physics <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fphysics>`_
-* GitHub label: ``topic:physics`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aphysics>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aphysics>`_
+* Triage: `Physics issue triage <https://github.com/orgs/godotengine/projects/102>`__
+* RC channel: `#physics <https://chat.godotengine.org/channel/physics>`__
+* GitHub team: `godotengine/physics <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fphysics>`__
+* GitHub label: ``topic:physics`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aphysics>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aphysics>`__
 
 Rendering
 ---------
 
 Rendering server and RenderingDevice implementations (Vulkan, OpenGL), as well as the actual rendering techniques implemented using those graphics APIs.
 
-* Triage: `Rendering issue triage <https://github.com/orgs/godotengine/projects/78>`_
-* RC channel: `#rendering <https://chat.godotengine.org/channel/rendering>`_
+* Triage: `Rendering issue triage <https://github.com/orgs/godotengine/projects/78>`__
+* RC channel: `#rendering <https://chat.godotengine.org/channel/rendering>`__
 * GitHub teams
-    * `godotengine/rendering <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Frendering>`_
-    * `godotengine/shaders <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fshaders>`_
+    * `godotengine/rendering <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Frendering>`__
+    * `godotengine/shaders <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fshaders>`__
 * GitHub labels
-    * ``topic:rendering`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Arendering>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Arendering>`_
-    * ``topic:shaders`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Ashaders>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Ashaders>`_
+    * ``topic:rendering`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Arendering>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Arendering>`__
+    * ``topic:shaders`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Ashaders>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Ashaders>`__
 
 VFX / Tech Art / Particles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Triage: `Particles issue triage <https://github.com/orgs/godotengine/projects/115>`_
-* RC channel: `#vfx-tech-art <https://chat.godotengine.org/channel/vfx-tech-art>`_
-* GitHub label: ``topic:particles`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aparticles>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aparticles>`_
+* Triage: `Particles issue triage <https://github.com/orgs/godotengine/projects/115>`__
+* RC channel: `#vfx-tech-art <https://chat.godotengine.org/channel/vfx-tech-art>`__
+* GitHub label: ``topic:particles`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aparticles>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aparticles>`__
 
 XR
 --
 
 Augmented (AR) and virtual reality (VR).
 
-* Triage: `XR issue triage <https://github.com/orgs/godotengine/projects/104>`_
-* RC channel: `#xr <https://chat.godotengine.org/channel/xr>`_
-* GitHub team: `godotengine/xr <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fxr>`_
-* GitHub label: ``topic:xr`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Axr>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Axr>`_
+* Triage: `XR issue triage <https://github.com/orgs/godotengine/projects/104>`__
+* RC channel: `#xr <https://chat.godotengine.org/channel/xr>`__
+* GitHub team: `godotengine/xr <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fxr>`__
+* GitHub label: ``topic:xr`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Axr>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Axr>`__
 
 Navigation
 ----------
 
-* Triage: `Navigation issue triage <https://github.com/orgs/godotengine/projects/103>`_
-* RC channel: `#navigation <https://chat.godotengine.org/channel/navigation>`_
-* GitHub team: `godotengine/navigation <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fnavigation>`_
-* GitHub label: ``topic:navigation`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Anavigation>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Anavigation>`_
+* Triage: `Navigation issue triage <https://github.com/orgs/godotengine/projects/103>`__
+* RC channel: `#navigation <https://chat.godotengine.org/channel/navigation>`__
+* GitHub team: `godotengine/navigation <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fnavigation>`__
+* GitHub label: ``topic:navigation`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Anavigation>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Anavigation>`__
 
 Documentation
 -------------
@@ -248,14 +248,14 @@ Note that, while there is a dedicated documentation team, all other teams are ex
 for their area.
 
 * RC channels
-    * `#documentation <https://chat.godotengine.org/channel/documentation>`_
-    * `#translation <https://chat.godotengine.org/channel/translation>`_
-        * `#translation-de <https://chat.godotengine.org/channel/translation-de>`_
-        * `#translation-es <https://chat.godotengine.org/channel/translation-es>`_
-        * `#translation-fr <https://chat.godotengine.org/channel/translation-fr>`_
-        * `#translation-it <https://chat.godotengine.org/channel/translation-it>`_
-* GitHub team: `godotengine/documentation <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fdocumentation>`_
-* GitHub label: ``documentation`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Adocumentation>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Adocumentation>`_
+    * `#documentation <https://chat.godotengine.org/channel/documentation>`__
+    * `#translation <https://chat.godotengine.org/channel/translation>`__
+        * `#translation-de <https://chat.godotengine.org/channel/translation-de>`__
+        * `#translation-es <https://chat.godotengine.org/channel/translation-es>`__
+        * `#translation-fr <https://chat.godotengine.org/channel/translation-fr>`__
+        * `#translation-it <https://chat.godotengine.org/channel/translation-it>`__
+* GitHub team: `godotengine/documentation <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fdocumentation>`__
+* GitHub label: ``documentation`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Adocumentation>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Adocumentation>`__
 
 Quality Assurance
 ------------------
@@ -263,8 +263,8 @@ Quality Assurance
 All things QA: unit/integration tests, static analysis, benchmarks, code style/quality, builds testing.
 
 * RC channels
-    * `#quality-assurance <https://chat.godotengine.org/channel/quality-assurance>`_
-    * `#benchmarks <https://chat.godotengine.org/channel/benchmarks>`_
+    * `#quality-assurance <https://chat.godotengine.org/channel/quality-assurance>`__
+    * `#benchmarks <https://chat.godotengine.org/channel/benchmarks>`__
 
 Tests
 ~~~~~
@@ -273,26 +273,26 @@ Tests for the engine and its systems.
 Note that, while there is a dedicated tests team, all other teams are expected to contribute to the tests
 for their area.
 
-* GitHub team: `godotengine/tests <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Ftests>`_
-* GitHub label: ``topic:tests`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Atests>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Atests>`_
+* GitHub team: `godotengine/tests <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Ftests>`__
+* GitHub label: ``topic:tests`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Atests>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Atests>`__
 
 Bugsquad / Issue triage
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * RC channels
-    * `#bugsquad <https://chat.godotengine.org/channel/bugsquad>`_
-    * `#bugsquad-sprints <https://chat.godotengine.org/channel/bugsquad-sprints>`_
+    * `#bugsquad <https://chat.godotengine.org/channel/bugsquad>`__
+    * `#bugsquad-sprints <https://chat.godotengine.org/channel/bugsquad-sprints>`__
 
 Demos
 -----
 
-* RC channel: `#demo-content <https://chat.godotengine.org/channel/demo-content>`_
+* RC channel: `#demo-content <https://chat.godotengine.org/channel/demo-content>`__
 
 Website
 -------
 
-Creating the website `godotengine.org <https://godotengine.org>`_ and `asset library <https://godotengine.org/asset-library>`_ (and upcoming `asset store <https://store-beta.godotengine.org>`_).
+Creating the website `godotengine.org <https://godotengine.org>`__ and `asset library <https://godotengine.org/asset-library>`__ (and upcoming `asset store <https://store-beta.godotengine.org>`_).
 
 * RC channels
-    * `#website <https://chat.godotengine.org/channel/website>`_
-    * `#asset-store <https://chat.godotengine.org/channel/asset-store>`_
+    * `#website <https://chat.godotengine.org/channel/website>`__
+    * `#asset-store <https://chat.godotengine.org/channel/asset-store>`__
