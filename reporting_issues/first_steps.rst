@@ -1,7 +1,7 @@
 Getting started
 ===============
 
-Another great way of contributing to the engine is to test development releases
+A great way of contributing to the engine is to test development releases
 or the development branch and to report issues. It is also helpful to report
 issues discovered in stable releases, so that they can be fixed in
 the development branch and in future maintenance releases.

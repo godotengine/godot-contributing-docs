@@ -2,8 +2,8 @@
 
 .. _doc_contributing_writing_documentation:
 
-Guidelines
-==========
+Documentation guidelines
+========================
 
 Here are the principles and guidelines we strive to follow to write accessible
 documentation.

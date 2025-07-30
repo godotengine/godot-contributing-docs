@@ -1,7 +1,7 @@
 .. _doc_pr_review_guidelines:
 
-Guidelines
-==========
+Review Guidelines
+=================
 
 Code review and testing
 -----------------------

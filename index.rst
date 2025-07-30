@@ -142,7 +142,7 @@ Community support
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Sharing ideas and proposing changes
+   :caption: Sharing ideas
    :name: sec-proposals
 
    proposals/first_steps

@@ -1,5 +1,5 @@
-Introduction to Triage
-======================
+Introduction to issue triage
+============================
 
 So you are looking to help with bug triage? First of all, thank you!
 Your help means a lot!

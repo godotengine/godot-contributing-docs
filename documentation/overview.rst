@@ -1,5 +1,5 @@
-Overview
-========
+Documentation overview
+======================
 
 We always need help to improve the documentation, be it the class reference or
 the manual. Below, you can find our content and writing guidelines and
@@ -19,7 +19,7 @@ There are two separate resources referred to as "documentation" in Godot:
   for more details.
 
 - **The tutorials and engine documentation and its translations.**
-  This is the part you are reading now, which is distributed in the HTML format.
+  This is the part you can `find online <https://docs.godotengine.org/en/stable/>`_.
   Its contents are generated from plain text files in the reStructured Text
   (rst) format, to which you can contribute via pull requests on the
   `godot-docs <https://github.com/godotengine/godot-docs>`_ GitHub repository.

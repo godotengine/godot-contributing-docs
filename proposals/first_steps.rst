@@ -1,4 +1,4 @@
-First steps
-===========
+How to share ideas
+==================
 
 TODO
