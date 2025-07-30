@@ -276,8 +276,6 @@ for their area.
 * GitHub team: `godotengine/tests <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Ftests>`_
 * GitHub label: ``topic:tests`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Atests>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Atests>`_
 
-See also the `current documentation for unit tests <https://docs.godotengine.org/en/stable/contributing/development/core_and_modules/unit_testing.html>`_.
-
 Bugsquad / Issue triage
 ~~~~~~~~~~~~~~~~~~~~~~~
 

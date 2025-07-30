@@ -146,6 +146,7 @@ Community support
    documentation/class_reference/index
    documentation/manual/index
    documentation/translation/index
+   documentation/demos/index
 
 .. toctree::
    :hidden:
@@ -186,6 +187,16 @@ Community support
    pull_request_review/process
    pull_request_review/guidelines
    pull_request_review/testing
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Other
+   :name: sec-other
+
+   other/website
+   other/demos
+   other/benchmarks
 
 .. toctree::
    :hidden:
