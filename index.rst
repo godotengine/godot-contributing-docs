@@ -24,6 +24,7 @@ TODO
 
    engine/introduction
    engine/guidelines/index
+   engine/editor/index
    engine/unit_tests
    engine/debugging/index
 
