@@ -1,7 +1,7 @@
 .. _doc_updating_the_class_reference:
 
-Making changes
-==============
+Making changes to the class reference
+=====================================
 
 .. highlight:: shell
 
