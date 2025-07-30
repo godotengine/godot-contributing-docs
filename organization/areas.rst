@@ -39,14 +39,15 @@ Everything that inherits Control (everything under scene/gui) and can be used to
 * GitHub team: `godotengine/gui-nodes <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fgui-nodes>`_
 * GitHub label: ``topic:gui`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Agui>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Agui>`_
 
-2D Nodes
---------
+2D
+--
 
+* RC channel: `#2d <https://chat.godotengine.org/channel/2d>`__
 * GitHub team: `godotengine/2d-nodes <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2F2d-nodes>`_
 * GitHub label: ``topic:2d`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3A2d>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3A2d>`_
 
-3D Nodes
---------
+3D
+--
 
 * GitHub team: `godotengine/3d-nodes <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2F3d-nodes>`_
 * GitHub label: ``topic:3d`` · issues · PRs
@@ -57,7 +58,9 @@ Editor
 All things related to the editor, both tools and usability (editor).
 
 * Triage: `Editor issue triage <https://github.com/orgs/godotengine/projects/111>`_
-* RC channel: `godotengine/editor <https://chat.godotengine.org/channel/editor>`_
+* RC channels
+    * `godotengine/editor <https://chat.godotengine.org/channel/editor>`_
+    * `godotengine/editor-design <https://chat.godotengine.org/channel/editor-design>`_
 * GitHub labels
     * ``topic:editor`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aeditor>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aeditor>`_
     * ``topic:export`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aexport>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aexport>`_
@@ -180,7 +183,9 @@ Networking
 Networked multiplayer, RPCs and replication, HTTP/TCP/UDP/DNS, WebSockets, ENet, encryption.
 
 * Triage: `Network issue triage <https://github.com/orgs/godotengine/projects/96>`_
-* RC channel: `#networking <https://chat.godotengine.org/channel/networking>`_
+* RC channels
+    * `#networking <https://chat.godotengine.org/channel/networking>`_
+    * `#voip <https://chat.godotengine.org/channel/voip>`_
 * GitHub team: `godotengine/network <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fnetwork>`_
 * GitHub labels
     * ``topic:network`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Anetwork>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Anetwork>`_
@@ -242,17 +247,54 @@ Documentation for the engine and its systems.
 Note that, while there is a dedicated documentation team, all other teams are expected to contribute to the documentation
 for their area.
 
+* RC channels
+    * `#documentation <https://chat.godotengine.org/channel/documentation>`_
+    * `#translation <https://chat.godotengine.org/channel/translation>`_
+        * `#translation-de <https://chat.godotengine.org/channel/translation-de>`_
+        * `#translation-es <https://chat.godotengine.org/channel/translation-es>`_
+        * `#translation-fr <https://chat.godotengine.org/channel/translation-fr>`_
+        * `#translation-it <https://chat.godotengine.org/channel/translation-it>`_
 * GitHub team: `godotengine/documentation <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fdocumentation>`_
 * GitHub label: ``documentation`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Adocumentation>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Adocumentation>`_
 
+Quality Assurance
+------------------
+
+All things QA: unit/integration tests, static analysis, benchmarks, code style/quality, builds testing.
+
+* RC channels
+    * `#quality-assurance <https://chat.godotengine.org/channel/quality-assurance>`_
+    * `#benchmarks <https://chat.godotengine.org/channel/benchmarks>`_
+
 Tests
------
+~~~~~
 
 Tests for the engine and its systems.
 Note that, while there is a dedicated tests team, all other teams are expected to contribute to the tests
 for their area.
 
 * GitHub team: `godotengine/tests <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Ftests>`_
-* GitHub label: ``topic:tests``_ · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Atests>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Atests>`_
+* GitHub label: ``topic:tests`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Atests>`_ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Atests>`_
 
 See also the `current documentation for unit tests <https://docs.godotengine.org/en/stable/contributing/development/core_and_modules/unit_testing.html>`_.
+
+Bugsquad / Issue triage
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* RC channels
+    * `#bugsquad <https://chat.godotengine.org/channel/bugsquad>`_
+    * `#bugsquad-sprints <https://chat.godotengine.org/channel/bugsquad-sprints>`_
+
+Demos
+-----
+
+* RC channel: `#demo-content <https://chat.godotengine.org/channel/demo-content>`_
+
+Website
+-------
+
+Creating the website `godotengine.org <https://godotengine.org>`_ and `asset library <https://godotengine.org/asset-library>`_ (and upcoming `asset store <https://store-beta.godotengine.org>`_).
+
+* RC channels
+    * `#website <https://chat.godotengine.org/channel/website>`_
+    * `#asset-store <https://chat.godotengine.org/channel/asset-store>`_
