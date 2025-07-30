@@ -120,6 +120,7 @@ Community support
    :name: sec-organization
 
    organization/areas
+   organization/pull_requests/index
 
 .. toctree::
    :hidden:
@@ -128,7 +129,6 @@ Community support
    :name: sec-engine
 
    engine/first_steps
-   engine/pull_requests/index
    engine/cpp_usage_guidelines
    engine/code_style
    engine/compatibility_breakages
