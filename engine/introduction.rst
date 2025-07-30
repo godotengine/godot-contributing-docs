@@ -1,5 +1,5 @@
-First steps
-===========
+Introduction to engine contributions
+====================================
 
 The possibility to study, use, modify and redistribute modifications of the
 engine's source code are the fundamental rights that
