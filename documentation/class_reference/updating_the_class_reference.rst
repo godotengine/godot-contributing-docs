@@ -1,6 +1,6 @@
 .. _doc_updating_the_class_reference:
 
-Making Changes
+Making changes
 ==============
 
 .. highlight:: shell
