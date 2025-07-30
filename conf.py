@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Godot Contributing Docs'
+project = 'Contributing to Godot'
 copyright = '2025, Godot Engine Contributors'
 author = 'Godot Engine Contributors'
 
