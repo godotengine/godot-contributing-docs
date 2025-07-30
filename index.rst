@@ -78,6 +78,7 @@ TODO
    :caption: Maintainers documentation
    :name: sec-maintainers
 
+   maintainers/how_to_become_a_maintainer
    maintainers/introduction
    maintainers/merge_queue
    maintainers/building_releases
