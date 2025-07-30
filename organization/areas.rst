@@ -10,7 +10,7 @@ You can find information about the teams on the `godot website <https://godoteng
 as their `current priorities <https://godotengine.org/priorities/>`_.
 
 For more information about the different GitHub labels, please see the
-`labels documentation <https://docs.godotengine.org/en/latest/contributing/workflow/bug_triage_guidelines.html#labels>`__.
+:ref:`doc_bug_triage_guidelines`.
 
 Core
 ----
