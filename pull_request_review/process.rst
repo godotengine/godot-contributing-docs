@@ -1,4 +1,4 @@
-Review Process
+Review process
 ==============
 
 .. note::
