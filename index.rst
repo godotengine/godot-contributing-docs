@@ -116,6 +116,14 @@ Community support
 .. toctree::
    :hidden:
    :maxdepth: 1
+   :caption: Organization
+   :name: sec-organization
+
+   organization/areas
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
    :caption: Contributing to the engine
    :name: sec-engine
 
@@ -185,6 +193,6 @@ Community support
    :caption: Maintainers documentation
    :name: sec-maintainers
 
-   maintainers/about
+   maintainers/introduction
    maintainers/merge_queue
    maintainers/building_releases

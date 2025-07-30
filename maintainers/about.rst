@@ -1,4 +1,0 @@
-About Godot maintainers
-=======================
-
-TODO
