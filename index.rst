@@ -67,7 +67,7 @@ TODO
    :caption: Other
    :name: sec-other
 
-   other/ideas/index
+   other/ideas
    other/website
    other/demos
    other/benchmarks

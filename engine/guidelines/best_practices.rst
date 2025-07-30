@@ -1,7 +1,7 @@
 .. _doc_best_practices_for_engine_contributors:
 
-Proposal guidelines
-===================
+Best practices for engine contributors
+======================================
 
 Introduction
 ------------

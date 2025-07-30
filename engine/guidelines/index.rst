@@ -7,6 +7,7 @@ This section explains guidelines for contributing to the engine.
    :maxdepth: 1
    :name: sec-engine-contribution-guidelines
 
+   best_practices
    cpp_usage_guidelines
    code_style
 
