@@ -1,4 +1,4 @@
-First Steps
+First steps
 ===========
 
 The possibility to study, use, modify and redistribute modifications of the

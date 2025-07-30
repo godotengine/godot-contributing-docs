@@ -128,7 +128,7 @@ Community support
    :name: sec-engine
 
    engine/first_steps
-   engine/creating_pull_requests
+   engine/pull_requests/index
    engine/cpp_usage_guidelines
    engine/code_style
    engine/compatibility_breakages
@@ -177,16 +177,6 @@ Community support
    triage/guidelines
    triage/release_blockers
    triage/team_trackers
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-   :caption: Pull Request Review
-   :name: sec-pull-request-review
-
-   pull_request_review/process
-   pull_request_review/guidelines
-   pull_request_review/testing
 
 .. toctree::
    :hidden:
