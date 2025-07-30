@@ -1,5 +1,5 @@
-Review process
-==============
+Review and merge process
+========================
 
 .. note::
 
