@@ -1,5 +1,5 @@
-First steps and engine contribution guidelines
-==============================================
+First steps
+===========
 
 The possibility to study, use, modify and redistribute modifications of the
 engine's source code are the fundamental rights that
@@ -58,12 +58,3 @@ details can also be discussed with other contributors on the `Godot Contributors
 
 .. note:: Proposals are only required when working on an enhancement or a new feature.
           Bug reports are sufficient for fixing issues.
-
-.. _doc_handling_compatibility_breakages:
-
-Handling compatibility breakages
---------------------------------
-
-.. TODO: Elaborate on types of compatibility and procedure.
-
-See also the `current documentation for compatibility breakages <https://docs.godotengine.org/en/stable/contributing/development/handling_compatibility_breakages.html>`_.

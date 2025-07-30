@@ -129,9 +129,7 @@ Community support
    :name: sec-engine
 
    engine/first_steps
-   engine/cpp_usage_guidelines
-   engine/code_style
-   engine/compatibility_breakages
+   engine/guidelines/index
    engine/unit_tests
    engine/debugging/index
 
