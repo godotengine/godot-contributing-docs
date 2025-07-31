@@ -9,8 +9,7 @@ This page lists these areas and explains their goals and how they're organized.
 You can find information about the teams on the `godot website <https://godotengine.org/teams/>`_, as well
 as their `current priorities <https://godotengine.org/priorities/>`_.
 
-For more information about the different GitHub labels, please see the
-:ref:`doc_bug_triage_guidelines`.
+The best way to get involved with a team is by joining their respective `RocketChat <https://chat.godotengine.org/>`__ channels.
 
 Core
 ----
@@ -18,7 +17,7 @@ Core
 Low-level Core API: Object, Variant, templates, base nodes like Node, Viewport, etc. (everything under core and scene/main).
 
 * Triage: `Core issue triage <https://github.com/orgs/godotengine/projects/95>`__
-* RC channel: `#core <https://chat.godotengine.org/channel/core>`__
+* RocketChat channel: `#core <https://chat.godotengine.org/channel/core>`__
 * GitHub team: `godotengine/core <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fcore>`__
 * GitHub label: ``topic:core`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Acore>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Acore>`__
 
@@ -26,7 +25,7 @@ Input
 ~~~~~
 
 * GitHub team: `godotengine/input <https://github.com/orgs/godotengine/teams/input>`__
-* RC channel: `#input <https://chat.godotengine.org/channel/input>`__
+* RocketChat channel: `#input <https://chat.godotengine.org/channel/input>`__
 * GitHub label: ``topic:input`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Ainput>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Ainput>`__
 
 GUI
@@ -35,14 +34,14 @@ GUI
 Everything that inherits Control (everything under scene/gui) and can be used to build Graphical User Interfaces (both game UI and editor tools).
 
 * Triage: `GUI issue triage <https://github.com/orgs/godotengine/projects/100>`__
-* RC channel: `#gui <https://chat.godotengine.org/channel/gui>`__
+* RocketChat channel: `#gui <https://chat.godotengine.org/channel/gui>`__
 * GitHub team: `godotengine/gui-nodes <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fgui-nodes>`__
 * GitHub label: ``topic:gui`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Agui>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Agui>`__
 
 2D
 --
 
-* RC channel: `#2d <https://chat.godotengine.org/channel/2d>`__
+* RocketChat channel: `#2d <https://chat.godotengine.org/channel/2d>`__
 * GitHub team: `godotengine/2d-nodes <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2F2d-nodes>`__
 * GitHub label: ``topic:2d`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3A2d>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3A2d>`__
 
@@ -96,7 +95,7 @@ GDScript
 GDScript language implementation.
 
 * Triage: `GDScript issue triage <https://github.com/orgs/godotengine/projects/79>`__
-* RC channel: `#gdscript <https://chat.godotengine.org/channel/gdscript>`__
+* RocketChat channel: `#gdscript <https://chat.godotengine.org/channel/gdscript>`__
 * GitHub team: `godotengine/gdscript <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fgdscript>`__
 * GitHub label: ``topic:gdscript`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Agdscript>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Agdscript>`__
 
@@ -104,7 +103,7 @@ C# / .NET / Mono
 ~~~~~~~~~~~~~~~~
 
 * Triage: `Dotnet issue triage <https://github.com/orgs/godotengine/projects/83>`__
-* RC channel: `#dotnet <https://chat.godotengine.org/channel/dotnet>`__
+* RocketChat channel: `#dotnet <https://chat.godotengine.org/channel/dotnet>`__
 * GitHub team: `godotengine/dotnet <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fdotnet>`__
 * GitHub label: ``topic:dotnet`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Adotnet>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Adotnet>`__
 
@@ -114,7 +113,7 @@ Buildsystem
 Tools and scripts that we use to compile and maintain Godot, both for development purpose (SCons, CI) and releases (official build containers).
 
 * Triage: `Buildsystem issue triage <https://github.com/orgs/godotengine/projects/53>`__
-* RC channel: `#buildsystem <https://chat.godotengine.org/channel/buildsystem>`__
+* RocketChat channel: `#buildsystem <https://chat.godotengine.org/channel/buildsystem>`__
 * GitHub team: `godotengine/buildsystem <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fbuildsystem>`__
 * GitHub label: ``topic:buildsystem`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Abuildsystem>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Abuildsystem>`__
 
@@ -153,7 +152,7 @@ Animation
 Nodes and features for 2D and 3D animation and IK workflows.
 
 * Triage: `Animation team Issue Triage <https://github.com/orgs/godotengine/projects/74>`__
-* RC channel: `#animation <https://chat.godotengine.org/channel/animation>`__
+* RocketChat channel: `#animation <https://chat.godotengine.org/channel/animation>`__
 * GitHub team: `godotengine/animation <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fanimation>`__
 * GitHub label: ``topic:animation`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aanimation>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aanimation>`__
 
@@ -163,7 +162,7 @@ Audio
 All audio-related features, from low-level AudioServer and drivers to high-level nodes and effects.
 
 * Triage: `Audio issue triage <https://github.com/orgs/godotengine/projects/101>`__
-* RC channel: `#audio <https://chat.godotengine.org/channel/audio>`__
+* RocketChat channel: `#audio <https://chat.godotengine.org/channel/audio>`__
 * GitHub team: `godotengine/audio <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Faudio>`__
 * GitHub label: ``topic:audio`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aaudio>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aaudio>`__
 
@@ -173,7 +172,7 @@ Import
 Asset import pipeline for 2D (textures) and 3D (scenes, models, animations, etc.).
 
 * Triage: `Asset pipeline issue triage <https://github.com/orgs/godotengine/projects/72>`__
-* RC channel: `#asset-pipeline <https://chat.godotengine.org/channel/asset-pipeline>`__
+* RocketChat channel: `#asset-pipeline <https://chat.godotengine.org/channel/asset-pipeline>`__
 * GitHub team: `godotengine/import <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fimport>`__
 * GitHub label: ``topic:import`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aimport>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aimport>`__
 
@@ -197,7 +196,7 @@ Physics
 Physics servers and their implementation in 2D and 3D.
 
 * Triage: `Physics issue triage <https://github.com/orgs/godotengine/projects/102>`__
-* RC channel: `#physics <https://chat.godotengine.org/channel/physics>`__
+* RocketChat channel: `#physics <https://chat.godotengine.org/channel/physics>`__
 * GitHub team: `godotengine/physics <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fphysics>`__
 * GitHub label: ``topic:physics`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aphysics>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aphysics>`__
 
@@ -207,7 +206,7 @@ Rendering
 Rendering server and RenderingDevice implementations (Vulkan, OpenGL), as well as the actual rendering techniques implemented using those graphics APIs.
 
 * Triage: `Rendering issue triage <https://github.com/orgs/godotengine/projects/78>`__
-* RC channel: `#rendering <https://chat.godotengine.org/channel/rendering>`__
+* RocketChat channel: `#rendering <https://chat.godotengine.org/channel/rendering>`__
 * GitHub teams
     * `godotengine/rendering <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Frendering>`__
     * `godotengine/shaders <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fshaders>`__
@@ -219,7 +218,7 @@ VFX / Tech Art / Particles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Triage: `Particles issue triage <https://github.com/orgs/godotengine/projects/115>`__
-* RC channel: `#vfx-tech-art <https://chat.godotengine.org/channel/vfx-tech-art>`__
+* RocketChat channel: `#vfx-tech-art <https://chat.godotengine.org/channel/vfx-tech-art>`__
 * GitHub label: ``topic:particles`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aparticles>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aparticles>`__
 
 XR
@@ -228,7 +227,7 @@ XR
 Augmented (AR) and virtual reality (VR).
 
 * Triage: `XR issue triage <https://github.com/orgs/godotengine/projects/104>`__
-* RC channel: `#xr <https://chat.godotengine.org/channel/xr>`__
+* RocketChat channel: `#xr <https://chat.godotengine.org/channel/xr>`__
 * GitHub team: `godotengine/xr <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fxr>`__
 * GitHub label: ``topic:xr`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Axr>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Axr>`__
 
@@ -236,7 +235,7 @@ Navigation
 ----------
 
 * Triage: `Navigation issue triage <https://github.com/orgs/godotengine/projects/103>`__
-* RC channel: `#navigation <https://chat.godotengine.org/channel/navigation>`__
+* RocketChat channel: `#navigation <https://chat.godotengine.org/channel/navigation>`__
 * GitHub team: `godotengine/navigation <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fnavigation>`__
 * GitHub label: ``topic:navigation`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Anavigation>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Anavigation>`__
 
@@ -286,7 +285,7 @@ Bugsquad / Issue triage
 Demos
 -----
 
-* RC channel: `#demo-content <https://chat.godotengine.org/channel/demo-content>`__
+* RocketChat channel: `#demo-content <https://chat.godotengine.org/channel/demo-content>`__
 
 Website
 -------
