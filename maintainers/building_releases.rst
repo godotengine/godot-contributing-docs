@@ -181,6 +181,7 @@ Finally, the ``publish-release.sh`` script takes care of:
 -  Publish the Android library to MavenCentral.
 
 For stable builds only, it additionally uploads the release to:
+
 * GitHub at https://github.com/godotengine/godot
     * This requires getting a GitHub write token for one of our accounts. @GodotBuilder doesn’t have write access to godotengine/godot for safety.
 * Steam
@@ -221,6 +222,7 @@ Basic commands to know:
 Within a ``screen`` session, commands can be issued using the Ctrl+A
 hotkey. This hotkey starts an input mode without visual feedback, which
 can take notably these commands:
+
 * ``C``: Create a new virtual terminal in the current session.
 * ``D``: Detach from the current session.
 * ``0-9``: Go to the n-th virtual terminal. When creating a new session, there is only one virtual terminal (0), but after using the C command, you can cycle between 0 and 1, etc.
