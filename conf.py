@@ -32,9 +32,14 @@ templates_path = ['_templates']
 html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
+    # if we have a html_logo below, this shows /only/ the logo with no title text
+    "logo_only": True,
     'flyout_display': 'hidden',
-    'version_selector': False,
-    'language_selector': False,
+    # Collapse navigation (False makes it tree-like)
+    "collapse_navigation": False,
+    # Remove version and language picker beneath the title
+    "version_selector": False,
+    "language_selector": False,
     'display_version': False,
 }
 
@@ -45,6 +50,23 @@ html_context = {
     "github_version": "main",
     "conf_py_path": "/",
 }
+
+html_logo = "img/docs_logo.svg"
+
+# These folders are copied to the documentation's HTML output
+html_static_path = ["_static"]
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (e.g. https://...)
+html_css_files = [
+    "css/custom.css",
+]
+
+html_js_files = [
+    "js/custom.js",
+#     ('https://plausible.godot.foundation/js/script.file-downloads.outbound-links.js',
+#      {'defer': 'defer', 'data-domain': 'godotengine.org'}),
+]
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
