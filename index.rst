@@ -19,6 +19,27 @@ TODO
 .. toctree::
    :hidden:
    :maxdepth: 1
+   :caption: Testing and reporting issues
+   :name: sec-reporting-issues
+
+   reporting_issues/first_steps
+   reporting_issues/bisecting
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Issue Triage
+   :name: sec-triage
+
+   triage/about
+   triage/workflow
+   triage/guidelines
+   triage/release_blockers
+   triage/team_trackers
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
    :caption: Contributing to the engine
    :name: sec-engine
 
@@ -39,27 +60,6 @@ TODO
    documentation/class_reference/index
    documentation/manual/index
    documentation/translation/index
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-   :caption: Testing and reporting issues
-   :name: sec-reporting-issues
-
-   reporting_issues/first_steps
-   reporting_issues/bisecting
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-   :caption: Issue Triage
-   :name: sec-triage
-
-   triage/about
-   triage/workflow
-   triage/guidelines
-   triage/release_blockers
-   triage/team_trackers
 
 .. toctree::
    :hidden:
