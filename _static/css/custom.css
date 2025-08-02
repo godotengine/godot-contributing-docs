@@ -1446,6 +1446,7 @@ p + .classref-constant {
 /* Navigational sidebar */
 
 .wy-nav-side {
+    padding-bottom: 0; !important;
     background-color: var(--navbar-background-color);
 }
 

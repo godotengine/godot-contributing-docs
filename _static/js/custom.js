@@ -15,9 +15,9 @@ const registerOnScrollEvent = (function(){
   // The target margin to be applied to the navigation bar when the logo is hidden.
   const menuTopMargin = 70;
   // The max-height offset when the logo is completely visible.
-  const menuHeightOffset_default = 162;
+  const menuHeightOffset_default = 154;
   // The max-height offset when the logo is completely hidden.
-  const menuHeightOffset_fixed = 80;
+  const menuHeightOffset_fixed = 70;
   // The distance between the two max-height offset values above; used for intermediate values.
   const menuHeightOffset_diff = (menuHeightOffset_default - menuHeightOffset_fixed);
 
