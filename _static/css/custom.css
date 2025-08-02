@@ -57,10 +57,10 @@
     --navbar-expand-hover-color: #c3e3ff;
     --navbar-expand-active-color: #f1f9ff;
     --navbar-dimmed-color: #a3c4e1;
-    --navbar-heading-color: #ff7381;
-    --navbar-scrollbar-color: #d45a66;
-    --navbar-scrollbar-hover-color: #b14550;
-    --navbar-scrollbar-active-color: #72383e;
+    --navbar-heading-color: #d6c988;
+    --navbar-scrollbar-color: #d4ad5a;
+    --navbar-scrollbar-hover-color: #b18f45;
+    --navbar-scrollbar-active-color: #725e38;
     --navbar-scrollbar-background: #131e2b;
 
     --link-color: #2980b9;
@@ -188,10 +188,10 @@
         --navbar-expand-hover-color: #ccc;
         --navbar-expand-active-color: #ddd;
         --navbar-dimmed-color: #bbb;
-        --navbar-heading-color: #ee7381;
-        --navbar-scrollbar-color: #be5460;
-        --navbar-scrollbar-hover-color: #963e48;
-        --navbar-scrollbar-active-color: #5f3034;
+        --navbar-heading-color: #cfb972;
+        --navbar-scrollbar-color: #bea054;
+        --navbar-scrollbar-hover-color: #967d3e;
+        --navbar-scrollbar-active-color: #5f4f30;
         --navbar-scrollbar-background: #1c1e21;
 
         --link-color: #8cf;
