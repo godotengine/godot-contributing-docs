@@ -196,6 +196,16 @@ and itch.io). This is outside the scope of this howto.
    Google Play and the Horizon Store. Until we automate this, this
    should be synced with @m4gr3d.
 
+Updating documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+The documentation needs version updates in various locations:
+
+* Update the class reference from `godot <https://github.com/godotengine/godot-docs>`__.
+* Create a new branch of the current version in `godot-docs <https://github.com/godotengine/godot-docs>`__.
+* Create a new version for this branch on `readthedocs <https://app.readthedocs.org/dashboard/>`__
+* Update the version number in `conf.py <https://github.com/godotengine/godot-docs/blob/92dcf8cc9c5e65b2377d4303128e6468b5b08cd6/conf.py#L175>`__ to the upcoming version on ``master``.
+
 Using ``screen``
 ----------------
 
