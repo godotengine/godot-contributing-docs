@@ -9,7 +9,7 @@ Guidelines for release coordinators to build official releases.
 -  Other relevant docs: `Building from source `__.
 
 This document starts by presenting how to make release builds in the
-most succint way possible, and later sections give more details on
+most succinct way possible, and later sections give more details on
 relevant steps or components.
 
 Build process
@@ -203,7 +203,7 @@ The documentation needs version updates in various locations:
 
 * Update the class reference from `godot <https://github.com/godotengine/godot-docs>`__.
 * Create a new branch of the current version in `godot-docs <https://github.com/godotengine/godot-docs>`__.
-* Create a new version for this branch on `readthedocs <https://app.readthedocs.org/dashboard/>`__
+* Create a new version for this branch on `readthedocs <https://app.readthedocs.org/dashboard/>`__.
 * Update the version number in `conf.py <https://github.com/godotengine/godot-docs/blob/92dcf8cc9c5e65b2377d4303128e6468b5b08cd6/conf.py#L175>`__ to the upcoming version on ``master``.
 
 Using ``screen``
