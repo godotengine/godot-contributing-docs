@@ -1,7 +1,17 @@
 Godot contributing documentation
 ================================
 
-TODO
+.. note:: This page documents how to contribute to Godot.
+          Looking for the engine documentation instead? Visit
+          `docs.godotengine.org <https://docs.godotengine.org/en/stable/>`__!
+
+Learn how to contribute to `Godot Engine <https://godotengine.org>`__,
+the free and open source community-driven 2D and 3D game engine! If you are new,
+we recommend that you read the :ref:`introduction page <doc_ways_to_contribute>`
+to get an overview of the ways in which you can contribute to Godot.
+
+The table of contents in the sidebar should let you easily access the documentation
+for your topic of interest. You can also use the search function in the top-left corner.
 
 .. Below is the main table-of-content tree of the documentation website.
    It is hidden on the page itself, but it makes up the sidebar for navigation.
