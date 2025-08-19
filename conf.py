@@ -12,11 +12,11 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+    "sphinx_tabs.tabs",
+    "notfound.extension",
+    "sphinxext.opengraph",
+    "sphinx_copybutton",
+    "sphinxcontrib.video",
 ]
 
 intersphinx_mapping = {
@@ -70,3 +70,21 @@ html_js_files = [
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+
+# -- Custom Sphinx roles for UI -------------------------------------------
+
+rst_prolog = """
+.. role:: button
+   :class: role-button role-ui
+
+.. role:: menu
+    :class: role-menu role-ui
+
+.. role:: inspector
+    :class: role-ui
+
+.. role:: ui
+    :class: role-ui
+
+"""
