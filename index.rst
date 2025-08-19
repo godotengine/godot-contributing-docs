@@ -80,14 +80,3 @@ for your topic of interest. You can also use the search function in the top-left
    other/website
    other/demos
    other/benchmarks
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-   :caption: Maintainers documentation
-   :name: sec-maintainers
-
-   maintainers/how_to_become_a_maintainer
-   maintainers/introduction
-   maintainers/merge_queue
-   maintainers/building_releases
