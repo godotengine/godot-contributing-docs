@@ -13,9 +13,9 @@ Page not found
         in the version of the documentation you're currently browsing.
     </p>
     <p>
-        If you're currently browsing the
-        <em>latest</em> version of the documentation, try browsing the
-        <a href="/en/stable/"><em>stable</em> version of the documentation</a>.
+        Note that you are currently browsing the <em>contributing</em> documentation.
+        If you're looking for engine information, please browse
+        <a href="https://docs.godotengine.org/en/stable/">docs.godotengine.org</a> instead.
     </p>
     <p>
         Alternatively, use the
