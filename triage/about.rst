@@ -81,9 +81,9 @@ call it a regression.
 Bisecting can be done at multiple levels, the basic level is checking
 if, for example, a bug that was confirmed on ``4.4`` is also
 reproducible on ``4.3``. Next you can test development releases, such as
-``4.4.beta1``, these can be found in the `Godot archive `__. Once the
-specific development release has been identified you can go one step
-further and `bisect `__ the regression.
+``4.4.beta1``, these can be found in the `Godot archive <https://godotengine.org/download/archive/>`__.
+Once the specific development release has been identified you can go one step
+further and :ref:`bisect <doc_bisecting_regressions>` the regression.
 
 Make sure to announce the fact that you are bisecting a bug on the issue
 report to make sure no one else starts bisecting it as well, as
