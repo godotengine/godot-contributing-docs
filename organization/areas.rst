@@ -99,8 +99,8 @@ All things related to the editor, both tools and usability (editor).
 
 * Triage: `Editor issue triage <https://github.com/orgs/godotengine/projects/111>`__
 * RC channels
-    * `godotengine/editor <https://chat.godotengine.org/channel/editor>`__
-    * `godotengine/editor-design <https://chat.godotengine.org/channel/editor-design>`__
+    * `#editor <https://chat.godotengine.org/channel/editor>`__
+    * `#editor-design <https://chat.godotengine.org/channel/editor-design>`__
 * GitHub labels
     * ``topic:editor`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aeditor>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aeditor>`__
     * ``topic:export`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aexport>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aexport>`__

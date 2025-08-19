@@ -1,11 +1,12 @@
+.. _doc_bug_triage_overview:
+
 Bug triage overview
 ===================
 
 This is page is meant to outline in more detail the process of triaging
-bugs. For a basic introduction, please see the `introduction to
-triage `__ page. If you have any questions,
+bugs. For a basic introduction, please see :ref:`doc_bug_triage_intro`. If you have any questions,
 or if there’s anything missing, please don’t hesitate to ask in the
-`#bugsquad `__ channel.
+`#bugsquad <https://chat.godotengine.org/channel/bugsquad>`__ channel.
 
 Triage checklist
 ----------------
@@ -22,7 +23,7 @@ Triage checklist
    author to add the missing information.
 -  `Check for duplicates <#check-for-duplicates>`__.
 -  Check if the issue is a recent regression. If it is, add it to the
-   `release blocker tracker `__ and
+   :ref:`release blocker tracker <doc_bug_triage_release_blockers>` and
    mark it as a “regression”.
 -  Add initial labels.
 -  `Assign a milestone <#assigning-milestones>`__ if relevant.
@@ -35,26 +36,23 @@ Triage checklist
    -  If you can replicate the issue, mark it as “confirmed”.
 
 -  Finalize the assessment, updating any labels or milestone if needed
-   and adding it to the appropriate `team
-   trackers `__.
+   and adding it to the appropriate :ref:`team trackers <doc_bug_triage_team_trackers>`.
 
 Check Issue Validity
 --------------------
 
 The first step of triage is to confirm that the issue is valid and
-filled in properly. This means that: \* It is a bug report, for the
-engine, and not a: - Feature proposal, belonging in `Godot
-Proposals `__ - Online
-documentation issue, belonging in `Godot
-Docs `__ (this should
-generally be transferred) - A support question, these should be directed
-to other `community channels `__ \*
-Has all the required information: - The engine version tested with (with
-a specific version hash if not using an official release) - System
-information in most cases - Clear and detailed reproduction steps - A
-valid MRP if the steps are not trivial, or if the issue depends on scene
-setup or requires data, such as animations, meshes, etc., where getting
-the required setup to test are not trivial.
+filled in properly. This means that:
+
+* It is a bug report, for the engine, and not a:
+    - Feature proposal, belonging in `Godot Proposals <https://github.com/godotengine/godot-proposals>`__
+    - Online documentation issue, belonging in `Godot Docs <https://github.com/godotengine/godot-docs>`__ (this should generally be transferred)
+    - A support question, these should be directed to other `community channels <https://godotengine.org/community/>`__
+* Has all the required information:
+    - The engine version tested with (with a specific version hash if not using an official release)
+    - System information in most cases
+    - Clear and detailed reproduction steps
+    - A valid MRP if the steps are not trivial, or if the issue depends on scene setup or requires data, such as animations, meshes, etc., where getting the required setup to test are not trivial.
 
 If the report is missing this information, ask for this information
 before proceeding. If the issue lacks critical information, or is
@@ -69,8 +67,7 @@ Initial Assessment
 ------------------
 
 Once the basic details of the issue have been verified the issue should
-be tagged with the appropriate tags. See `bug triage
-guidelines `__
+be tagged with the appropriate tags. See :ref:`doc_bug_triage_guidelines`
 for details on these tags.
 
 If the bug is reported on the current development version (i.e. the
@@ -81,8 +78,7 @@ having tested development versions) please either ask the author to test
 with a stable version or test the bug yourself. If it *doesn’t* occur on
 a past release it is considered a regression and should be tagged with
 the “regression” label, and should also be added to the “4.x Release
-Blockers” project. See `release blocker
-tracking `__ for details.
+Blockers” project. See :ref:`doc_bug_triage_release_blockers` for details.
 
 Try to tag an issue as specifically as possible, adding “needs testing”
 and “needs work” if necessary. Don’t worry about misidentifying issues,
@@ -94,14 +90,6 @@ getting it right from the start.
 
 Check for Duplicates
 --------------------
-
-.. raw:: html
-
-
-
-.. raw:: html
-
-
 
 If the same bug, with the same fix, is reported in multiple versions, it
 is a duplicate. For example a bug reported for and fixed in ``4.5``,
@@ -119,32 +107,15 @@ Below is an outline of the different milestones we use, but as a general
 rule you can assume that issues that aren’t release blockers, or
 specific to ``3.x``, shouldn’t have milestones assigned.
 
-For the ``master`` branch: \* *``4.x``*: For Godot 4 in general,
-i.e. the ``master`` branch. We do not use the ``4.x`` milestone on
-issues, issues with no milestone are assumed to be relevant for the
-current development cycle. \* *The current development version*: Should
-be assigned to issues that are `release
-blockers `__, or otherwise prioritized
-for the current version. \* *The next release version*: When we enter
-feature freeze we usually create a new milestone used for PRs that are
-approved but won’t make it into the current release, this milestone is
-not used for issues. \* *Older Godot 4 versions*: This is used for
-issues that are only relevant for this specific version (or older
-versions), but not any newer version. An example of this would be an
-issue that was solved in ``4.5`` as part of an enhancement, but that
-enhancement cannot be cherry-picked for ``4.4`` and a separate issue is
-necessary to track the specific solution for ``4.4`` (and older, if
-relevant). For such issues it can also be relevant to add “[4.4]” at the
-beginning of the issue title to help clarify it is specific to this
-version.
+For the ``master`` branch:
+* *``4.x``*: For Godot 4 in general, i.e. the ``master`` branch. We do not use the ``4.x`` milestone on issues, issues with no milestone are assumed to be relevant for the current development cycle.
+* *The current development version*: Should be assigned to issues that are :ref:`release blockers <doc_bug_triage_release_blockers>`, or otherwise prioritized for the current version.
+* *The next release version*: When we enter feature freeze we usually create a new milestone used for PRs that are approved but won’t make it into the current release, this milestone is not used for issues.
+* *Older Godot 4 versions*: This is used for issues that are only relevant for this specific version (or older versions), but not any newer version. An example of this would be an issue that was solved in ``4.5`` as part of an enhancement, but that enhancement cannot be cherry-picked for ``4.4`` and a separate issue is necessary to track the specific solution for ``4.4`` (and older, if relevant). For such issues it can also be relevant to add “[4.4]” at the beginning of the issue title to help clarify it is specific to this version.
 
-For Godot 3: \* *``3.x``*: For the ``3.x`` branch in general. Used for
-issues that are only relevant for the ``3.x`` version, and occurs on the
-current development version of ``3.x``. For these issues it can also
-help to add “[3.x]” at the beginning of the issue title to help
-identifying the issue. \* Other Godot 3 milestones work the same way as
-for the ``master`` branch, except we do not track release blockers for
-``3.x``.
+For Godot 3:
+* *``3.x``*: For the ``3.x`` branch in general. Used for issues that are only relevant for the ``3.x`` version, and occurs on the current development version of ``3.x``. For these issues it can also help to add “[3.x]” at the beginning of the issue title to help identifying the issue.
+* Other Godot 3 milestones work the same way as for the ``master`` branch, except we do not track release blockers for ``3.x``.
 
 Testing an Issue
 ----------------
@@ -156,25 +127,16 @@ bug report, they are not valid MRPs as an MRP needs to be something that
 can be evaluated in detail, and be tweaked if needed, and more
 importantly they are untrusted files.
 
-.. raw:: html
-
-
-
 Some bugs can be hard to verify when testing different versions (for
 example when bisecting) due to generated data. In this case, you might
 need to delete the ``.godot`` folder or any user data related to the
-project. See `data
-paths `__
+project. See `data paths <https://docs.godotengine.org/en/latest/tutorials/io/data_paths.html>`__
 for details on where these files are stored.
-
-.. raw:: html
-
-
 
 If you are unable to reproduce the bug, and the author reports using a
 different operating system, or using different hardware (for example a
 different GPU manufacturer or family), please drop it in the
-`#bugsquad `__ channel
+`#bugsquad <https://chat.godotengine.org/channel/bugsquad>`__ channel
 and ask for someone to test it.
 
 Finalize Assessment
@@ -182,16 +144,14 @@ Finalize Assessment
 
 For pre-release versions, it’s critical to identify what change caused a
 specific bug. **All** such regressions should be bisected. You can ask
-the issue author to follow the instructions in the `Bisecting
-regressions `__
-documentation. If they are not able to (or the issue is critical and
-should be fixed as quickly as possible), then you can look into
-bisecting the issue yourself.
+the issue author to follow the instructions in the :ref:`Bisecting
+regressions <doc_bisecting_regressions>` documentation. If they are not
+able to (or the issue is critical and should be fixed as quickly as possible),
+then you can look into bisecting the issue yourself.
 
 Once identified correctly it should be put on the relevant triage
-project(s) if appropriate. See `team
-trackers `__ for a list of triage
-projects. Functional enhancements shouldn’t generally be put on the
+project(s) if appropriate. See :ref:`team trackers <doc_bug_triage_team_trackers>`
+for a list of triage projects. Functional enhancements shouldn’t generally be put on the
 trackers (i.e. new features, not enhancements to documentation). Some
 teams have dedicated trackers for enhancements, but they aren’t detailed
 here.

@@ -1,3 +1,5 @@
+.. _doc_bug_triage_intro:
+
 Introduction to issue triage
 ============================
 
@@ -20,15 +22,13 @@ Tasks
 Listed below are basic instructions and descriptions of different triage
 tasks. When relevant these sections link to more detailed documentation
 on these tasks. For more detailed instructions on the triage process in
-general, please see `Bug Triage
-Overview `__.
+general, please see :ref:`doc_bug_triage_overview`.
 
 Confirming report details
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The most basic step of triage is to make sure an issue report is filled
-in properly. For details on what a report should contain please see
-`triage workflow `__.
+in properly. For details on what a report should contain please see :ref:`doc_bug_triage_overview`.
 
 Identifying duplicates
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -42,11 +42,7 @@ the pinned issues at the top of the issue page in case the author missed
 these.
 
 Another tool that can help identifying duplicates are the team trackers,
-for a list of these see `Team Triage
-Trackers `__.
-
-.. raw:: html
-
+for a list of these see :ref:`doc_bug_triage_team_trackers`.
    
 
 Testing bugs
@@ -60,9 +56,6 @@ what might be going on.
 If you’re unable to reproduce the bug it could mean that the steps are
 incomplete, or that the MRP is incorrect. In this case you might need to
 ask the author for further details or ask them to create an MRP.
-
-.. raw:: html
-
    
 
 Creating MRPs
@@ -88,12 +81,9 @@ call it a regression.
 Bisecting can be done at multiple levels, the basic level is checking
 if, for example, a bug that was confirmed on ``4.4`` is also
 reproducible on ``4.3``. Next you can test development releases, such as
-``4.4.beta1``, these can be found in the `Godot
-archive `__. Once the
+``4.4.beta1``, these can be found in the `Godot archive `__. Once the
 specific development release has been identified you can go one step
-further and
-`bisect `__
-the regression.
+further and `bisect `__ the regression.
 
 Make sure to announce the fact that you are bisecting a bug on the issue
 report to make sure no one else starts bisecting it as well, as
@@ -126,12 +116,7 @@ example when a report has been confirmed but nothing has happened for a
 long time (and you can reproduce it too), linking the issue in the
 team’s RC channel can help bringing attention to the issue.
 
-For a list of these see `Team Triage
-Trackers `__, as
-well as mentioning it in the
-`#bugsquad `__ channel if
-it needs more attention by triagers. For editor related bugs you can
-mention it in the
-`#editor `__ channel.
-
-.. raw:: html
+For a list of these see :ref:`doc_bug_triage_team_trackers`, as
+well as mentioning it in the `#bugsquad <https://chat.godotengine.org/channel/bugsquad>`__
+channel if it needs more attention by triagers. For editor related bugs you can
+mention it in the `#editor <https://chat.godotengine.org/channel/editor>`__ channel.

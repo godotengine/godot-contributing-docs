@@ -1,3 +1,5 @@
+.. _doc_bug_triage_release_blockers:
+
 Release blocker tracking
 ========================
 
