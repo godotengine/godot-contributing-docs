@@ -45,7 +45,7 @@ html_theme_options = {
 
 html_context = {
     "display_github": True,
-    "github_user": "Ivorforce",
+    "github_user": "godotengine",
     "github_repo": "godot-contributing-docs",
     "github_version": "main",
     "conf_py_path": "/",
