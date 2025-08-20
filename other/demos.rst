@@ -132,8 +132,8 @@ Visual considerations
    mid-range hardware. Demanding graphics options should not be enabled
    by default, unless they’re the entire point of the demo.
 
-If you are submitting a copy of a demo translated to C
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+If you are submitting a copy of a demo translated to C#
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Please ensure that there is a good reason to have this demo
    translated. We don’t want to have multiple copies of every single
