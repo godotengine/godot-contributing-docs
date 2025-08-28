@@ -10,6 +10,7 @@ This section explains guidelines for contributing to the engine.
    best_practices
    cpp_usage_guidelines
    code_style
+   editor_style_guide
 
 .. _doc_handling_compatibility_breakages:
 

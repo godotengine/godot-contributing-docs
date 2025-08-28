@@ -55,7 +55,6 @@ for your topic of interest. You can also use the search function in the top-left
 
    engine/introduction
    engine/guidelines/index
-   engine/editor/index
    engine/unit_tests
 
 .. toctree::
