@@ -65,7 +65,7 @@ for your topic of interest. You can also use the search function in the top-left
 
    documentation/overview
    documentation/guidelines/index
-   documentation/class_reference/index
+   documentation/class_reference
    documentation/manual/index
    documentation/translation/index
 

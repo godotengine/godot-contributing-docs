@@ -1,6 +1,6 @@
 .. _doc_updating_the_class_reference:
 
-Making changes to the class reference
+Contributing to the class reference
 =====================================
 
 .. highlight:: shell
@@ -10,6 +10,11 @@ the public API of the engine. This includes descriptions for various classes,
 methods, properties, and global objects, available for scripting. The class reference
 is available online, from the documentation sidebar, and in the Godot editor, from
 the help menu.
+
+.. seealso::
+
+    To learn how the class reference works on a technical level, see the
+    `latest documentation of the class reference <https://docs.godotengine.org/en/latest/engine_details/class_reference/index.html>`__.
 
 As the engine grows and features are added or modified, some parts of the class
 reference become obsolete and new descriptions and examples need to be added.
@@ -36,7 +41,8 @@ In the main repository the class reference is stored in XML files, one for each 
 class or global object. The majority of these files is located in `doc/classes/
 <https://github.com/godotengine/godot/tree/master/doc/classes>`_, but some modules
 contain their own documentation as well. You will find it in the ``modules/<module_name>/doc_classes/``
-directory. To learn more about editing XML files refer to :ref:`doc_class_reference_primer`.
+directory. To learn more about editing XML files refer to the latest documentation of the
+`class reference <https://docs.godotengine.org/en/latest/engine_details/class_reference_primer.html>`__.
 
 .. seealso::
 
