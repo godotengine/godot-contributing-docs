@@ -12,6 +12,8 @@ This page describes the grammar and writing style used throughout the Godot
 editor. Following this style guide will help your contribution get merged faster
 since there will be fewer review steps required.
 
+You may also be interested in reading the `latest documentation for the editor architecture <https://docs.godotengine.org/en/latest/engine_details/editor/index.html>`__.
+
 Writing style
 -------------
 
