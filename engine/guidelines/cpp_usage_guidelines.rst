@@ -52,15 +52,11 @@ Standard Template Library
 
 We don't allow using the `STL <https://en.wikipedia.org/wiki/Standard_Template_Library>`__
 as Godot provides its own data types (among other things).
-See :ref:`doc_faq_why_not_stl` for more information.
+See `Why does Godot not use STL? <https://docs.godotengine.org/en/stable/about/faq.html#why-does-godot-not-use-stl-standard-template-library>`__ for more information.
 
 This means that pull requests should **not** use ``std::string``,
 ``std::vector`` and the like. Instead, use Godot's datatypes as described in
-the :ref:`doc_core_types` documentation.
-
-A 📜 icon denotes the type is part of :ref:`Variant <doc_variant_class>`. This
-means it can be used as a parameter or return value of a method exposed to the
-scripting API.
+the `Core types <https://docs.godotengine.org/en/latest/engine_details/architecture/core_types>`__ documentation.
 
 ``auto`` keyword
 ~~~~~~~~~~~~~~~~
@@ -121,7 +117,7 @@ guards are now actively discouraged.
 C++ style exception handling using ``try`` and ``catch`` blocks is forbidden.
 This restriction is in place for several reasons, including performance, binary
 size and code complexity.
-Use :ref:`doc_common_engine_methods_and_macros_error_macros` instead.
+Use `Common engine methods and macros <https://docs.godotengine.org/en/latest/engine_details/architecture/common_engine_methods_and_macros.html>`__ instead.
 
 
 .. seealso::

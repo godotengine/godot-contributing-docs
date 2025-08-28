@@ -47,7 +47,8 @@ If you have a GitHub account
   This means you may have to bypass a security warning before you can run the executable.
   On Windows, if you frequently test pull request builds, it may be better to disable
   Windows SmartScreen permanently in the Windows security settings.
-  On macOS, see :ref:`doc_running_on_macos` for instructions on bypassing Gatekeeper.
+  On macOS, see `Running on macOS <https://docs.godotengine.org/en/stable/tutorials/export/running_on_macos.html>`__
+  for instructions on bypassing Gatekeeper.
 
 If you don't have a GitHub account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -102,7 +103,7 @@ Downloading a zipped pull request branch
 
 .. image:: img/testing_pull_requests_fork_zip.png
 
-- Extract the ZIP archive and follow the :ref:`compiling <toc-devel-compiling>` instructions
+- Extract the ZIP archive and follow the `compiling instructions <https://docs.godotengine.org/en/latest/engine_details/development/compiling/index.html>`
   for your operating system.
 
 Checking out a pull request branch with git
@@ -134,4 +135,4 @@ So for the pull request above, the actual command will be:
 
     git checkout editor_file_dialog_filter_sort
 
-- And follow the :ref:`compiling <toc-devel-compiling>` instructions for your operating system.
+- And follow the `compiling instructions <https://docs.godotengine.org/en/latest/engine_details/development/compiling/index.html>` for your operating system.

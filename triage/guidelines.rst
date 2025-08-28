@@ -202,7 +202,7 @@ use the following `labels <https://github.com/godotengine/godot-docs/labels>`__:
 -  *Linked demo PR*: the PR has a corresponding PR to the
    `Godot Demo Projects <https://github.com/godotengine/godot-demo-projects>`__
    repository which must be merged at the same time. Any changes to code in
-   tutorials that have a corresponding demo, such as :ref:`doc_your_first_2d_game`,
+   tutorials that have a corresponding demo, such as `Your first 2D game <https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html>`__,
    need to update both repositories so that the tutorial code stays in sync with
    the completed demo.
 -  *Needs work*: the pull request needs additional work before it can be merged.

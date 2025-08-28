@@ -507,7 +507,7 @@ with a space on either side of the symbol.
 
 Make sure to mention shortcuts that differ on macOS compared to other platforms.
 You can find a list of all shortcuts, including what they are on macOS, on
-:ref:`this page <doc_default_key_mapping>`.
+`this documentation page <https://docs.godotengine.org/en/stable/tutorials/editor/default_key_mapping.html>`__.
 
 Try to integrate the shortcut into sentences the best you can. Here are some
 examples with the ``:kbd:`` tag left as-is for better visibility:
@@ -639,9 +639,9 @@ in the link itself, or include the section and subsection separately from the
 link. Since long links are not split into multiple lines when the page is
 rendered, prefer splitting the setting name and the section when the link is long.
 
-    - Set the :ref:`Application > Run > Max FPS<class_ProjectSettings_property_application/run/max_fps>` setting to ``60``.
-    - In the project settings under **Application > Run**, set :ref:`Max FPS<class_ProjectSettings_property_application/run/max_fps>` to ``60``.
-    - In **Project Settings > Application > Run**, set :ref:`Max FPS<class_ProjectSettings_property_application/run/max_fps>` to ``60``.
+    - Set the `Application > Run > Max FPS setting to ``60``.
+    - In the project settings under **Application > Run**, set Max FPS to ``60``.
+    - In **Project Settings > Application > Run**, set Max FPS to ``60``.
 
 Code blocks and adominitions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -859,7 +859,7 @@ Adding a sprite and setting some properties
 
 In the :ui:`Scene` dock, click :button:`2D Scene` to create a new scene.
 
-Add a new :ref:`Sprite2D <class_Sprite2D>` to the scene by right-clicking on the
+Add a new `Sprite2D <https://docs.godotengine.org/en/latest/classes/class_sprite2d.html>`__ to the scene by right-clicking on the
 root node and choosing :button:`Add Child Node...`. In the :ui:`Create New Node`
 window, search for "Sprite2D", select it, and then click :button:`Create`.
 
@@ -878,8 +878,7 @@ Setting project settings
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 Go to :menu:`Project > Project Settings`, then select the
-:ref:`Max FPS <class_ProjectSettings_property_application/run/max_fps>`
-setting under :ui:`Application > Run`. Don't forget to click the
+Max FPS setting under :ui:`Application > Run`. Don't forget to click the
 :button:`Advanced Settings` toggle. Then, in :ui:`Filter Settings`, search for
 "physics". Under :ui:`Physics > 3D > Solver`, set
 :inspector:`Solver Iterations` to ``16``.
@@ -913,5 +912,5 @@ Use this section to see how the custom roles look, particularly within admonitio
 
 .. All the inline roles which are used in the docs. External links don't work in a substitution.
 .. |styleroles| replace:: Built-in styles: ``code``, **bold**, and *italics*.
-    Built-in roles: :kbd:`kbd`, :ref:`ref <doc_about_intro>`, :ref:`ref <class_node>`.
+    Built-in roles: :kbd:`kbd`, `ref <https://docs.godotengine.org/en/stable/about/introduction.html>`__, `ref <https://docs.godotengine.org/en/stable/classes/class_node.html>`__.
     Custom roles: :button:`button`, :menu:`menu > submenu`, :inspector:`inspector`, :ui:`ui`.

@@ -5,11 +5,11 @@ Contributing to the class reference
 
 .. highlight:: shell
 
-The :ref:`Class reference <doc_class_reference>` is a set of articles describing
-the public API of the engine. This includes descriptions for various classes,
-methods, properties, and global objects, available for scripting. The class reference
-is available online, from the documentation sidebar, and in the Godot editor, from
-the help menu.
+The `Class reference <https://docs.godotengine.org/en/stable/classes/index.html>`__
+is a set of articles describing the public API of the engine. This includes descriptions
+for various classes, methods, properties, and global objects, available for scripting.
+The class reference is available online, from the documentation sidebar, and in the Godot
+editor, from the help menu.
 
 .. seealso::
 
@@ -90,7 +90,7 @@ and `Godot Contributors Chat <https://chat.godotengine.org/>`_.
     based on reviews.
 
     It also doesn't allow you to test your changes in the engine or with validation
-    scripts as described in :ref:`doc_class_reference_editing_xml`.
+    scripts as described in the `class reference documentation <https://docs.godotengine.org/en/latest/engine_details/class_reference/index.html>`__.
 
 
 Updating class reference when working on the engine
@@ -99,7 +99,7 @@ Updating class reference when working on the engine
 When you create a new class or modify an existing engine's API, you need to re-generate
 the XML files in ``doc/classes/``.
 
-To do so, you first need to compile Godot. See the :ref:`doc_introduction_to_the_buildsystem`
+To do so, you first need to compile Godot. See the `Introduction to the buildsystem <https://docs.godotengine.org/en/latest/engine_details/development/compiling/introduction_to_the_buildsystem.html>`__
 page to learn how. Then, execute the compiled Godot binary from the Godot root directory
 with the ``--doctool`` option. For example, if you're on 64-bit Linux, the command might be:
 

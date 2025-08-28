@@ -58,7 +58,7 @@ Technical contributions
   The engine development is mainly coordinated on our `Contributor RocketChat <https://chat.godotengine.org/>`_,
   so if you are serious about making PRs you should join us there!
 
-  Read more about the **technical submission process**: :ref:`doc_first_steps`
+  Read more about the **technical submission process**: :ref:`doc_intro_to_engine_contributions`
 
   For each subject area of the engine, there is a corresponding team to coordinate the work.
   Join the linked chat to get more eyes on your related PR, learn about open todos, or partake in meetings.

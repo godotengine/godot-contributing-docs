@@ -57,7 +57,7 @@ reproduce the bug.
 
     Before bisecting a regression, you need to set up a build environment to
     compile Godot from source. To do so, read the
-    :ref:`Compiling <toc-devel-compiling>` page for your target platform.
+    `Compiling <https://docs.godotengine.org/en/latest/engine_details/development/compiling/index.html>` page for your target platform.
     (Compiling Godot from source doesn't require C++ programming knowledge.)
 
     Note that compiling Godot can take a while on slow hardware (up an hour for
@@ -104,8 +104,8 @@ hashes, ``master`` is a perpetually moving target.
 Build the engine
 ~~~~~~~~~~~~~~~~
 
-:ref:`Get Godot's source code using Git <doc_getting_source>`. Once this
-is done, in the terminal window, use ``cd`` to reach the Godot repository
+`Get Godot's source code using Git <https://docs.godotengine.org/en/latest/engine_details/development/compiling/getting_source.html>`__.
+Once this is done, in the terminal window, use ``cd`` to reach the Godot repository
 folder and enter the following command:
 
 .. code-block:: shell
@@ -129,7 +129,7 @@ Run the binary located in the ``bin/`` folder and try to reproduce the bug.
 
 .. note::
 
-    :ref:`Double-check the output file name <doc_introduction_to_the_buildsystem_resulting_binary>`
+    `Double-check the output file name <https://docs.godotengine.org/en/latest/engine_details/development/compiling/introduction_to_the_buildsystem.html>`__
     in ``bin/`` to make sure you're actually running the binary you've just compiled.
     Different Godot versions will output binaries with different names.
 

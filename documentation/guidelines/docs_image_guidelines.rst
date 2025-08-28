@@ -194,10 +194,10 @@ use a resolution of 1280×720.
 
 .. note::
 
-    Godot's :ref:`Movie Maker mode <doc_creating_movies>` can be used to record
-    the output of a running project, including its audio. This doesn't require
-    installing any third-party software and avoids any frame drops (even when
-    recording on a slow device), but it's less flexible.
+    Godot's `Movie Maker mode <https://docs.godotengine.org/en/stable/tutorials/animation/creating_movies.html>`__
+    can be used to record the output of a running project, including its audio.
+    This doesn't require installing any third-party software and avoids any frame
+    drops (even when recording on a slow device), but it's less flexible.
 
 Compressing the captured video
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

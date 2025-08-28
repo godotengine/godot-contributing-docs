@@ -1,3 +1,5 @@
+.. _doc_intro_to_engine_contributions:
+
 Introduction to engine contributions
 ====================================
 

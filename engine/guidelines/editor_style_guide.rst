@@ -54,7 +54,7 @@ contain few items make it difficult to navigate the inspector, while missing the
 benefits of using sections such as folding.
 
 There are some valid exceptions for this, such as material features in
-:ref:`class_StandardMaterial3D`.
+`StandardMaterial3D <https://docs.godotengine.org/en/stable/classes/class_standardmaterial3d.html>`__.
 
 This advice also applies to the Project Settings and Editor Settings.
 
