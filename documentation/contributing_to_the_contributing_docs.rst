@@ -11,7 +11,7 @@ and improve alongside the rest of Godot. Community involvement is just as
 welcome on this site as in the rest of Godot's documentation!
 
 If you'd like to submit an idea for a change of guidelines or operations,
-please consider proposing it as an `idea <_doc_contributing_ideas>`__
+please consider proposing it as an :ref:`idea <_doc_contributing_ideas>`
 instead of attempting to change the docs directly.
 
 Making changes to the contributing docs
@@ -20,8 +20,8 @@ Making changes to the contributing docs
 The information on this site are managed in a GitHub repository
 (`github.com/godotengine/godot-contributing-docs <https://github.com/godotengine/godot-contributing-docs>`__).
 You can contribute to this repository using our regular
-:ref:`PR workflow <doc_pr_workflow>`__. Please adhere to our
-:ref:`documentation guidelines <doc_documentation_guidelines>`__ when making
+:ref:`PR workflow <doc_pr_workflow>`. Please adhere to our
+:ref:`documentation guidelines <doc_documentation_guidelines>` when making
 changes.
 
 To get started quickly, visit any article on this site and click the "Edit

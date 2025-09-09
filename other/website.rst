@@ -7,11 +7,11 @@ and maintained with a git repository:
 This includes the static content, informational pages and press material,
 as well as the articles on the blog.
 
-To contribute to it, please use our our regular :ref:`PR workflow <doc_pr_workflow>`__.
+To contribute to it, please use our our regular :ref:`PR workflow <doc_pr_workflow>`.
 
 Content guidelines
 ------------------
 
 There are no dedicated content guidelines for the website as of yet.
-Please consider reading our :ref:`documentation guidelines <doc_documentation_guidelines>`__
+Please consider reading our :ref:`documentation guidelines <doc_documentation_guidelines>`
 as an alternative.
