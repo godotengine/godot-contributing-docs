@@ -1,3 +1,5 @@
+.. _doc_engine_guidelines:
+
 Engine contribution guidelines
 ==============================
 
