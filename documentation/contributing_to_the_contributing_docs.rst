@@ -20,8 +20,8 @@ Making changes to the contributing docs
 The information on this site are managed in a GitHub repository
 (`github.com/godotengine/godot-contributing-docs <https://github.com/godotengine/godot-contributing-docs>`__).
 You can contribute to this repository using our regular
-`PR workflow <_doc_pr_workflow>`__. Please adhere to our
-`documentation guidelines <_doc_documentation_guidelines>`__ when making
+:ref:`PR workflow <doc_pr_workflow>`__. Please adhere to our
+:ref:`documentation guidelines <doc_documentation_guidelines>`__ when making
 changes.
 
 To get started quickly, visit any article on this site and click the "Edit
