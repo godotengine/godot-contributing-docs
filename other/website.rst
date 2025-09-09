@@ -7,7 +7,7 @@ and maintained with a git repository:
 This includes the static content, informational pages and press material,
 as well as the articles on the blog.
 
-To contribute to it, please use our our regular `PR workflow <_doc_pr_workflow>`__.
+To contribute to it, please use our our regular :ref:`PR workflow <doc_pr_workflow>`__.
 
 Content guidelines
 ------------------
