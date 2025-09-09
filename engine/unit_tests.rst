@@ -3,7 +3,7 @@
 Contributing unit tests
 =======================
 
-The Godot teams are dedicated to ensuring a reliably, bug-free experience for users.
+The Godot teams are dedicated to ensuring a reliable, bug-free experience for users.
 Therefore, we expect important logic to be tested with unit tests.
 
 Godot's unit tests are built into the binary, and can be run with an argument to the executable.
