@@ -68,6 +68,7 @@ for your topic of interest. You can also use the search function in the top-left
    documentation/class_reference
    documentation/manual/index
    documentation/translation/index
+   documentation/contributing_to_the_contributing_docs
 
 .. toctree::
    :hidden:

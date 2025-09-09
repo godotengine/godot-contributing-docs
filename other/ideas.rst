@@ -1,3 +1,5 @@
+.. _doc_contributing_ideas:
+
 Contributing ideas and change proposals
 =======================================
 
