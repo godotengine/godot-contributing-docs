@@ -6,9 +6,10 @@ Contributing to the contributing docs
 The contributing documentation documents how people can best contribute
 to Godot. It is the website you are looking at right now!
 
-As an important part of Godot, we'd like to see this documentation evolve
-and improve alongside the rest of Godot. Community involvement is just as
-welcome on this site as in the rest of Godot's documentation!
+Because Godot is driven by public contributions, we'd like to see this
+documentation evolve and improve by contributions of its own. Community
+involvement is just as welcome on this site as in the rest of Godot's
+documentation!
 
 If you'd like to submit an idea for a change of guidelines or operations,
 please consider proposing it as an :ref:`idea <_doc_contributing_ideas>`
