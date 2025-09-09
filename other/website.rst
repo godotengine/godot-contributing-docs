@@ -1,10 +1,11 @@
 Contributing to the website
 ===========================
 
-The Godot website is organized and maintained with a git repository:
+The Godot website (`godotengine.org <https://godotengine.org>`__) is organized
+and maintained with a git repository:
 `github.com/godotengine/godot-website <https://github.com/godotengine/godot-website>`__.
-This includes not only the static content, informational pages and press material,
-but also all the articles on the blog.
+This includes the static content, informational pages and press material,
+as well as the articles on the blog.
 
 To contribute to it, please use our our regular `PR workflow <_doc_pr_workflow>`__.
 
