@@ -15,7 +15,7 @@ please consider proposing it as an `idea <_doc_contributing_ideas>`__
 instead of attempting to change the docs directly.
 
 Making changes to the contributing docs
-=======================================
+---------------------------------------
 
 The information on this site are managed in a GitHub repository
 (`github.com/godotengine/godot-contributing-docs <https://github.com/godotengine/godot-contributing-docs>`__).
@@ -28,7 +28,7 @@ To get started quickly, visit any article on this site and click the "Edit
 on GitHub" button in the top right of the page.
 
 What kinds of information are documented here?
-==============================================
+----------------------------------------------
 
 This page is intended for people who are interested in contributing to
 Godot. They should be able to quickly find out how they can contribute,
@@ -55,7 +55,7 @@ The following kinds of information **should not** be documented here:
     * Please document this in the respective repositories.
 
 How is this page structured?
-============================
+----------------------------
 
 This page is structured such that it is easy to find the different ways
 in which you can contribute to Godot. To accomplish this, every *kind*
