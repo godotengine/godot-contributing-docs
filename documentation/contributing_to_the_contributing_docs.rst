@@ -12,7 +12,7 @@ involvement is just as welcome on this site as in the rest of Godot's
 documentation!
 
 If you'd like to submit an idea for a change of guidelines or operations,
-please consider proposing it as an :ref:`idea <_doc_contributing_ideas>`
+please consider proposing it as an :ref:`idea <doc_contributing_ideas>`
 instead of attempting to change the docs directly.
 
 Making changes to the contributing docs
