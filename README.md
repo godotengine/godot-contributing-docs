@@ -1,20 +1,29 @@
 # Godot Engine Contributing documentation
 
-WIP Repository
+This repository contains the source files of [Godot Engine](https://godotengine.org)'s contributing documentation, in reStructuredText markup language (reST).
 
-## Setup
+They are meant to be parsed with the [Sphinx](https://www.sphinx-doc.org/) documentation builder to build the corresponding HTML documentation on [Godot's website](https://contributing.godotengine.org).
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
+## Theming
 
-## Serve
+The Godot contributing documentation uses the default `sphinx_rtd_theme` with many
+[customizations](_static/) applied on top. It will automatically switch between
+the light and dark theme depending on your browser/OS' theming preference.
 
-```bash
-source .venv/bin/activate
-make html
-cd build/html
-python -m http.server
-```
+If you use Firefox and wish to use the dark theme regardless of your OS
+configuration, you can install the
+[Dark Website Forcer](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-website-switcher/)
+add-on.
+
+## Contributing
+
+All contributors are welcome to help on the Godot contributing documentation.
+
+To get started, head to the [explainer article](https://contributing.godotengine.org/en/latest/documentation/contributing_to_the_contributing_docs.html). 
+
+## License
+
+With the exception of the `classes/` folder, all the content of this repository is licensed under the Creative Commons Attribution 3.0 Unported license ([CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)) and is to be attributed to "Juan Linietsky, Ariel Manzur and the Godot community".
+See [LICENSE.txt](/LICENSE.txt) for details.
+
+The files in the `classes/` folder are derived from [Godot's main source repository](https://github.com/godotengine/godot) and are distributed under the MIT license, with the same authors as above.

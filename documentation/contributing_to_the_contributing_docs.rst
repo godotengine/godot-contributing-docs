@@ -63,3 +63,25 @@ in which you can contribute to Godot. To accomplish this, every *kind*
 of contribution should have a dedicated section in the side bar. If a new
 way to contribute emerges, it should get a dedicated section in the side
 bar so that it is easy to find.
+
+Building the documentation locally
+----------------------------------
+
+You may want to test your changes locally before making a pull request.
+To do this, you first need to install `Python <https://www.python.org>`__, if it is not already installed.
+We recommend you use a virtual environment to install the required packages:
+
+.. code-block:: shell
+
+    python -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
+
+You can build and serve the documentation by running the following commands:
+
+.. code-block:: shell
+
+    source .venv/bin/activate
+    make html
+    cd build/html
+    python -m http.server
