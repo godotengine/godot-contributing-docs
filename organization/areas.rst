@@ -21,7 +21,7 @@ The best way to get involved with a team is by joining their respective `RocketC
 --
 
 * GitHub team: `godotengine/3d-nodes <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2F3d-nodes>`__
-* GitHub label: ``topic:3d`` · issues · PRs
+* GitHub label: ``topic:3d`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3A3d>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3A3d>`__
 
 Animation
 ---------
