@@ -103,7 +103,7 @@ Downloading a zipped pull request branch
 
 .. image:: img/testing_pull_requests_fork_zip.png
 
-- Extract the ZIP archive and follow the `compiling instructions <https://docs.godotengine.org/en/latest/engine_details/development/compiling/index.html>`
+- Extract the ZIP archive and follow the `compiling instructions <https://docs.godotengine.org/en/latest/engine_details/development/compiling/index.html>`__
   for your operating system.
 
 Checking out a pull request branch with git
@@ -135,4 +135,4 @@ So for the pull request above, the actual command will be:
 
     git checkout editor_file_dialog_filter_sort
 
-- And follow the `compiling instructions <https://docs.godotengine.org/en/latest/engine_details/development/compiling/index.html>` for your operating system.
+- And follow the `compiling instructions <https://docs.godotengine.org/en/latest/engine_details/development/compiling/index.html>`__ for your operating system.
