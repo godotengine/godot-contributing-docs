@@ -56,7 +56,7 @@ See `Why does Godot not use STL? <https://docs.godotengine.org/en/stable/about/f
 
 This means that pull requests should **not** use ``std::string``,
 ``std::vector`` and the like. Instead, use Godot's datatypes as described in
-the `Core types <https://docs.godotengine.org/en/latest/engine_details/architecture/core_types>`__ documentation.
+the `Core types <https://docs.godotengine.org/en/latest/engine_details/architecture/core_types.html>`__ documentation.
 
 ``auto`` keyword
 ~~~~~~~~~~~~~~~~
