@@ -420,3 +420,15 @@ and place your translated image there. In our example, the end result should be
 ``images/getting_started/step_by_step/img/project_manager_first_open.fr.png``.
 
 Repeat this for other images and :ref:`make a Pull Request <doc_pr_workflow>`.
+
+Language styleguides
+--------------------
+
+Below you will find styleguides for specific languages. Before contributing to
+a language, make sure you read up on the respective styleguide.
+
+.. toctree::
+   :maxdepth: 1
+   :name: toc-contributing-writing-guidelines
+
+   languages/de_DE
