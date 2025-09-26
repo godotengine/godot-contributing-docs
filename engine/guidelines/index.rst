@@ -21,4 +21,4 @@ Handling compatibility breakages
 
 .. TODO: Elaborate on types of compatibility and procedure.
 
-See also the `current documentation for compatibility breakages <https://docs.godotengine.org/en/stable/contributing/development/handling_compatibility_breakages.html>`_.
+See also the `current documentation for compatibility breakages <https://docs.godotengine.org/en/stable/engine_details/development/handling_compatibility_breakages.html>`_.
