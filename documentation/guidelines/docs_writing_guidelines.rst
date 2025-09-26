@@ -123,8 +123,8 @@ If the subject is not clear, replacing the "ing" verb is not an automatic
 improvement. For example, in the above **Don't** sentence, "it stops"
 would not make much sense where "stopping" currently is.
 
-Exception: You may use the progressive tense to describe actions such as 
-animations or coroutines that are continuous in time. 
+Exception: You may use the progressive tense to describe actions that are 
+continuous in time, such as animations or coroutines.
 
 .. tip::
 
