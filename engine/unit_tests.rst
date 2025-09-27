@@ -8,7 +8,7 @@ Therefore, we expect important logic to be tested with unit tests.
 
 Godot's unit tests are built into the binary, and can be run with an argument to the executable.
 For more information, please read the
-`current documentation for unit tests <https://docs.godotengine.org/en/stable/contributing/development/core_and_modules/unit_testing.html>`_.
+`current documentation for unit tests <https://docs.godotengine.org/en/stable/engine_details/architecture/unit_testing.html>`_.
 
 Unit test guidelines
 --------------------

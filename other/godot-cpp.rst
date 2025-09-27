@@ -23,7 +23,7 @@ Feature guidelines
 
 godot-cpp's API is modeled after Godot's API. We want writing godot-cpp code to be as similar as possible
 to writing a
-`module <https://docs.godotengine.org/en/latest/contributing/development/core_and_modules/custom_modules_in_cpp.html#doc-custom-modules-in-cpp>`__
+`module <https://docs.godotengine.org/en/stable/engine_details/architecture/custom_modules_in_cpp.html#doc-custom-modules-in-cpp>`__
 as possible. This means:
 
 * The frameworks (templates, helper methods, etc.) are synchronized to Godot's frameworks regularly.
