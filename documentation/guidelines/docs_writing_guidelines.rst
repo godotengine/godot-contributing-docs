@@ -37,6 +37,53 @@ There are 3 rules to describe classes:
     See the :ref:`content guidelines <doc_content_guidelines>` for information
     on the types of documentation you can write in the official documentation.
 
+English language quirks to be aware of
+--------------------------------------
+
+English has a few quirks that even experienced users of English slip up on,
+so they are listed here to help avoiding these common mistakes.
+
+The noun adjunct
+~~~~~~~~~~~~~~~~
+
+When you use a noun to modify another noun, as if it was an adjective, it is called
+a "noun adjunct". In most cases this first noun should be singular, so for example
+"a list of nodes" is also a "node list", not a "nodes list". This also applies even if
+the modified noun is plural, so "the lists of nodes" is also the "node lists",
+not the "nodes lists".
+
+Deverbals
+~~~~~~~~~
+
+English has many words called deverbals, where two words in a phrase are combined into
+one noun. Examples of this are a "cleanup" from "to clean up", a "setup" from "to set up", etc.
+The combined word is not a replacement for the original phrase, so it's "Clean up the nodes",
+not "Cleanup the nodes", and "Performs a cleanup", not "Performs a clean up".
+
+Initialisms and a/an
+~~~~~~~~~~~~~~~~~~~~
+
+Many words that are used in the documentation are initialisms, formed by taking the first letter of each word
+in a phrase like "Frames Per Second" becoming "FPS". In most cases these are pronounced by just saying each letter
+instead of blending the sounds together like a normal word. This, combined with how English letters are
+pronounced, means that many of these words should use "an" and not "a" like you might expect.
+
+So it's "an RID", not "a RID", because "RID" is pronounced like "aR-I-Dee". The English letters that are
+pronounced with a vowel before the consonant, and should use "an" and not "a" are: `F`, `H`, `L`, `M`, `N`, `R`,
+`S`, and `X`.
+
+There are some exceptions to this, like "MIDI", where the word comes from the letters of a phrase, but aren't pronounced this
+way. If you are unsure what to do, try saying the word out loud.
+
+Before file extensions the general rule is to always use "a" and write the extension with a leading ``.``, for example "a ``.obj`` file".
+
+And/or with lists
+~~~~~~~~~~~~~~~~~
+
+When listing things and add a noun at the end the noun should be plural if using "and" and singular if using "or", so it should be:
+"The Forward+ and Mobile renderers" or "The Forward+ or Mobile renderer". Also combine "either" with "or", not "and",
+and "both" with "and", not "or".
+
 .. _doc_docs_writing_guidelines_clear_english_rules:
 
 7 rules for clear English
@@ -256,6 +303,15 @@ sentence, and keep it short:
 ::
 
     The **AtlasTexture's** used region.
+
+.. note::
+
+    When adding the ``'s`` to plural nouns that end in an ``s`` it becomes just ``'``, so you write "nodes'",
+    not "nodes's". This applies even if the final ``s`` of the plural wasn't added to make it plural, so it's
+    "axes'", not "axes's".
+
+    You *do* however still add the ``'s`` for plural nouns that do not end in an ``s``, so it's "children's",
+    not "children'". You can use either for singular nouns that end in an ``s``, though ``'s`` is generally preferred.
 
 Use the Oxford comma to enumerate anything
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
