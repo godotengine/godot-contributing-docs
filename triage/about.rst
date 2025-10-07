@@ -42,7 +42,7 @@ the pinned issues at the top of the issue page in case the author missed
 these.
 
 Another tool that can help identifying duplicates are the team trackers,
-for a list of these see :ref:`doc_bug_triage_team_trackers`.
+for a list of these see :ref:`doc_areas`.
    
 
 Testing bugs
@@ -116,7 +116,7 @@ example when a report has been confirmed but nothing has happened for a
 long time (and you can reproduce it too), linking the issue in the
 team’s RC channel can help bringing attention to the issue.
 
-For a list of these see :ref:`doc_bug_triage_team_trackers`, as
-well as mentioning it in the `#bugsquad <https://chat.godotengine.org/channel/bugsquad>`__
+For more information see :ref:`doc_areas`, you can also
+mention it in the `#bugsquad <https://chat.godotengine.org/channel/bugsquad>`__
 channel if it needs more attention by triagers. For editor related bugs you can
 mention it in the `#editor <https://chat.godotengine.org/channel/editor>`__ channel.

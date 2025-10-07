@@ -46,8 +46,8 @@ Labels
 The following `labels <https://github.com/godotengine/godot/labels>`__ are
 currently defined in the Godot repository:
 
-Categories:
-^^^^^^^^^^^
+Categories
+^^^^^^^^^^
 
 -  *Archived*: used to filter issues closed with a resolution other than "fixed".
 
@@ -127,8 +127,8 @@ at the same time if it's a bug that affects usability. Or *Enhancement* and
 approach. At least one of the categories *Bug*, *Enhancement*, or *Discussion*
 are used to describe an issue or pull request.
 
-Topics:
-^^^^^^^
+Topics
+^^^^^^
 
 -  *2D*: relates to 2D nodes. Should be coupled with one of the labels
    below, and should not be coupled with *3D*.
@@ -168,8 +168,8 @@ unthinkable to see issues that fit two bills. The general idea is that
 there will be specialized contributors teams behind all topics, so they
 can focus on the issues labelled with their team's topic.
 
-Platforms:
-^^^^^^^^^^
+Platforms
+^^^^^^^^^
 
 *Android*, *iOS*, *LinuxBSD*, *macOS*, *Web*, *Windows*
 
@@ -216,8 +216,8 @@ use the following `labels <https://github.com/godotengine/godot-docs/labels>`__:
 -  *Waiting on PR merge*: the PR documents an engine PR that has not been merged
    yet.
 
-Area:
-^^^^^
+Area
+^^^^
 
 -  *About*: Issues and PRs related to the About section of the documentation and other general articles.
 -  *Class reference*: the issue is about the class reference, not a documentation page.
@@ -226,8 +226,8 @@ Area:
 -  *Getting started*: Issues and PRs related to the Getting Started section of the documentation.
 -  *Manual*: Issues and PRs related to the Manual/Tutorials section of the documentation.
 
-Content:
-^^^^^^^^
+Content
+^^^^^^^
 
 -  *Images*: Issues and PRs involving outdated or incorrect images in articles.
 -  *Example code*: Issues and PRs involving writing or updating code examples.
@@ -237,8 +237,8 @@ Content:
 -  *Redirect*: Issues and PRs involving moving content and adding a redirect rule on the backend.
 -  *Website*: Issues related to adding website features and fixing bugs, whether on the front or back-end,
 
-Topic:
-^^^^^^
+Topic
+^^^^^
 
 The available topics describe the same content as the topics in the main
 repository.

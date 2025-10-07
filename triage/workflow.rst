@@ -36,7 +36,7 @@ Triage checklist
    -  If you can replicate the issue, mark it as “confirmed”.
 
 -  Finalize the assessment, updating any labels or milestone if needed
-   and adding it to the appropriate :ref:`team trackers <doc_bug_triage_team_trackers>`.
+   and adding it to the appropriate :ref:`team trackers <doc_areas>`.
 
 Check Issue Validity
 --------------------
@@ -152,7 +152,7 @@ able to (or the issue is critical and should be fixed as quickly as possible),
 then you can look into bisecting the issue yourself.
 
 Once identified correctly it should be put on the relevant triage
-project(s) if appropriate. See :ref:`team trackers <doc_bug_triage_team_trackers>`
+project(s) if appropriate. See :ref:`team trackers <doc_areas>`
 for a list of triage projects. Functional enhancements shouldn’t generally be put on the
 trackers (i.e. new features, not enhancements to documentation). Some
 teams have dedicated trackers for enhancements, but they aren’t detailed
