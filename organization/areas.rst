@@ -7,6 +7,7 @@ Godot is organized into areas, most of which has a designated team working on th
 This page lists these areas and explains their goals and how they're organized.
 
 For each team or area there is a list of links and resources associated with them:
+
 * *Triage project*: links to the team triage project for the team.
 * *RocketChat channel*: links to the `RocketChat <https://chat.godotengine.org/>`__ channel for the team,
   joining this channel is the best way to get involved with the team.
