@@ -10,6 +10,7 @@ This section explains guidelines for contributing to the engine.
    :name: sec-engine-contribution-guidelines
 
    best_practices
+   optimization
    cpp_usage_guidelines
    code_style
    editor_style_guide
