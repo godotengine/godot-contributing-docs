@@ -149,3 +149,23 @@ desktop, and the more platforms, the better.
 In particular, you should be aware that changes which increase performance on one platform
 can often reduce performance on another.
 
+Compilation time optimization
+-----------------------------
+
+Optimizing compile time can be a worthwhile goal, because it improves how easy it is to
+work on the Godot codebase, especially for people with older hardware. Godot's compile time
+is `monitored and tested every day <https://benchmarks.godotengine.org/graph/build-time/>`__.
+
+Like with all optimization efforts, it is essential to focus on parts of the build system
+that have a large impact on compile time. This is not possible without profiling the
+compiler.
+
+SCons, the build system that Godot is using, does not currently support profiling.
+However, it is possible to use `compile_commands.json <https://docs.godotengine.org/en/latest/engine_details/development/configuring_an_ide/index.html#doc-configuring-an-ide>`__
+to isolate a single compile step to profile. In gcc/clang, you can profile using
+the ``-ftime-trace`` argument, while in MSVC, this is accomplished using ``vcperf``'s
+``/timetrace``.
+
+In addition, we have a tracker that analyzes all time traces to estimate which headers should be
+investigated to improve overall compile time. You can find this tracker on the Godot repository:
+`[TRACKER] Compile time issues <https://github.com/godotengine/godot/issues/111218>`__.
