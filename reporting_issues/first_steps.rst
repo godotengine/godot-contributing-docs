@@ -12,7 +12,7 @@ Testing development versions
 To help with the testing, you have several possibilities:
 
 -  Compile the engine from source yourself, following the instructions of the
-   `Compiling <https://docs.godotengine.org/en/latest/engine_details/development/compiling/index.html>`_ page for your platform.
+   `Compiling <https://docs.godotengine.org/en/latest/engine_details/development/compiling/index.html>`__ page for your platform.
 
 -  Test official pre-release binaries when they are announced (usually on the
    blog and other community platforms), such as alpha, beta and release candidate (RC) builds.
