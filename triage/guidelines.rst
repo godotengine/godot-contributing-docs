@@ -155,8 +155,8 @@ Topics
 -  *Network*: relates to (low-level) networking.
 -  *Particles*: particles, particle systems and their editors.
 -  *Physics*: relates to the physics engine (2D/3D).
+-  *Platforms*: relates to platform-specific issues, typically related to OS, I/O, display, drivers, or rendering context.
 -  *Plugin*: relates to problems encountered while writing plugins.
--  *Porting*: relates to some specific platforms or exporting projects.
 -  *Rendering*: relates to the 2D and 3D rendering engines.
 -  *Shaders*: relates to the Godot shader language or visual shaders.
 -  *Tests*: relates to unit tests.
@@ -171,7 +171,7 @@ can focus on the issues labelled with their team's topic.
 Platforms
 ^^^^^^^^^
 
-*Android*, *iOS*, *LinuxBSD*, *macOS*, *Web*, *Windows*
+*Android*, *iOS*, *LinuxBSD*, *macOS*, *visionOS*, *Web*, *Windows*
 
 By default, it is assumed that a given issue applies to all platforms.
 If one of the platform labels is used, it is then exclusive and the
