@@ -235,8 +235,6 @@ larger if there is no other choice.
 Libraries must use a permissive enough license to be included into Godot.
 Some examples of acceptable licenses are Apache 2.0, BSD, MIT, ISC, and MPL 2.0.
 In particular, we cannot accept libraries licensed under the GPL or LGPL since
-these licenses effectively disallow static linking in proprietary software
-(which Godot is distributed as in most exported projects). This requirement also
-applies to the editor, since we may want to run it on iOS in the long term.
-Since iOS doesn't support dynamic linking, static linking is the only option on
-that platform.
+these licenses effectively disallow using it in proprietary software
+(which Godot is distributed as in most exported projects). This
+also applies for libraries that are only linked in the editor.
