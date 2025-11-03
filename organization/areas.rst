@@ -93,13 +93,7 @@ Documentation for the engine and its systems.
 Note that, while there is a dedicated documentation team, all other teams are expected to contribute to the documentation
 for their area.
 
-* RocketChat channels
-    * `#documentation <https://chat.godotengine.org/channel/documentation>`__
-    * `#translation <https://chat.godotengine.org/channel/translation>`__
-        * `#translation-de <https://chat.godotengine.org/channel/translation-de>`__
-        * `#translation-es <https://chat.godotengine.org/channel/translation-es>`__
-        * `#translation-fr <https://chat.godotengine.org/channel/translation-fr>`__
-        * `#translation-it <https://chat.godotengine.org/channel/translation-it>`__
+* RocketChat channel: `#documentation <https://chat.godotengine.org/channel/documentation>`__
 * GitHub review: `godotengine/documentation <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fdocumentation>`__
 * GitHub label: ``documentation`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Adocumentation>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Adocumentation>`__
 
@@ -122,7 +116,6 @@ All things related to the editor, both tools and usability (editor).
 * GitHub labels
     * ``topic:editor`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aeditor>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aeditor>`__
     * ``topic:export`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aexport>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aexport>`__
-    * ``topic:i18n`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Ai18n>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Ai18n>`__
     * ``topic:plugin`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Aplugin>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Aplugin>`__
 
 GUI
@@ -287,6 +280,21 @@ C# / .NET / Mono
 * RocketChat channel: `#dotnet <https://chat.godotengine.org/channel/dotnet>`__
 * GitHub review: `godotengine/dotnet <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2Fdotnet>`__
 * GitHub label: ``topic:dotnet`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Adotnet>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Adotnet>`__
+
+Translation / i18n
+------------------
+
+Internationalization and localization team - building the infrastructure to make it possible to translate Godot and its documentation.
+
+If you work on Godot translations and contributors for your language have a dedicated communication channel for coordination, let us know so we can link it here.
+
+* RocketChat channels
+    * `#translation <https://chat.godotengine.org/channel/translation>`__
+    * `#translation-de <https://chat.godotengine.org/channel/translation-de>`__
+    * `#translation-es <https://chat.godotengine.org/channel/translation-es>`__
+    * `#translation-fr <https://chat.godotengine.org/channel/translation-fr>`__
+    * `#translation-it <https://chat.godotengine.org/channel/translation-it>`__
+* GitHub label: ``i18n`` · `issues <https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3Atopic%3Ai18n>`__ · `PRs <https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3Atopic%3Ai18n>`__
 
 Website
 -------
