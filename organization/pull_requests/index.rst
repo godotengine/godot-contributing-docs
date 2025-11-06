@@ -15,3 +15,4 @@ Learn how we work with pull requests in this section.
    review_process
    review_guidelines
    testing
+   merge_guidelines
