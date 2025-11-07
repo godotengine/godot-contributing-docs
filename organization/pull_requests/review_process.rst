@@ -52,3 +52,21 @@ Even if you are not a maintainer, you can still help by reviewing code,
 providing feedback on PRs and testing PRs locally on your machine to confirm
 that they work as intended. Many of the currently active maintainers started out
 doing this before they became maintainers.
+
+When will a pull request get reviewed?
+--------------------------------------
+
+When you open a new pull request, :ref:`Area maintainers <doc_areas>` are notified immediately.
+
+However, a lot of pull requests are opened every day, so reviews can take a while to come in. Going by historical data,
+you can expect the following review timelines:
+
+- 80% of **regression fixes** are merged (or rejected) within **a week**.
+- 80% of **bug fixes** are merged (or rejected) within **two weeks**.
+- 80% of **enhancements** are merged (or rejected) within **two months**.
+
+As you can imagine, simple pull requests will usually be reviewed more quickly than large and complicated pull requests.
+
+If you think your pull request has been overlooked, feel free to ask about it in the `Contributors' chat <https://chat.godotengine.org>`__.
+You can ask in `#new-contributors <https://chat.godotengine.org/channel/new-contributors>`__, `#devel <https://chat.godotengine.org/channel/devel>`__,
+or the channel of the :ref:`area <doc_areas>` you're expecting reviews from.
