@@ -113,7 +113,7 @@ All things related to the editor, both tools and usability (editor).
 
 .. gdareatable::
    :communication: #editor, #editor-design
-   :github_reviews: @godotengine/2d-editor, @godotengine/3d-editor, @godotengine/debugger, @godotengine/docs, @godotengine/script-editor, @godotengine/usability
+   :github_reviews: @godotengine/2d-editor, @godotengine/3d-editor, @godotengine/debugger, @godotengine/docks, @godotengine/script-editor, @godotengine/usability
    :github_labels: <gh-label>topic:editor</gh-label>, <gh-label>topic:export</gh-label>, <gh-label>topic:plugin</gh-label>
    :triage_project: <gh-triage project=111>Editor issue triage</gh-triage>
 
