@@ -1865,3 +1865,38 @@ p + .classref-constant {
     border: 0px solid #7fbbe3;
     background: var(--role-button-background-color);
 }
+
+.rst-content table.docutils.gdarea-table {
+    background-color: var(--code-background-color);
+    border: 0;
+    border-left: 6px solid var(--code-border-color);
+    padding: 4px 10px;
+    width: 100%;
+    table-layout:fixed
+}
+
+.rst-content table.docutils.gdarea-table td.gdarea-table-header {
+    padding: 8px;
+    border-right:1px dashed var(--code-border-color);
+    text-align: left;
+    width:25%;
+}
+
+.rst-content table.docutils.gdarea-table td {
+    padding: 8px 0 8px 12px;
+    background-color: var(--code-background-color) !important;
+}
+
+.rst-content table.docutils.gdarea-table td.gdarea-table-header, .rst-content table.docutils.gdarea-table td {
+    border-bottom: 1px dashed var(--code-border-color);
+    border-collapse:collapse
+}
+
+.rst-content table.docutils.gdarea-table tr:last-of-type td, .rst-content table.docutils.gdarea-table tr:last-of-type td.gdarea-table-header {
+    border-bottom:0
+}
+
+.rst-content table.docutils.gdarea-table td.gdarea-table-header > p {
+    font-size: 1rem !important;
+    font-weight: bold;
+}

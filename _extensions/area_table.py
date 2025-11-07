@@ -1,0 +1,92 @@
+"""
+A directive for organization/areas.rst to render the area tables.
+"""
+
+from docutils import nodes
+from docutils.parsers.rst import Directive
+import re
+
+area_table_rows = ["Communication", "GitHub reviews", "GitHub labels", "Triage project"]
+
+channel_re = re.compile(r'#([\w-]+)')
+godot_team_re = re.compile(r'@godotengine/([\w-]+)')
+labels_re = re.compile(r'<gh-label>(.+?)</gh-label>')
+triage_re = re.compile(r'<gh-triage project=(\d+)>(.*?)</gh-triage>')
+
+
+def transform_channels(match: re.Match):
+    old_value = match.group(1)
+    transformed = f'<a href="https://chat.godotengine.org/channel/{old_value}">#{old_value}</a>'
+    return transformed
+
+
+def transform_github_teams(match: re.Match):
+    old_value = match.group(1)
+    transformed = f'<a href="https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+team-review-requested%3Agodotengine%2F{old_value}">@godotengine/{old_value}</a>'
+    return transformed
+
+
+def transform_github_labels(match: re.Match):
+    old_value = match.group(1)
+    transformed = f'<code class="docutils literal notranslate"><span class="pre">{old_value}</span></code> (<a href="https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3A{old_value}">issues</a>, <a href="https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3A{old_value}">PRs</a>)'
+    return transformed
+
+
+def transform_github_triage(match: re.Match):
+    number = match.group(1)
+    name = match.group(2)
+    transformed = f'<a href="https://github.com/orgs/godotengine/projects/{number}">{name}</a>'
+    return transformed
+
+
+class TableDirective(Directive):
+    has_content = False
+    required_arguments = 0
+    optional_arguments = 0
+    final_argument_whitespace = False
+    option_spec = {column.lower().replace(" ", "_"): str for column in area_table_rows}
+
+    def run(self):
+        # Create a table node with the parsed header and data
+        table = nodes.table()
+        table.setdefault('classes', []).append("gdarea-table")
+        tgroup = nodes.tgroup(cols=2)
+        table += tgroup
+
+        # Set column specifications
+        tgroup += nodes.colspec(colwidth=2)
+        tgroup += nodes.colspec(colwidth=5)
+
+        # Create and add the table body
+        tbody = nodes.tbody()
+        tgroup += tbody
+        for column_title in area_table_rows:
+            row_text = self.options.get(column_title.lower().replace(" ", "_"), '')
+            if not row_text:
+                continue
+
+            body_row = nodes.row()
+
+            entry = nodes.entry()
+            entry.setdefault('classes', []).append("gdarea-table-header")
+            entry += nodes.paragraph(text=column_title)
+            body_row += entry
+
+            row_text = channel_re.sub(transform_channels, row_text)
+            row_text = godot_team_re.sub(transform_github_teams, row_text)
+            row_text = labels_re.sub(transform_github_labels, row_text)
+            row_text = triage_re.sub(transform_github_triage, row_text)
+
+            entry = nodes.entry()
+            paragraph = nodes.paragraph()
+            paragraph += nodes.raw('', row_text, format='html')
+            entry += paragraph
+            body_row += entry
+
+            tbody += body_row
+
+        return [table]
+
+
+def setup(app):
+    app.add_directive('gdareatable', TableDirective)
