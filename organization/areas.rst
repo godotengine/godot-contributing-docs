@@ -389,4 +389,4 @@ Augmented (AR) and virtual reality (VR).
    :github_reviews: @godotengine/xr
    :github_labels: <gh-label>topic:xr</gh-label>
    :triage_project: <gh-triage project=104>XR issue triage</gh-triage>
-   :maintainers: Bastiaan Olij (@BastiaanOlij), David Snopek (@dsnopek), Fredia Huya-Kouadio (@m4gr3d),
+   :maintainers: Bastiaan Olij (@BastiaanOlij), David Snopek (@dsnopek), Fredia Huya-Kouadio (@m4gr3d), Logan Lang (@devloglogan)
