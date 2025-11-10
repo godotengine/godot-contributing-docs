@@ -63,7 +63,7 @@ Technical contributions
   For each subject area of the engine, there is a corresponding team to coordinate the work.
   Join the linked chat to get more eyes on your related PR, learn about open todos, or partake in meetings.
   For some areas, specialists might even be encouraged to step up as maintainer!
-  `List of teams <https://godotengine.org/teams/>`_
+  :ref:`List of teams <doc_areas>`
 
 - **Review Code Contributions**
   All pull requests need to be thoroughly reviewed before they can be merged into the master branch.
