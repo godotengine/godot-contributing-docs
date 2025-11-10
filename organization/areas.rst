@@ -112,6 +112,7 @@ Demos
 
 .. gdareatable::
    :communication: #demo-content
+   :github_reviews: @godotengine/demos
    :maintainers: Aaron Franke (@aaronfranke), Ilaria Cislaghi (@QbieShay), K. S. Ernest Lee (@fire), Rémi Verschelde (@akien-mga)
 
 Documentation
@@ -282,6 +283,7 @@ Bugsquad / Issue triage
 
 .. gdareatable::
    :communication: #bugsquad, #bugsquad-sprints
+   :github_reviews: @godotengine/bugsquad
    :maintainers: A Thousand Ships (@AThousandShips), K. S. Ernest Lee (@fire), @lawnjelly, Rémi Verschelde (@akien-mga)
 
 Rendering
@@ -311,6 +313,7 @@ VFX / Tech Art / Particles
 
 .. gdareatable::
    :communication: #vfx-tech-art
+   :github_reviews: @godotengine/rendering, @godotengine/shaders
    :github_labels: <gh-label>topic:particles</gh-label>
    :triage_project: <gh-triage project=115>Particles issue triage</gh-triage>
 
@@ -373,6 +376,7 @@ Creating the website `godotengine.org <https://godotengine.org>`__ and `asset li
 
 .. gdareatable::
    :communication: #website, #asset-store
+   :github_reviews: @godotengine/website
    :maintainers: Adam Scott (@adamscott), Emilio Coppola (@coppolaemilio), Hugo Locurcio (@Calinou), Iñigo Allende (@InigoAllende/@i.allende), HP van Braam (@hpvb), Max Hilbrunner (@mhilbrunner), Rémi Verschelde (@akien-mga), Winston (@winston-yallow)
 
 XR
