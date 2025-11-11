@@ -19,6 +19,7 @@ For each team or area there is a list of links and resources associated with the
 * **Triage project**: links to the team triage project for the team.
 * **Maintainers**: lists the members of each team. The area maintainers take ownership of the area, and will steer its
   development by creating and reviewing pull requests and improvement proposals. Maintainers are listed alphabetically.
+  Maintainers written as ⭐ **Member** (with a star and in bold) are team leads.
 
 You can find information about the teams' `current priorities <https://godotengine.org/priorities/>`__ on the Godot website.
 
