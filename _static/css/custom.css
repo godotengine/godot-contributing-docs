@@ -1900,3 +1900,11 @@ p + .classref-constant {
     font-size: 1rem !important;
     font-weight: bold;
 }
+
+span.team-lead:before {
+    content: "⭐️ ";
+}
+
+span.team-lead {
+    font-weight: bold;
+}

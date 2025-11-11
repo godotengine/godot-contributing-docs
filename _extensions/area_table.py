@@ -12,6 +12,7 @@ channel_re = re.compile(r'#([\w-]+)')
 godot_team_re = re.compile(r'@godotengine/([\w-]+)')
 labels_re = re.compile(r'<gh-label>(.+?)</gh-label>')
 triage_re = re.compile(r'<gh-triage project=(\d+)>(.*?)</gh-triage>')
+lead_re = re.compile(r'<lead>(.*?)</lead>')
 
 
 def transform_channels(match: re.Match):
@@ -36,6 +37,12 @@ def transform_github_triage(match: re.Match):
     number = match.group(1)
     name = match.group(2)
     transformed = f'<a href="https://github.com/orgs/godotengine/projects/{number}">{name}</a>'
+    return transformed
+
+
+def transform_lead(match: re.Match):
+    name = match.group(1)
+    transformed = f'<span class="team-lead">{name}</span>'
     return transformed
 
 
@@ -76,6 +83,7 @@ class TableDirective(Directive):
             row_text = godot_team_re.sub(transform_github_teams, row_text)
             row_text = labels_re.sub(transform_github_labels, row_text)
             row_text = triage_re.sub(transform_github_triage, row_text)
+            row_text = lead_re.sub(transform_lead, row_text)
 
             entry = nodes.entry()
             paragraph = nodes.paragraph()
