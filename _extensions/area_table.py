@@ -29,7 +29,7 @@ def transform_github_teams(match: re.Match):
 
 def transform_github_labels(match: re.Match):
     old_value = match.group(1)
-    transformed = f'<code class="docutils literal notranslate"><span class="pre">{old_value}</span></code> (<a href="https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3A{old_value}">issues</a>, <a href="https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3A{old_value}">PRs</a>)'
+    transformed = f'<span style="white-space: nowrap;"><code class="docutils literal notranslate"><span class="pre">{old_value}</span></code> (<a href="https://github.com/godotengine/godot/issues?q=is%3Aissue%20state%3Aopen%20label%3A{old_value}">issues</a>, <a href="https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Aopen+label%3A{old_value}">PRs</a>)</span>'
     return transformed
 
 
@@ -55,29 +55,21 @@ class TableDirective(Directive):
 
     def run(self):
         # Create a table node with the parsed header and data
-        table = nodes.table()
+        table = nodes.container()
         table.setdefault('classes', []).append("gdarea-table")
-        tgroup = nodes.tgroup(cols=2)
-        table += tgroup
-
-        # Set column specifications
-        tgroup += nodes.colspec(colwidth=2)
-        tgroup += nodes.colspec(colwidth=5)
 
         # Create and add the table body
-        tbody = nodes.tbody()
-        tgroup += tbody
         for column_title in area_table_rows:
             row_text = self.options.get(column_title.lower().replace(" ", "_"), '')
             if not row_text:
                 continue
 
-            body_row = nodes.row()
+            row = nodes.container()
 
-            entry = nodes.entry()
+            entry = nodes.container()
             entry.setdefault('classes', []).append("gdarea-table-header")
             entry += nodes.paragraph(text=column_title)
-            body_row += entry
+            row += entry
 
             row_text = channel_re.sub(transform_channels, row_text)
             row_text = godot_team_re.sub(transform_github_teams, row_text)
@@ -85,13 +77,13 @@ class TableDirective(Directive):
             row_text = triage_re.sub(transform_github_triage, row_text)
             row_text = lead_re.sub(transform_lead, row_text)
 
-            entry = nodes.entry()
+            entry = nodes.container()
             paragraph = nodes.paragraph()
             paragraph += nodes.raw('', row_text, format='html')
             entry += paragraph
-            body_row += entry
+            row += entry
 
-            tbody += body_row
+            table += row
 
         return [table]
 

@@ -1866,43 +1866,56 @@ p + .classref-constant {
     background: var(--role-button-background-color);
 }
 
-.rst-content table.docutils.gdarea-table {
+.rst-content div.docutils.gdarea-table {
     background-color: var(--code-background-color);
     border: 0;
     border-left: 6px solid var(--code-border-color);
     padding: 4px 10px;
     width: 100%;
-    table-layout:fixed
+    margin-bottom: 40px;
 }
 
-.rst-content table.docutils.gdarea-table td.gdarea-table-header {
-    padding: 8px;
+.rst-content div.docutils.gdarea-table > div {
+    padding: 8px 0 8px 0;
+    background-color: var(--code-background-color) !important;
+    border-bottom: 1px dashed var(--code-border-color);
+    border-collapse:collapse;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rst-content div.docutils.gdarea-table div:last-of-type {
+    border-bottom: 0;
+}
+
+.rst-content div.docutils.gdarea-table > div > div {
+    padding: 0 0 0 12px;
+    min-width: 20em;
+    flex: 20000 20000 10em;
+    display: flex;
+    align-items: center;
+    min-height: 2em;
+}
+
+.rst-content div.docutils.gdarea-table > div > div.gdarea-table-header {
+    flex: 1 1 10em;
+    min-width: 10em;
     border-right:1px dashed var(--code-border-color);
     text-align: left;
-    width:25%;
 }
 
-.rst-content table.docutils.gdarea-table td {
-    padding: 8px 0 8px 12px;
-    background-color: var(--code-background-color) !important;
+.rst-content div.docutils.gdarea-table > div > div > p {
+    margin-bottom: 0;
 }
 
-.rst-content table.docutils.gdarea-table td.gdarea-table-header, .rst-content table.docutils.gdarea-table td {
-    border-bottom: 1px dashed var(--code-border-color);
-    border-collapse:collapse
-}
-
-.rst-content table.docutils.gdarea-table tr:last-of-type td, .rst-content table.docutils.gdarea-table tr:last-of-type td.gdarea-table-header {
-    border-bottom:0
-}
-
-.rst-content table.docutils.gdarea-table td.gdarea-table-header > p {
+.rst-content div.docutils.gdarea-table > div > div.gdarea-table-header > p {
     font-size: 1rem !important;
     font-weight: bold;
 }
 
 span.team-lead:before {
     content: "⭐️ ";
+    white-space: nowrap;
 }
 
 span.team-lead {

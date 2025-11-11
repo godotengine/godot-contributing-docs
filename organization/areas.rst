@@ -232,7 +232,7 @@ Apple
 .. gdareatable::
    :communication: #apple
    :github_reviews: @godotengine/ios, @godotengine/macos
-   :github_labels: <gh-label>platform:ios</gh-label>, <gh-label>platform:macos</gh-label>, <gh-label>platform:visionos</gh-label>,
+   :github_labels: <gh-label>platform:ios</gh-label>, <gh-label>platform:macos</gh-label>, <gh-label>platform:visionos</gh-label>
    :maintainers: Bastiaan Olij (@BastiaanOlij), <lead>Pāvels Nadtočajevs (@bruvzg)</lead>
    :triage_project: <gh-triage project=84>Platforms issue triage</gh-triage>
 
