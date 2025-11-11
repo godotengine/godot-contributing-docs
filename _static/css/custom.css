@@ -1894,7 +1894,7 @@ p + .classref-constant {
     flex: 20000 20000 10em;
     display: flex;
     align-items: center;
-    min-height: 2em;
+    min-height: 1.5em;
 }
 
 .rst-content div.docutils.gdarea-table > div > div.gdarea-table-header {
