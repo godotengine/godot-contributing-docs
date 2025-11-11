@@ -34,6 +34,10 @@ You can find information about the teams' `current priorities <https://godotengi
    - In particular, ask them how they'd like to be referred to.
    - If you are a maintainer, you can also open a PR to add yourself, if you are on the respective GitHub team.
 
+.. Html hyperlink targets cannot start with numbers. We're using a trick to override the default generated target: https://stackoverflow.com/a/65284203/503822
+.. _2d:
+.. _team-2d:
+
 2D
 --
 
@@ -42,6 +46,9 @@ You can find information about the teams' `current priorities <https://godotengi
    :github_reviews: @godotengine/2d-nodes
    :github_labels: <gh-label>topic:2d</gh-label>
    :maintainers: Gilles Roudière (@groud), Tomasz Chabora (@KoBeWi)
+
+.. _3d:
+.. _team-3d:
 
 3D
 --
