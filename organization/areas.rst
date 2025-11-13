@@ -171,7 +171,7 @@ Asset import pipeline for 2D (textures) and 3D (scenes, models, animations, etc.
    :github_reviews: @godotengine/import
    :github_labels: <gh-label>topic:import</gh-label>
    :triage_project: <gh-triage project=72>Asset pipeline issue triage</gh-triage>
-   :maintainers: Aaron Franke (@aaronfranke), @BlueCube3310, Hugo Locurcio (@Calinou), Joan Fons Sanchez (@JFonS), K. S. Ernest Lee (@fire), @Lyuma, Rémi Verschelde (@akien-mga)
+   :maintainers: Aaron Franke (@aaronfranke), @BlueCube3310, Gordon MacPherson (@RevoluPowered), Hugo Locurcio (@Calinou), Joan Fons Sanchez (@JFonS), K. S. Ernest Lee (@fire), @Lyuma, Rémi Verschelde (@akien-mga)
 
 Navigation
 ----------
@@ -285,7 +285,7 @@ for their area.
    :communication: #quality-assurance
    :github_reviews: @godotengine/tests
    :github_labels: <gh-label>topic:tests</gh-label>
-   :maintainers: Hugo Locurcio (@Calinou), Hendrik Brucker (@Geometror), Rémi Verschelde (@akien-mga)
+   :maintainers: Hugo Locurcio (@Calinou), Gordon MacPherson (@RevoluPowered), Hendrik Brucker (@Geometror), Rémi Verschelde (@akien-mga)
 
 Bugsquad / Issue triage
 ~~~~~~~~~~~~~~~~~~~~~~~
