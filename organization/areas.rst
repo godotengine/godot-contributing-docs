@@ -256,8 +256,8 @@ Windows / UWP
    :maintainers: <lead>George Marques (@vnen)</lead>, Max Hilbrunner (@mhilbrunner), <lead>Pāvels Nadtočajevs (@bruvzg)</lead>
    :triage_project: <gh-triage project=84>Platforms issue triage</gh-triage>
 
-Linux / BSD (X11)
-~~~~~~~~~~~~~~~~~
+Linux / BSD
+~~~~~~~~~~~
 
 .. gdareatable::
    :communication: #platforms
