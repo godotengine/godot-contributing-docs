@@ -233,8 +233,4 @@ larger if there is no other choice.
 .. _doc_best_practices_for_engine_contributors_license_compliance:
 
 Libraries must use a permissive enough license to be included into Godot.
-Some examples of acceptable licenses are Apache 2.0, BSD, MIT, ISC, and MPL 2.0.
-In particular, we cannot accept libraries licensed under the GPL or LGPL since
-these licenses effectively disallow using it in proprietary software
-(which Godot is distributed as in most exported projects). This
-also applies for libraries that are only linked in the editor.
+For more information, see :ref:`doc_licenses`.
