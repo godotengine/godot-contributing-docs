@@ -45,6 +45,7 @@ for your topic of interest. You can also use the search function in the top-left
    triage/workflow
    triage/guidelines
    triage/release_blockers
+   triage/sprint_instructions
 
 .. toctree::
    :hidden:
