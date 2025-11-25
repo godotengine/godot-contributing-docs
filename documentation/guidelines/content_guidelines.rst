@@ -59,6 +59,28 @@ documentation's scope. For example, you could link to an introduction to
 programming in the getting started guide, or a website that teaches math theory
 in the math section.
 
+Finally, it's also important to know what *not* to document. There are some cases
+where things should be left out of the documentation to avoid causing problems.
+Some behaviors or details of how some part of the engine works might be unintentional,
+unknown to the maintainers, or be an implementation detail rather than part of the
+real goal of that feature. This means that these details might change when bugs are
+fixed or new features are added, as they are not part of the intended behavior or
+goal of the feature. Documenting them would risk making people rely on things
+that might change in the future if maintainers are not aware that this has been
+documented.
+
+Anything that is documented is also generally considered part of the official API.
+This means that changing it could be considered breaking compatibility. This risks
+limiting what changes can be done even when necessary.
+
+This means that the documentation team should make sure that area maintainers review
+documentation PRs that add previously undocumented behavior, and that area maintainers
+should review the documentation of PRs adding new features, to make sure that internal
+details are not documented.
+
+If you are unsure what to document, don't hesitate to ask the :ref:`area maintainers <doc_areas>`
+for the relevant area.
+
 Limiting cognitive load
 ~~~~~~~~~~~~~~~~~~~~~~~
 
