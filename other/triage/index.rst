@@ -10,4 +10,4 @@ This section explains the workflow and guidelines of the :team:`Triage`.
    about
    workflow
    guidelines
-   release_blockers
+   release_priorities
