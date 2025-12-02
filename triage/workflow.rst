@@ -23,7 +23,7 @@ Triage checklist
    author to add the missing information.
 -  `Check for duplicates <#check-for-duplicates>`__.
 -  Check if the issue is a recent regression. If it is, add it to the
-   :ref:`release blocker tracker <doc_bug_triage_release_blockers>` and
+   :ref:`release priorities <doc_bug_triage_release_priorities>` and
    mark it as a “regression”.
 -  Add initial labels.
 -  `Assign a milestone <#assigning-milestones>`__ if relevant.
@@ -78,7 +78,7 @@ having tested development versions) please either ask the author to test
 with a stable version or test the bug yourself. If it *doesn’t* occur on
 a past release it is considered a regression and should be tagged with
 the “regression” label, and should also be added to the “4.x Release
-Blockers” project. See :ref:`doc_bug_triage_release_blockers` for details.
+Priorities” project. See :ref:`doc_bug_triage_release_priorities` for details.
 
 Try to tag an issue as specifically as possible, adding “needs testing”
 and “needs work” if necessary. Don’t worry about misidentifying issues,
@@ -104,20 +104,20 @@ Note that this is for assigning milestones to *open* issues, please see
 and milestones.
 
 Below is an outline of the different milestones we use, but as a general
-rule you can assume that issues that aren’t release blockers, or
+rule you can assume that issues that aren’t release priorities, or
 specific to ``3.x``, shouldn’t have milestones assigned.
 
 For the ``master`` branch:
 
 * ``4.x``: For Godot 4 in general, i.e. the ``master`` branch. We do not use the ``4.x`` milestone on issues, issues with no milestone are assumed to be relevant for the current development cycle.
-* *The current development version*: Should be assigned to issues that are :ref:`release blockers <doc_bug_triage_release_blockers>`, or otherwise prioritized for the current version.
+* *The current development version*: Should be assigned to issues that are :ref:`release priorities <doc_bug_triage_release_priorities>`, or otherwise prioritized for the current version.
 * *The next release version*: When we enter feature freeze we usually create a new milestone used for PRs that are approved but won’t make it into the current release, this milestone is not used for issues.
 * *Older Godot 4 versions*: This is used for issues that are only relevant for this specific version (or older versions), but not any newer version. An example of this would be an issue that was solved in ``4.5`` as part of an enhancement, but that enhancement cannot be cherry-picked for ``4.4`` and a separate issue is necessary to track the specific solution for ``4.4`` (and older, if relevant). For such issues it can also be relevant to add “[4.4]” at the beginning of the issue title to help clarify it is specific to this version.
 
 For Godot 3:
 
 * ``3.x``: For the ``3.x`` branch in general. Used for issues that are only relevant for the ``3.x`` version, and occurs on the current development version of ``3.x``. For these issues it can also help to add “[3.x]” at the beginning of the issue title to help identifying the issue.
-* Other Godot 3 milestones work the same way as for the ``master`` branch, except we do not track release blockers for ``3.x``.
+* Other Godot 3 milestones work the same way as for the ``master`` branch, except we do not track release priorities for ``3.x``.
 
 Testing an Issue
 ----------------
