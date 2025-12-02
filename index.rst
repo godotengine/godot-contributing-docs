@@ -25,6 +25,7 @@ for your topic of interest. You can also use the search function in the top-left
    organization/how_to_contribute
    organization/areas
    organization/pull_requests/index
+   organization/general_rules_and_guidelines
 
 .. toctree::
    :hidden:
