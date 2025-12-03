@@ -29,7 +29,7 @@ Sprint steps
       due to inactivity. This might apply even if the thread has replies after the request if those replies do not provide the necessary information.
       If you are unsure please comment in the batch thread and we will evaluate it.
 
-- Confirm that the report is filled in correctly, that all the necessary details are available.
+- Confirm that the report is filled in correctly, that all the necessary details are available, see :ref:`this page <doc_issue_report_writing>` for a reference.
 
     - If something is missing, please comment on the issue asking for more information, or comment in the batch thread with the issue
       report link and we will do it.

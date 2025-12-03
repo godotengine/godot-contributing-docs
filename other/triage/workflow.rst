@@ -63,6 +63,8 @@ some basic tags to the issue and add the “needs testing” tag.
 Issues that are clearly spam should be closed and tagged as “spam” and
 marked as archived.
 
+For more details on what goes into an issue report, see :ref:`this page <doc_issue_report_writing>`.
+
 Initial Assessment
 ------------------
 
