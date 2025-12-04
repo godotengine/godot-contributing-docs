@@ -35,6 +35,33 @@ This also applies for libraries that are only linked in the editor.
 game engines like Unreal or Unity, nor use their code as inspiration. We strongly recommend against reading any
 "source-available" code before contributing to Godot.
 
+Explain your contributions
+--------------------------
+
+When submitting a pull request, please make use of the pull request description.
+
+Your pull request description should be appropriate for the complexity of the change. For example, if you're just fixing
+a typo, a single sentence description is appropriate. However, if your change is large, or may affect multiple systems
+in potentially unexpected ways, we expect you to be more thorough with your explanation.
+
+Here are the components of a thorough pull request description:
+
+- **Summary of changes:** A short overview of what is changed.
+- **Motivation:** Why you opened the pull request. Ideally, this is a link to an issue or proposal.
+- **Related work:** Link to similar pull requests or ongoing discussions that provide additional context.
+- **Technical overview:** Briefly explain each of the changes in this pull request, and why they are necessary.
+- **Testing:** How you tested the pull request, and the results of your testing. For example, optimization PRs should be
+  profiled or benchmarked (see :ref:`doc_optimization`).
+- **Discussion:** How you see the pull request in context. For example, list risks and caveats and how they could be
+  mitigated. If existing projects may be negatively affected, you should disclose this here, with particular attention
+  to possible :ref:`compatibility breakages <doc_handling_compatibility_breakages>` and regressions.
+- **Additional work:** If applicable, highlight anything you need help with or feedback on, and describe any necessary
+  or potential follow-up work.
+
+.. note:: You may not need *every* one of these components, and you do not need to copy this exact structure.
+          Always ask yourself what would be most helpful for reviewers, and try to balance brevity and thoroughness
+          appropriately.
+
 Contribute only what you understand
 -----------------------------------
 
