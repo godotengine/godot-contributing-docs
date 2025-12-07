@@ -47,7 +47,7 @@ in potentially unexpected ways, we expect you to be more thorough with your expl
 Here are the components of a thorough pull request description:
 
 - **Summary of changes:** A short overview of what is changed.
-- **Motivation:** Why you opened the pull request. Ideally, this is a link to an issue or proposal.
+- **Motivation:** Why you opened the pull request. Ideally, this is a link to an `issue <https://github.com/godotengine/godot/issues>`__ or `proposal <https://github.com/godotengine/godot-proposals/issues>`__.
 - **Related work:** Link to similar pull requests or ongoing discussions that provide additional context.
 - **Technical overview:** Briefly explain each of the changes in this pull request, and why they are necessary.
 - **Testing:** How you tested the pull request, and the results of your testing. For example, optimization PRs should be
