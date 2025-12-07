@@ -79,14 +79,14 @@ AI-assisted contributions
 
 The use of AI to contribute to Godot is discouraged, and contributions made entirely by AI are prohibited.
 
-We acknowledge that AI can be useful, but we are convinced that human effort results in better and more relevant
-contributions.
-
 .. note:: "AI" in this page refers to any LLM/generative
           AI model like ChatGPT, Claude, Grok, etc., or any other
           models that fulfill the same role. Using translation
           software to communicate is fine, and single-line code
           completion does not have to be disclosed.
+
+We acknowledge that AI can be useful, but we are convinced that human effort results in better and more relevant
+contributions.
 
 If you do use AI, we expect that you put in effort to proofread and improve anything it generates, and that you disclose
 what you used AI for. As maintainers spend significant time reviewing your code, please make sure
