@@ -22,3 +22,39 @@ Page not found
         <a href="#" onclick="$('#rtd-search-form [name=\\'q\\']').focus()">Search docs</a>
         box on the left or <a href="/">go to the homepage</a>.
     </p>
+
+    <script>
+    // Keep this in sync with the version from godot-docs.
+
+    // Check for redirects if on a currently invalid page.
+    // This is done in JavaScript, as we exceed Read the Docs' limit for the amount of redirects configurable.
+
+    const currentPathSegments = window.location.pathname.split('/').filter(segment => segment !== '');
+    // Use the base path (e.g. "/en/latest") when available.
+    const currentBasePath = (currentPathSegments.length >= 2) ? ("/" + currentPathSegments.slice(0, 2).join("/")) : "/";
+
+    fetch(currentBasePath + "/_static/redirects.csv")
+      .then(response => response.text())
+      .then(csvText => {
+        const lines = csvText.trim().split('\n');
+        for (const line of lines) {
+          if (!line.trim()) {
+            continue;
+          }
+          const [from, to] = line.split(',').map(s => s.trim());
+          if (from && to) {
+            if (window.location.pathname.endsWith(from)) {
+              if (to.startsWith('https://')) {
+                window.location.replace(to);
+              } else {
+                const newUrl = window.location.href.replace(window.location.pathname, to);
+                window.location.replace(newUrl);
+              }
+            }
+          }
+        }
+      })
+      .catch(err => {
+        console.error("Couldn't fetch redirects list:", err);
+      });
+    </script>
