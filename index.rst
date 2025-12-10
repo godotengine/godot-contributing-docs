@@ -68,7 +68,6 @@ for your topic of interest. You can also use the search function in the top-left
    documentation/guidelines/index
    documentation/class_reference
    documentation/manual/index
-   documentation/translation/index
    documentation/contributing_to_the_contributing_docs
 
 .. toctree::
@@ -78,6 +77,7 @@ for your topic of interest. You can also use the search function in the top-left
    :name: sec-other
 
    other/ideas
+   other/translations
    other/website
    other/demos
    other/benchmarks
