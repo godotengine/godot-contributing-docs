@@ -59,6 +59,25 @@ documentation's scope. For example, you could link to an introduction to
 programming in the getting started guide, or a website that teaches math theory
 in the math section.
 
+Finally, it's also important to know what *not* to document. There are some cases
+where things should be left out of the documentation to avoid causing problems.
+In short, do not document something in the following cases:
+
+- The behavior is a bug. In that case, please make a [bug report](https://github.com/godotengine/godot/issues) instead.
+- The behavior is not an intentional part of a feature, but only a consequence of the current implementation
+  (also called an "implementation detail").
+
+To understand why we don't want to document unintended behavior, please consider that anything that is documented
+could be considered part of the official API. This means that documenting unintended behavior risks making people
+rely on things that might need to be changed in the future, limiting what we can change without breaking compatibility.
+
+To avoid accidentally documenting unintended behavior, :ref:`area maintainers <doc_areas>` should always review
+changes to the documentation of their respective area. The documentation team should help organizing this and with
+writing when needed.
+
+These rules are not absolute, but are usually correct. If you are unsure what to document, don't hesitate to ask the
+:ref:`area maintainers <doc_areas>` for the relevant area.
+
 Limiting cognitive load
 ~~~~~~~~~~~~~~~~~~~~~~~
 
