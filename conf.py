@@ -57,6 +57,8 @@ html_context = {
 }
 
 html_logo = "img/docs_logo.svg"
+# Set explicitly to avoid the standard title inserting a version.
+html_title = 'Contributing to Godot'
 
 # These folders are copied to the documentation's HTML output
 html_static_path = ["_static"]
