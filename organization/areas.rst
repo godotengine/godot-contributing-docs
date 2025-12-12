@@ -367,6 +367,18 @@ C# / .NET / Mono
    :triage_project: <gh-triage project=83>Dotnet issue triage</gh-triage>
    :maintainers: Paul Joannon (@paulloz), <lead>Raul Santos (@raulsntos)</lead>
 
+Technical Leadership Committee (TLC)
+------------------------------------
+
+The Technical Leadership Committee (TLC) drafts and drives the technical roadmap / development
+direction for the engine, supports and assists the project management and release teams, and
+provides technical guidance to the Godot Foundation Board. Learn more on the `Governance page <https://godotengine.org/governance/>`__
+on the Godot website.
+
+.. gdareatable::
+   :github_reviews: @godotengine/tlc
+   :maintainers: Bastiaan Olij (@BastiaanOlij), Clay John (@clayjohn), David Snopek (@dsnopek), Fredia Huya-Kouadio (@m4gr3d), George Marques (@vnen), HP van Braam (@hpvb), Juan Linietsky (@reduz), @lawnjelly, Lukas Tenbrink (@Ivorius/@Ivorforce), Pāvels Nadtočajevs (@bruvzg), Rémi Verschelde (@akien-mga), Tomasz Chabora (@KoBeWi)
+
 Translation / i18n
 ------------------
 
