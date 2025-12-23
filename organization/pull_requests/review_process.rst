@@ -43,6 +43,31 @@ you can expect the following review timelines:
 
 As you can imagine, simple pull requests will usually be reviewed more quickly than large and complicated pull requests.
 
-If you think your pull request has been overlooked, feel free to ask about it in the `Contributors' chat <https://chat.godotengine.org>`__.
+We try our best to avoid unnecessary delays and to get to PRs as soon as possible we cannot make any guarantees about when
+a PR will get reviewed or merged, even if it is a is a very simple fix or change. An issue can seem simple at first but can
+end up being a far more complicated issue after maintainers have evaluated a proposed fix. If you are not able to continue
+working on a fix if this happens, or are not interested in doing so, you do not have to do so, and you can just close your
+PR explaining this. We understand that it might be frustrating to feel that you did a lot of work for nothing,
+but we cannot merge an incorrect or temporary fix in most cases. If the final fix contains significant parts of your original
+PR you will be added as a co-author to that PR.
+
+Please be aware that PRs are prioritized based on how critical the issue it solves is, and the needs of the engine, and we cannot
+speed up the process based on other time constraints (for example if you open a PR as part of an assignment in school).
+You can still ask maintainers if they can take a look at your PR quicker based on this, but we cannot make exceptions for these reasons,
+not to our priorities nor our review process.
+
+We understand that this can cause stress when a PR being merged or not can affect your grade in a class, but if this is causing
+problems for you please talk to your teacher or professor about this and ask them to take the way open source projects into
+account when creating assignments, to avoid causing stress or friction.
+
+How quickly a PR gets reviewed or merged also depends on where in the release cycle we are currently in. During the development (dev)
+phase both bug fixes and new features or enhancements are merged, we then enter "feature freeze" in the beta phase, and we stop merging
+(most) new features and focus on bug fixes only. Then we finally enter the release candidate (rc) phase where we only consider critical
+fixes. What kind of changes (new features *and* bug fixes) also depends on when in each phase we are in. Some big or risky features
+will only be merged during the early part of the dev phase, to give us as much time as possible to find potential regressions or
+issues before release.
+
+If you think your pull request has been overlooked, or you have any questions about the review process,
+feel free to ask about it in the `Contributors' chat <https://chat.godotengine.org>`__.
 You can ask in `#new-contributors <https://chat.godotengine.org/channel/new-contributors>`__, `#devel <https://chat.godotengine.org/channel/devel>`__,
 or the channel of the :ref:`area <doc_areas>` you're expecting reviews from.
