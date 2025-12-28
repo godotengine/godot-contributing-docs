@@ -1,5 +1,5 @@
-General rules and guidelines
-============================
+Pull request guidelines
+=======================
 
 This page contains guidelines relevant for contributing to any area of Godot.
 

@@ -47,7 +47,7 @@ directory. To learn more about editing XML files refer to the latest documentati
 .. seealso::
 
     For details on Git usage and the pull request workflow, please
-    refer to the :ref:`doc_pr_workflow` page.
+    refer to the :ref:`doc_creating_pull_requests` page.
 
     If you want to translate the class reference from English to another
     language, see :ref:`doc_editor_and_docs_localization`. This guide is

@@ -1,4 +1,4 @@
-.. _doc_pr_review_guidelines:
+.. _doc_pr_merge_guidelines:
 
 Merge guidelines
 ================
