@@ -1,3 +1,5 @@
+.. _doc_reporting_issues:
+
 Getting started
 ===============
 

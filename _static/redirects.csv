@@ -1,2 +1,9 @@
 source,destination
 /documentation/translation/index.html,/other/translations.html
+/organization/pull_requests/index.html,/pull_requests/pr_workflow.html
+/organization/pull_requests/review_process.html,/pull_requests/pr_workflow.html
+/organization/pull_requests/creating_pull_requests.html,/pull_requests/creating_pull_requests.html
+/organization/general_rules_and_guidelines.html,/pull_requests/pull_request_guidelines.html
+/organization/pull_requests/review_guidelines.html,/pull_requests/review_guidelines.html
+/organization/pull_requests/testing.html,/pull_requests/testing.html
+/organization/pull_requests/merge_guidelines.html,/pull_requests/merge_guidelines.html

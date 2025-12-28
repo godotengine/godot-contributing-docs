@@ -1,23 +1,43 @@
-Review and merge process
-========================
+.. _doc_pr_workflow:
 
-From a high level, the ideal life cycle of a pull request looks like the
+Pull request workflow
+=====================
+
+.. highlight:: shell
+
+The so-called "PR workflow" used by Godot is common to many projects using
+Git, and should be familiar to veteran free software contributors. The idea
+is that only a small number (if any) commit directly to the *master* branch.
+Instead, contributors *fork* the project (i.e. create a copy of it, which
+they can modify as they wish), and then use the GitHub interface to request
+a *pull* from one of their fork's branches to one branch of the original
+(often named *upstream*) repository.
+
+The resulting *pull request* (PR) can then be reviewed by other contributors,
+who might approve it, reject it, or most often request that modifications
+be done. Once approved, the PR can then be merged by one of the core
+developers, and its commit(s) will become part of the target branch (usually
+the *master* branch).
+
+From a high level, the ideal life cycle of a change to Godot looks like the
 following:
 
-  1. A contributor :ref:`opens a pull request <doc_pr_workflow>` that fixes a
-     specific problem (ideally closing a GitHub `issue <https://github.com/godotengine/godot>`_
-     or implementing a `proposal <https://github.com/godotengine/godot-proposals>`_).
+  1. A contributor reports an :ref:`issue <doc_reporting_issues>`
+     or proposes an :ref:`idea <doc_contributing_ideas>`.
 
-  2. The :ref:`bugsquad and triage team <doc_areas>` **categorize** the pull request,
+  2. A contributor :ref:`opens a pull request <doc_pr_workflow>` that addresses the issue
+     or implements the idea.
+
+  3. The :ref:`bugsquad and triage team <doc_areas>` **categorize** the pull request,
      adding appropriate tags and requesting reviews from :ref:`area maintainers <doc_areas>`.
 
-  3. Contributors discuss **whether the approach of the PR is appropriate** to fix the problem
+  4. Contributors discuss **whether the approach of the PR is appropriate** to fix the problem
      at hand, and leave feedback.
 
-  4. Contributors **review the code**, and iterate improvements with the pull request author.
+  5. Contributors **review the code**, and iterate improvements with the pull request author.
      When they are satisfied, they will approve the pull request.
 
-  5. A release manager merges the pull request when there are sufficient approvals. A pull request
+  6. A release manager merges the pull request when there are sufficient approvals. A pull request
      always needs approvals from the respective :ref:`area maintainers <doc_areas>`, but reviews
      from other contributors help.
 

@@ -24,8 +24,6 @@ for your topic of interest. You can also use the search function in the top-left
 
    organization/how_to_contribute
    organization/areas
-   organization/pull_requests/index
-   organization/general_rules_and_guidelines
    organization/resources
 
 .. toctree::
@@ -48,6 +46,19 @@ for your topic of interest. You can also use the search function in the top-left
    triage/guidelines
    triage/release_blockers
    triage/sprint_instructions
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Pull requests
+   :name: sec-pull-requests
+
+   pull_requests/pr_workflow
+   pull_requests/pull_request_guidelines
+   pull_requests/creating_pull_requests
+   pull_requests/review_guidelines
+   pull_requests/testing
+   pull_requests/merge_guidelines
 
 .. toctree::
    :hidden:
