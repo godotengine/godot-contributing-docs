@@ -419,4 +419,4 @@ original image in the ``images`` subfolder
 and place your translated image there. In our example, the end result should be
 ``images/getting_started/step_by_step/img/project_manager_first_open.fr.png``.
 
-Repeat this for other images and :ref:`make a Pull Request <doc_pr_workflow>`.
+Repeat this for other images and :ref:`make a Pull Request <doc_creating_pull_requests>`.

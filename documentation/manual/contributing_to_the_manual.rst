@@ -20,9 +20,9 @@ files in the `godot-docs GitHub repository
 request triggers a rebuild of the online documentation upon merging.
 
 .. seealso:: For details on Git usage and the pull request workflow, please
-             refer to the :ref:`doc_pr_workflow` page. Most of what it describes
-             regarding the main godotengine/godot repository is also valid for
-             the docs repository.
+             refer to the :ref:`Pull requests <doc_pr_workflow>` section.
+             Most of what it describes regarding the main godotengine/godot
+             repository is also valid for the docs repository.
 
 .. warning:: The class reference's source files are in the `Godot engine
              repository <https://github.com/godotengine/godot>`_. We generate

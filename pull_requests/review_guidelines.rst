@@ -1,7 +1,7 @@
 .. _doc_pr_review_guidelines:
 
-Review guidelines
-=================
+Reviewing pull requests
+=======================
 
 Code review and testing
 -----------------------

@@ -1,26 +1,12 @@
-.. _doc_pr_workflow:
+.. _doc_creating_pull_requests:
 
 Creating pull requests
 ======================
 
 .. highlight:: shell
 
-The so-called "PR workflow" used by Godot is common to many projects using
-Git, and should be familiar to veteran free software contributors. The idea
-is that only a small number (if any) commit directly to the *master* branch.
-Instead, contributors *fork* the project (i.e. create a copy of it, which
-they can modify as they wish), and then use the GitHub interface to request
-a *pull* from one of their fork's branches to one branch of the original
-(often named *upstream*) repository.
-
-The resulting *pull request* (PR) can then be reviewed by other contributors,
-which might approve it, reject it, or most often request that modifications
-be done. Once approved, the PR can then be merged by one of the core
-developers, and its commit(s) will become part of the target branch (usually
-the *master* branch).
-
-We will go together through an example to show the typical workflow and
-associated Git commands. But first, let's have a quick look at the
+We will go through an example together to show how to author a pull
+request using Git commands. But first, let's have a quick look at the
 organization of Godot's Git repository.
 
 Git source repository
