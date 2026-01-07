@@ -25,7 +25,7 @@ following:
   1. A contributor reports an :ref:`issue <doc_reporting_issues>`
      or proposes an :ref:`idea <doc_contributing_ideas>`.
 
-  2. A contributor :ref:`opens a pull request <doc_pr_workflow>` that addresses the issue
+  2. A contributor :ref:`opens a pull request <doc_creating_pull_requests>` that addresses the issue
      or implements the idea.
 
   3. The :ref:`bugsquad and triage team <doc_areas>` **categorize** the pull request,
