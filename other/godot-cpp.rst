@@ -1,3 +1,5 @@
+.. _doc_godot_cpp:
+
 Contributing to godot-cpp
 =========================
 
