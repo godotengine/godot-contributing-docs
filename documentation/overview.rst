@@ -1,3 +1,5 @@
+.. _doc_documentation_overview:
+
 Documentation overview
 ======================
 

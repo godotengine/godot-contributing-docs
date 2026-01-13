@@ -1,3 +1,5 @@
+.. _doc_contributing_to_the_website:
+
 Contributing to the website
 ===========================
 
