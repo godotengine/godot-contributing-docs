@@ -94,7 +94,7 @@ Control-based node in question. If the tooltip is particularly long (more than
 ~80 characters), wrap it over several lines by adding line breaks using ``\n``.
 
 Tooltips should follow the writing style described above. In addition to this,
-use indicative mood instead of imperative mood:
+use imperative mood instead of indicative mood:
 
-- **Good:** *Computes global illumination for the selected GIProbe.*
-- **Bad:** *Compute global illumination for the selected GIProbe.*
+- **Good:** *Compute global illumination for the selected VoxelGI node.*
+- **Bad:** *Computes global illumination for the selected VoxelGI node.*
