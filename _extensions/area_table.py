@@ -6,7 +6,7 @@ from docutils import nodes
 from docutils.parsers.rst import Directive
 import re
 
-area_table_rows = ("Communication", "GitHub reviews", "GitHub labels", "Triage project", "Maintainers")
+area_table_rows = ("Communication", "GitHub reviews", "GitHub labels", "Triage project", "Members")
 
 channel_re = re.compile(r'#([\w-]+)')
 godot_team_re = re.compile(r'@godotengine/([\w-]+)')
