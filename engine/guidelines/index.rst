@@ -14,6 +14,7 @@ This section explains guidelines for contributing to the engine.
    cpp_usage_guidelines
    code_style
    editor_style_guide
+   gdscript_language_guidelines
 
 .. _doc_handling_compatibility_breakages:
 
