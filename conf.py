@@ -22,6 +22,7 @@ extensions = [
     "sphinx_copybutton",
     "sphinxcontrib.video",
     "area_table",
+    "gdscript",
 ]
 
 intersphinx_mapping = {
@@ -31,6 +32,12 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+
+smartquotes = False
+
+# Pygments (syntax highlighting) style to use
+pygments_style = "sphinx"
+highlight_language = "gdscript"
 
 # -- Options for HTML output
 
@@ -45,7 +52,6 @@ html_theme_options = {
     # Remove version and language picker beneath the title
     "version_selector": False,
     "language_selector": False,
-    'display_version': False,
 }
 
 html_context = {
