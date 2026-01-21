@@ -29,23 +29,12 @@ for your topic of interest. You can also use the search function in the top-left
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Testing and reporting issues
-   :name: sec-reporting-issues
+   :caption: Providing feedback
+   :name: sec-providing-feedback
 
-   reporting_issues/first_steps
-   reporting_issues/bisecting
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-   :caption: Issue Triage
-   :name: sec-triage
-
-   triage/about
-   triage/workflow
-   triage/guidelines
-   triage/release_blockers
-   triage/sprint_instructions
+   feedback/reporting_issues
+   feedback/ideas
+   feedback/bisecting
 
 .. toctree::
    :hidden:
@@ -88,7 +77,8 @@ for your topic of interest. You can also use the search function in the top-left
    :caption: Other
    :name: sec-other
 
-   other/ideas
+   other/triage/index
+   other/triage_sprints
    other/translations
    other/website
    other/demos
