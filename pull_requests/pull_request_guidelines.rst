@@ -35,6 +35,24 @@ This also applies for libraries that are only linked in the editor.
 game engines like Unreal or Unity, nor use their code as inspiration. We strongly recommend against reading any
 "source-available" code before contributing to Godot.
 
+Contribute one change at a time
+-------------------------------
+
+Each pull request should contain a single self-contained change. Avoid pushing multiple unrelated changes
+in the same pull request.
+
+As a rule of thumb, if your pull request could be split into two pull requests without
+breaking anything, it should probably be two separate pull requests.
+
+The exception to this rule is "batching changes", where you make the same kind of change to multiple places in
+the codebase. In this case, it is preferable to make one larger pull request instead of many small ones.
+
+.. note:: Imagine yourself in the shoes of the reviewer: how can you make the PR easy to review and approve?
+          This is best achieved if your pull request is simple, coherent, and uncontroversial.
+
+          Limiting pull requests to one change at a time also simplifies the Git history, makes it possible to
+          revert or cherry-pick specific changes, and reduces the potential of accidentally introducing bugs.
+
 Explain your contributions
 --------------------------
 
