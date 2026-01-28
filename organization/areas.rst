@@ -124,6 +124,8 @@ Demos
    :github_reviews: @godotengine/demos
    :maintainers: <lead>Aaron Franke (@aaronfranke)</lead>, Ilaria Cislaghi (@QbieShay), K. S. Ernest Lee (@fire), Rémi Verschelde (@akien-mga)
 
+.. _team_documentation:
+
 Documentation
 -------------
 
@@ -286,6 +288,8 @@ for their area.
    :github_reviews: @godotengine/tests
    :github_labels: <gh-label>topic:tests</gh-label>
    :maintainers: Hugo Locurcio (@Calinou), Gordon MacPherson (@RevoluPowered), Hendrik Brucker (@Geometror), Rémi Verschelde (@akien-mga)
+
+.. _team_triage:
 
 Bugsquad / Issue triage
 ~~~~~~~~~~~~~~~~~~~~~~~
