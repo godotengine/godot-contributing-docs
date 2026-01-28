@@ -1,9 +1,11 @@
 """
 A directive for organization/areas.rst to render the area tables.
 """
+import dataclasses
 
 from docutils import nodes
 from docutils.parsers.rst import Directive
+from sphinx.roles import XRefRole
 import re
 
 area_table_rows = ("Communication", "GitHub reviews", "GitHub labels", "Triage project", "Maintainers")
@@ -88,5 +90,38 @@ class TableDirective(Directive):
         return [table]
 
 
+class TeamRole(XRefRole):
+    def __init__(self):
+        self.is_patched: bool = False
+        self.title: str = ""
+        self.role: str = ""
+
+        super().__init__()
+
+    def run(self) -> tuple[list[nodes.Node], list[nodes.system_message]]:
+        # Hacky, but apparently easiest way to get normal link behavior.
+        if not self.is_patched:
+            role = self.target.lower().replace(" ", "_")
+
+            if self.has_explicit_title:
+                self.title = f"◆ {self.title}"
+            else:
+                title = f"◆ {self.title} team"
+
+            self.target = f"team_{role}"
+            self.has_explicit_title = True
+
+            self.is_patched = True
+
+        self.refdomain, self.reftype = "std", "ref"
+        self.classes = ['xref', self.reftype]
+
+        if self.disabled:
+            return self.create_non_xref_node()
+        else:
+            return self.create_xref_node()
+
+
 def setup(app):
     app.add_directive('gdareatable', TableDirective)
+    app.add_role('team', TeamRole())

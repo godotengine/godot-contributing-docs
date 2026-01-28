@@ -21,7 +21,7 @@ extensions = [
     "sphinxext.opengraph",
     "sphinx_copybutton",
     "sphinxcontrib.video",
-    "area_table",
+    "godot_areas",
     "gdscript",
 ]
 

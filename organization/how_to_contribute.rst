@@ -87,7 +87,7 @@ Participate in Godot's development
   `Weblate <https://hosted.weblate.org/projects/godot-engine/godot/>`__.
 
 - **Bugsquad & triage**
-  With so many bug reports and pull requests being opened each day, the triage team — also called bugsquad — is
+  With so many bug reports and pull requests being opened each day, the :team:`Triage` — also called bugsquad — is
   invaluable to keep things organized.
   If you'd like to get involved, please visit :ref:`doc_bug_triage_intro`!
 
