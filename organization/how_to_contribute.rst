@@ -48,7 +48,7 @@ Provide feedback
   To get started, please visit our section on :ref:`sharing ideas and proposing changes <doc_contributing_ideas>`.
 
 - **Test development versions**
-  While it is recommended to use the stable releases for your projects, you can :ref:`help us test <doc_reporting_issues>`
+  While it is recommended to use the stable releases for your projects, you can :ref:`help us test <doc_testing_development_versions>`
   dev releases, betas, and release candidates by opening a copy of your project in them and checking what problems this
   might introduce or maybe even solves. Make sure to have a backup ready, to avoid potential irreversible changes.
 

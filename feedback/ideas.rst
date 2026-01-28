@@ -1,7 +1,7 @@
 .. _doc_contributing_ideas:
 
-Contributing ideas and change proposals
-=======================================
+Proposing and discussing ideas
+==============================
 
 We are always looking for suggestions about how to improve the engine. User feedback
 is the main driving force behind our decision-making process, and limitations that
