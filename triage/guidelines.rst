@@ -3,11 +3,11 @@
 Bug triage guidelines
 =====================
 
-This page describes the typical workflow of the bug triage team aka
+This page describes the typical workflow of the :team:`Triage` aka
 bugsquad when handling issues and pull requests on Godot's
 `GitHub repository <https://github.com/godotengine/godot>`__.
 It is bound to evolve together with the bugsquad, so do not
-hesitate to propose modifications to the following guidelines.
+hesitate to propose modifications to the following guidelines
 
 Issues management
 -----------------

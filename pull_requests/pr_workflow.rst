@@ -28,7 +28,7 @@ following:
   2. A contributor :ref:`opens a pull request <doc_creating_pull_requests>` that addresses the issue
      or implements the idea.
 
-  3. The :ref:`bugsquad and triage team <doc_areas>` **categorize** the pull request,
+  3. The :team:`Bugsquad and triage team <triage>` **categorize** the pull request,
      adding appropriate tags and requesting reviews from :ref:`area maintainers <doc_areas>`.
 
   4. Contributors discuss **whether the approach of the PR is appropriate** to fix the problem
@@ -52,7 +52,7 @@ this before they became maintainers.
 When will a pull request get reviewed?
 --------------------------------------
 
-When you open a new pull request, :ref:`Area maintainers <doc_areas>` are notified immediately.
+When you open a new pull request, :ref:`area maintainers <doc_areas>` are notified immediately.
 
 However, a lot of pull requests are opened every day, so reviews can take a while to come in. Going by historical data,
 you can expect the following review timelines:
