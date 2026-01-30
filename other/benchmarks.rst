@@ -18,6 +18,9 @@ It's recommended to open one pull request per set of benchmarks. If you create
 multiple benchmarks in unrelated categories, please open separate pull requests
 for each.
 
+If you are serious about helping out, or have anything else to discuss, come join us in the
+`#benchmarks <https://chat.godotengine.org/channel/benchmarks>`__ channel!
+
 Adding new benchmarks
 ---------------------
 

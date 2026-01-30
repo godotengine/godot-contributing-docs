@@ -2,7 +2,7 @@
 
 .. note::
 
-    The bugsquad regularly hosts sprints where anyone can participate, this page contains instructions
+    The :team:`bugsquad <triage>` regularly hosts sprints where anyone can participate, this page contains instructions
     for participating in these, sprints are organized in the
     `#bugsquad-sprints <https://chat.godotengine.org/channel/bugsquad-sprints>`__ channel, subscribe
     to get updates when new sprints are announced.
