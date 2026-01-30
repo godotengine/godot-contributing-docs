@@ -11,3 +11,4 @@ This section explains the workflow and guidelines of the :team:`Triage`.
    workflow
    guidelines
    release_blockers
+   team_workflow
