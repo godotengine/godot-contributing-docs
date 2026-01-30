@@ -91,27 +91,17 @@ class TableDirective(Directive):
 
 
 class TeamRole(XRefRole):
-    def __init__(self):
-        self.is_patched: bool = False
-        self.title: str = ""
-        self.role: str = ""
-
-        super().__init__()
-
     def run(self) -> tuple[list[nodes.Node], list[nodes.system_message]]:
         # Hacky, but apparently easiest way to get normal link behavior.
-        if not self.is_patched:
-            role = self.target.lower().replace(" ", "_")
+        role = self.target.lower().replace(" ", "_")
 
-            if self.has_explicit_title:
-                self.title = f"◆ {self.title}"
-            else:
-                title = f"◆ {self.title} team"
+        if self.has_explicit_title:
+            self.title = f"◆ {self.title}"
+        else:
+            self.title = f"◆ {self.title} team"
 
-            self.target = f"team_{role}"
-            self.has_explicit_title = True
-
-            self.is_patched = True
+        self.target = f"team_{role}"
+        self.has_explicit_title = True
 
         self.refdomain, self.reftype = "std", "ref"
         self.classes = ['xref', self.reftype]
