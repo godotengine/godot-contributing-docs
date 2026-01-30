@@ -31,7 +31,7 @@ should ensure that we cover everything Godot does.
 
 .. note::
 
-    When adding or updating an engine feature, the documentation team needs to
+    When adding or updating an engine feature, the :team:`Documentation` needs to
     know about it. Contributors should open an issue on the `godot-docs` repository
     when their work gets merged and requires documentation.
 
@@ -72,7 +72,7 @@ could be considered part of the official API. This means that documenting uninte
 rely on things that might need to be changed in the future, limiting what we can change without breaking compatibility.
 
 To avoid accidentally documenting unintended behavior, :ref:`area maintainers <doc_areas>` should always review
-changes to the documentation of their respective area. The documentation team should help organizing this and with
+changes to the documentation of their respective area. The :team:`Documentation` should help organizing this and with
 writing when needed.
 
 These rules are not absolute, but are usually correct. If you are unsure what to document, don't hesitate to ask the

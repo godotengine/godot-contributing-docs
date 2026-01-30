@@ -1,7 +1,7 @@
 Bugsquad and triage
 ===================
 
-This section explains the workflow and guidelines of the :ref:`triage team <doc_areas>`.
+This section explains the workflow and guidelines of the :team:`Triage`.
 
 .. toctree::
    :maxdepth: 1
