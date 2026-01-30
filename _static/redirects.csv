@@ -7,3 +7,11 @@ source,destination
 /organization/pull_requests/review_guidelines.html,/pull_requests/review_guidelines.html
 /organization/pull_requests/testing.html,/pull_requests/testing.html
 /organization/pull_requests/merge_guidelines.html,/pull_requests/merge_guidelines.html
+/reporting_issues/first_steps.html,/feedback/reporting_issues.html
+/reporting_issues/bisecting.html,/feedback/bisecting.html
+/other/ideas.html,/feedback/ideas.html
+/triage/about.html,/other/triage/about.html
+/triage/guidelines.html,/other/triage/guidelines.html
+/triage/release_blockers.html,/other/triage/release_blockers.html
+/triage/workflow.html,/other/triage/workflow.html
+/triage/sprint_instructions.html,/other/triage_sprints.html
