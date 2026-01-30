@@ -4,6 +4,9 @@ Contributing demo projects
 Thanks for your interest in contributing to the
 `Godot demo projects <https://github.com/godotengine/godot-demo-projects>`__!
 
+Demo projects are managed and reviewed by the :team:`Demos`. We greatly appreciate anyone who wants to help out
+or submit new demos!
+
 Demo submission criteria
 ------------------------
 
