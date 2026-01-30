@@ -9,7 +9,7 @@ Contributing to godot-cpp
     `C++ (godot-cpp) on the Godot docs <https://docs.godotengine.org/en/latest/tutorials/scripting/cpp/index.html>`__
 
 Thank you for your interest in contributing to `godot-cpp <https://github.com/godotengine/godot-cpp>`__,
-the official C++ GDExtension bindings maintained as part of the Godot project!
+the official C++ GDExtension bindings maintained by the :team:`GDExtension`.
 We greatly appreciate help in maintaining and extending this project.
 
 If you wish to help out, ensure you have an account on GitHub and create a "fork" of the
