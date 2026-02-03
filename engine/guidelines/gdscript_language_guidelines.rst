@@ -1,6 +1,37 @@
 GDScript language design guidelines
 ===================================
 
+The :team:`GDScript` aims to avoid over-designing GDScript. Features are added when they
+are needed, and not just because they can be added or are interesting to develop.
+For more information, please refer to :ref:`doc_best_practices_for_engine_contributors`.
+
+Typing guidelines
+-----------------
+
+GDScript is gradually typed. Type hints are optional and help with static analysis and performance.
+However, typed code must easily interoperate with untyped code.
+
+In addition, we expect new typing features to be guaranteed by Godot core. While other
+languages can rely on static typing alone to ensure type correctness, Godot exposes
+lots of ways to interact with the data such that this assumption might fail.
+Therefore, new typing features need to be guaranteed by core in order to be useful to
+GDScript.
+For example, `Array[int]` might be handled by Godot core as `Array` (without typing). That means
+that `Array[int]` must validate newly added elements to be `int`, to avoid non-int elements being
+added in other contexts.
+
+Performance goals
+-----------------
+
+GDScript should be fast enough to be usable for normal gameplay logic.
+
+However, it is more important for GDScript to be easy to use than it is for it to be fast.
+For performance-critical operations, `GDExtension <https://docs.godotengine.org/en/stable/tutorials/scripting/gdextension/what_is_gdextension.html>`__
+is a better suited tool.
+
+Performance optimizations to GDScript are welcome as long as they don't jeopardize
+the above goal and are appropriately easy to maintain.
+
 Annotation guidelines
 ---------------------
 
