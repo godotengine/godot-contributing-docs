@@ -116,6 +116,8 @@ Input
    :github_labels: <gh-label>topic:input</gh-label>
    :maintainers: Rémi Verschelde (@akien-mga), Gilles Roudière (@groud)
 
+.. _team_demos:
+
 Demos
 -----
 
@@ -336,6 +338,8 @@ Scripting
 Umbrella team for all the scripting languages usable with Godot.
 Encompasses some shared core components (Object, ClassDB, MethodBind, ScriptLanguage, etc.) and language specific implementations in dedicated subteams.
 
+.. _team_gdextension:
+
 GDExtension
 ~~~~~~~~~~~
 
@@ -393,6 +397,8 @@ If you work on Godot translations and contributors for your language have a dedi
 .. gdareatable::
    :communication: #translation, #translation-de, #translation-es, #translation-fs, #translation-it
    :github_labels: <gh-label>topic:i18n</gh-label>
+
+.. _team_website:
 
 Website
 -------

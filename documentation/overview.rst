@@ -27,3 +27,6 @@ There are two separate resources referred to as "documentation" in Godot:
   (rst) format, to which you can contribute via pull requests on the
   `godot-docs <https://github.com/godotengine/godot-docs>`_ GitHub repository.
   See :ref:`doc_contributing_to_the_documentation` for more details.
+
+The documentation is managed by the :team:`Documentation`. If you are serious about helping out,
+come join us in the `#documentation <https://chat.godotengine.org/channel/documentation>`__ channel!
