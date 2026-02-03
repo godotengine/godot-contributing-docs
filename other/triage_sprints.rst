@@ -18,6 +18,10 @@ even if you are unsure if you can finish all the issues in time, to avoid duplic
 and are interested in doing more and feel you have the time to complete one more, you can claim a second batch if there
 are any open batches. But please claim only **one** batch at a time.
 
+Please make sure to use a recent version of the engine when testing bugs, at least the most recent stable release.
+Using outdated versions of the engine risks missing that bugs have already been fixed. You can also use recent development
+versions from pre-releases.
+
 Please ask any questions or updates about issues relating to a batch in the thread of that batch.
 
 Sprint steps
