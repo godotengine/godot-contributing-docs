@@ -63,6 +63,17 @@ you can expect the following review timelines:
 
 As you can imagine, simple pull requests will usually be reviewed more quickly than large and complicated pull requests.
 
-If you think your pull request has been overlooked, feel free to ask about it in the `Contributors' chat <https://chat.godotengine.org>`__.
+How quickly a PR gets reviewed or merged also depends on where in the release cycle we are currently in:
+
+- During the development (dev) phase, both bug fixes and new features or enhancements are merged.
+- During the beta phase we enter "feature freeze", stop merging (most) new features, and focus on bug fixes only.
+- And during the release candidate (RC) phase we only consider critical fixes.
+
+What kind of changes (new features *and* bug fixes) are accepted also depends on when in each phase we are in. Some big or risky
+features will only be merged during the early part of the dev phase, to give us as much time as possible to find potential regressions
+or issues before release.
+
+If you think your pull request has been overlooked, or you have any questions about the review process,
+feel free to ask about it in the `Contributors' chat <https://chat.godotengine.org>`__.
 You can ask in `#new-contributors <https://chat.godotengine.org/channel/new-contributors>`__, `#devel <https://chat.godotengine.org/channel/devel>`__,
 or the channel of the :ref:`area <doc_areas>` you're expecting reviews from.
