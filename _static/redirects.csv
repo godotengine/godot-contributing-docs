@@ -12,6 +12,7 @@ source,destination
 /other/ideas.html,/feedback/ideas.html
 /triage/about.html,/other/triage/about.html
 /triage/guidelines.html,/other/triage/guidelines.html
-/triage/release_blockers.html,/other/triage/release_blockers.html
+/triage/release_blockers.html,/other/triage/release_priorities.html
 /triage/workflow.html,/other/triage/workflow.html
 /triage/sprint_instructions.html,/other/triage_sprints.html
+/other/triage/release_blockers.html,/other/triage/release_priorities.html
