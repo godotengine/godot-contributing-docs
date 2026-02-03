@@ -81,6 +81,10 @@ Participate in Godot's development
   The documentation is one of the most essential parts of any tech project, yet the need to document new features and substantial changes often gets overlooked.
   :ref:`Contribute documentation <doc_documentation_overview>` to improve the Godot Engine with your technical writing skills.
 
+- **Review teams' triage projects**
+  Godot's development is organized by :ref:`teams <doc_areas>`, and some of them maintain a public :ref:`triage project <doc_triage_projects>`.
+  You can make effective contributions by taking on tasks or discussing the issues and proposals in them.
+
 - **Translations (spoken languages other than English)**
   Are you interested in making the Godot Engine more accessible to non-English speakers?
   Contribute to our :ref:`community translations <doc_editor_and_docs_localization>` on

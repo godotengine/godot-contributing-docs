@@ -77,6 +77,7 @@ for your topic of interest. You can also use the search function in the top-left
    :caption: Other
    :name: sec-other
 
+   other/triage_projects
    other/triage/index
    other/triage_sprints
    other/translations

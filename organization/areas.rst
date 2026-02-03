@@ -16,7 +16,8 @@ For each team or area there is a list of links and resources associated with the
 * **GitHub labels**: lists any labels relevant to the team, and links to issues and PRs tagged with those tags.
   For more information about the different GitHub labels, please see the :ref:`doc_bug_triage_guidelines`.
   Note that some GitHub labels aren’t neatly covered by trackers.
-* **Triage project**: links to the team triage project for the team.
+* **Triage project**: links to the :ref:`team triage project <doc_triage_projects>` for the team. You are welcome to
+  help the team out by implementing or reviewing something from this list.
 * **Maintainers**: lists the members of each team. The area maintainers take ownership of the area, and will steer its
   development by creating and reviewing pull requests and improvement proposals. Maintainers are listed alphabetically.
   Maintainers written as ⭐ **Member** (with a star and in bold) are team leads.
