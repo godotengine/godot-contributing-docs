@@ -10,10 +10,12 @@ determining if an issue is a release priority or not.
 Release priorities are tracked in a public project, `4.x Release Priorities <https://github.com/orgs/godotengine/projects/61>`__.
 
 See below for an explanation of how to
-`identify release priorities <#identifying-release-priority-issues>`__,
-and how to assign a `severity <#severity>`__ to them. When in doubt, mark issues as
+:ref:`identify release priorities <doc_identifying_release_priorities>`,
+and how to assign a :ref:`severity <doc_release_priority_severity>` to them. When in doubt, mark issues as
 release priorities. We can always remove issues from the list, but it is critical
 that we know about potentially important issues before releasing a version.
+
+.. _doc_identifying_release_priorities:
 
 Identifying release priority issues
 -----------------------------------
@@ -89,13 +91,15 @@ including remote code execution. They may also include engine issues that cause 
 like the editor deleting files outside the project directory.
 
 If something seems like a serious security issue, please contact Godot's security team directly as soon as possible
-([security@godotengine.org](mailto:security@godotengine.org)). The team will take the appropriate steps to address the issue.
+`security@godotengine.org <mailto:security@godotengine.org>`__. The team will take the appropriate steps to address the issue.
 
 Is it a new platform requirement?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Any new platform requirement that will affect users is a release priority. This includes things like Google Play changing
 the required target API for Android, or operating system updates or changes that affect users or exported projects on those platforms.
+
+.. _doc_release_priority_severity:
 
 Severity
 --------
