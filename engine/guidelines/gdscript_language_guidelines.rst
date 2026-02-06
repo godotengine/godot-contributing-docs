@@ -1,6 +1,25 @@
 GDScript language design guidelines
 ===================================
 
+The :team:`GDScript` aims to avoid over-designing GDScript. Features are added when they
+are needed, and not just because they can be added or are interesting to develop.
+For more information, please refer to :ref:`doc_best_practices_for_engine_contributors`.
+
+Typing guidelines
+-----------------
+
+GDScript is gradually typed. Type hints are optional and help with static analysis and performance.
+However, typed code must easily interoperate with untyped code.
+
+In addition, we expect new typing features to be guaranteed by Godot core. While other
+languages can rely on static typing alone to ensure type correctness, Godot exposes
+lots of ways to interact with the data such that this assumption might fail.
+Therefore, new typing features need to be guaranteed by core in order to be useful to
+GDScript.
+For example, `Array[int]` might be handled by Godot core as `Array` (without typing). That means
+that `Array[int]` must validate newly added elements to be `int`, to avoid non-int elements being
+added in other contexts.
+
 Annotation guidelines
 ---------------------
 
