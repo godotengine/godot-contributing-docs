@@ -1,3 +1,5 @@
+.. _doc_pull_request_guidelines:
+
 Pull request guidelines
 =======================
 
