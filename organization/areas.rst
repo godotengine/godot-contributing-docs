@@ -132,7 +132,8 @@ Demos
 Documentation
 -------------
 
-Documentation for the engine and its systems.
+Documentation for the engine and its systems. You can find documentation for this team in the :ref:`documentation section <doc_documentation_overview>`.
+
 Note that, while there is a dedicated documentation team, all other teams are expected to contribute to the documentation
 for their area.
 
@@ -263,7 +264,7 @@ Apple
    :triage_project: <gh-triage project=84>Platforms issue triage</gh-triage>
 
 Buildsystem
------------
+~~~~~~~~~~~
 
 Tools and scripts that we use to compile and maintain Godot, both for development purpose (SCons, CI) and releases (official build containers).
 
@@ -329,6 +330,8 @@ for their area.
 
 Bugsquad / Issue triage
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+You can find documentation for this team in the :ref:`triage section <doc_triage>`.
 
 .. gdareatable::
    :communication: #bugsquad, #bugsquad-sprints
@@ -414,6 +417,7 @@ Server Infrastructure
 Managing the backend for the website and servers, e.g. `godotengine.org <https://godotengine.org>`__, `asset library <https://godotengine.org/asset-library>`__, and upcoming `asset store <https://store-beta.godotengine.org>`_.
 
 .. gdareatable::
+   :communication: #website, #asset-store
    :github_reviews: @godotengine/server-infrastructure
    :maintainers: HP van Braam (@hpvb), Winston (@winston-yallow)
 
