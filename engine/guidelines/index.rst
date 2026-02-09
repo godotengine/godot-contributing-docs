@@ -49,8 +49,7 @@ default parameters in the binding itself, so even seemingly backward-compatible
 signature changes break existing binaries.
 
 The CI validation system checks for these breakages automatically. If a function
-has changed and no compatibility method exists, validation fails with a
-"Hash changed" error and a nonzero exit code.
+has changed and no compatibility method exists, the pull request cannot be merged.
 
 .. note::
 
