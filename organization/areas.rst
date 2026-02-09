@@ -168,8 +168,6 @@ Debugger
 Script Editor
 ~~~~~~~~~~~~~
 
-Everything that inherits Control (everything under ``scene/gui``) and can be used to build Graphical User Interfaces (both game UI and editor tools).
-
 .. gdareatable::
    :communication: #gui
    :github_reviews: @godotengine/script-editor
@@ -180,7 +178,7 @@ Everything that inherits Control (everything under ``scene/gui``) and can be use
 Usability
 ~~~~~~~~~
 
-Everything that inherits Control (everything under ``scene/gui``) and can be used to build Graphical User Interfaces (both game UI and editor tools).
+User interface design and user experience.
 
 .. gdareatable::
    :communication: #editor-design
