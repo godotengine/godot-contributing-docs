@@ -108,15 +108,6 @@ Low-level Core API: Object, Variant, templates, base nodes like Node, Viewport, 
    :triage_project: <gh-triage project=95>Core issue triage</gh-triage>
    :maintainers: HP van Braam (@hpvb), <lead>Juan Linietsky (@reduz)</lead>, @lawnjelly, Lukas Tenbrink (@Ivorius/@Ivorforce), Rémi Verschelde (@akien-mga)
 
-Input
-~~~~~
-
-.. gdareatable::
-   :communication: #input
-   :github_reviews: @godotengine/input
-   :github_labels: <gh-label>topic:input</gh-label>
-   :maintainers: Alexander Hartmann (@Alex2782), Rémi Verschelde (@akien-mga), Gilles Roudière (@groud)
-
 .. _team_demos:
 
 Demos
@@ -197,6 +188,15 @@ Everything that inherits Control (everything under ``scene/gui``) and can be use
    :github_labels: <gh-label>topic:gui</gh-label>
    :triage_project: <gh-triage project=100>GUI issue triage</gh-triage>
    :maintainers: Gilles Roudière (@groud), Hendrik Brucker (@Geometror), Kit Bishop (@kitbdev), Michael Alexsander (@YeldhamDev), Paul Batty (@Paulb23), Pāvels Nadtočajevs (@bruvzg), Rémi Verschelde (@akien-mga), Tomasz Chabora (@KoBeWi)
+
+Input
+-----
+
+.. gdareatable::
+   :communication: #input
+   :github_reviews: @godotengine/input
+   :github_labels: <gh-label>topic:input</gh-label>
+   :maintainers: Alexander Hartmann (@Alex2782), Rémi Verschelde (@akien-mga), Gilles Roudière (@groud)
 
 Navigation
 ----------
