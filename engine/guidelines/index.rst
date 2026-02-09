@@ -42,22 +42,14 @@ When contributing changes to the engine, two types of compatibility matter:
   GDExtension source) compiles and runs without modification after upgrading
   Godot.
 
-If your change modifies a method signature in any way (even adding an optional
-parameter with a default value), you must implement a **GDExtension compatibility
-method**. Most language bindings use raw method pointers and handle
-default parameters in the binding itself, so even seemingly backward-compatible
-signature changes break existing binaries.
-
-The CI validation system checks for these breakages automatically. If a function
-has changed and no compatibility method exists, validation fails with a
-"Hash changed" error and a nonzero exit code.
+If your change adds a parameter to a method, changes a return type, changes the
+type of a parameter, or alters a default value, you need to implement a
+`GDExtension compatibility method <https://docs.godotengine.org/en/stable/engine_details/development/handling_compatibility_breakages.html>`_.
+The CI validation system checks for this automatically, and the pull request
+cannot be merged until it passes.
 
 .. note::
 
    Reviewers and area maintainers examine PRs with the ``breaks compat`` label
    more closely, checking whether the breakage is justified and whether the
    compatibility methods are correctly implemented.
-
-For the full technical details on implementing compatibility methods, handling
-removed or renamed methods, and the GDExtension compatibility promise, see the
-`current documentation for compatibility breakages <https://docs.godotengine.org/en/stable/engine_details/development/handling_compatibility_breakages.html>`_.
