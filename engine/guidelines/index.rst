@@ -21,6 +21,43 @@ This section explains guidelines for contributing to the engine.
 Handling compatibility breakages
 --------------------------------
 
-.. TODO: Elaborate on types of compatibility and procedure.
+Godot follows a **major.minor.patch** versioning scheme, and each level carries
+different expectations around compatibility:
 
-See also the `current documentation for compatibility breakages <https://docs.godotengine.org/en/stable/engine_details/development/handling_compatibility_breakages.html>`_.
+- **Patch releases** (e.g. 4.3.1 to 4.3.2) must not break compatibility at all.
+  Existing projects, scripts, and GDExtensions should continue to work without
+  any changes.
+- **Minor releases** (e.g. 4.3 to 4.4) aim to preserve compatibility, but small,
+  targeted breakages may occur in specific areas when necessary to fix
+  high-priority issues. The vast majority of projects should not be affected.
+- **Major releases** (e.g. 4.x to 5.0) may introduce significant compatibility
+  breakages that require porting work.
+
+When contributing changes to the engine, two types of compatibility matter:
+
+- **Binary compatibility**: Existing compiled binaries (including GDExtensions)
+  load and execute correctly without recompilation, and their runtime behavior
+  does not change.
+- **Source compatibility**: Existing source code (scripts, scenes, and
+  GDExtension source) compiles and runs without modification after upgrading
+  Godot.
+
+If your change modifies a method signature in any way (even adding an optional
+parameter with a default value), you must implement a **GDExtension compatibility
+method**. Most language bindings use raw method pointers and handle
+default parameters in the binding itself, so even seemingly backward-compatible
+signature changes break existing binaries.
+
+The CI validation system checks for these breakages automatically. If a function
+has changed and no compatibility method exists, validation fails with a
+"Hash changed" error and a nonzero exit code.
+
+.. note::
+
+   Reviewers and area maintainers examine PRs with the ``breaks compat`` label
+   more closely, checking whether the breakage is justified and whether the
+   compatibility methods are correctly implemented.
+
+For the full technical details on implementing compatibility methods, handling
+removed or renamed methods, and the GDExtension compatibility promise, see the
+`current documentation for compatibility breakages <https://docs.godotengine.org/en/stable/engine_details/development/handling_compatibility_breakages.html>`_.
