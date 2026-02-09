@@ -58,7 +58,7 @@ You can find information about the teams' `current priorities <https://godotengi
    :communication: #devel
    :github_reviews: @godotengine/3d-nodes
    :github_labels: <gh-label>topic:3d</gh-label>
-   :maintainers: Hugo Locurcio (@Calinou), Joan Fons Sanchez (@JFonS)
+   :maintainers: Hugo Locurcio (@Calinou)
 
 Animation
 ---------
@@ -70,7 +70,19 @@ Nodes and features for 2D and 3D animation and IK workflows.
    :github_reviews: @godotengine/animation
    :github_labels: <gh-label>topic:animation</gh-label>
    :triage_project: <gh-triage project=74>Animation issue triage</gh-triage>
-   :maintainers: <lead>Juan Linietsky (@reduz)</lead>, K. S. Ernest Lee (@fire), @Lyuma, @SaracenOne, Silc 'Tokage' Renew (@TokageItLab)
+   :maintainers: Juan Linietsky (@reduz), K. S. Ernest Lee (@fire), @Lyuma, @SaracenOne, <lead>Silc 'Tokage' Renew (@TokageItLab)</lead>
+
+Asset pipeline
+--------------
+
+Asset import pipeline for 2D (textures) and 3D (scenes, models, animations, etc.).
+
+.. gdareatable::
+   :communication: #asset-pipeline
+   :github_reviews: @godotengine/asset-pipeline
+   :github_labels: <gh-label>topic:import</gh-label>
+   :triage_project: <gh-triage project=72>Asset pipeline issue triage</gh-triage>
+   :maintainers: Aaron Franke (@aaronfranke), @BlueCube3310, Hugo Locurcio (@Calinou), K. S. Ernest Lee (@fire), @Lyuma, Rémi Verschelde (@akien-mga)
 
 Audio
 -----
@@ -82,19 +94,7 @@ All audio-related features, from low-level AudioServer and drivers to high-level
    :github_reviews: @godotengine/audio
    :github_labels: <gh-label>topic:audio</gh-label>
    :triage_project: <gh-triage project=101>Audio issue triage</gh-triage>
-   :maintainers: Adam Scott (@adamscott), Ellen Poe (@ellenhp), Juan Linietsky (@reduz)
-
-Buildsystem
------------
-
-Tools and scripts that we use to compile and maintain Godot, both for development purpose (SCons, CI) and releases (official build containers).
-
-.. gdareatable::
-   :communication: #buildsystem
-   :github_reviews: @godotengine/buildsystem
-   :github_labels: <gh-label>topic:buildsystem</gh-label>
-   :triage_project: <gh-triage project=53>Buildsystem issue triage</gh-triage>
-   :maintainers: Fabio Alessandrelli (@Faless), HP van Braam (@hpvb), Hugo Locurcio (@Calinou), <lead>Rémi Verschelde (@akien-mga)</lead>, Thaddeus Crews (@Repiteo)
+   :maintainers: Adam Scott (@adamscott), Lukas Tenbrink (@Ivorius/@Ivorforce), Juan Linietsky (@reduz)
 
 Core
 ----
@@ -106,7 +106,7 @@ Low-level Core API: Object, Variant, templates, base nodes like Node, Viewport, 
    :github_reviews: @godotengine/core
    :github_labels: <gh-label>topic:core</gh-label>
    :triage_project: <gh-triage project=95>Core issue triage</gh-triage>
-   :maintainers: George Marques (@vnen), HP van Braam (@hpvb), <lead>Juan Linietsky (@reduz)</lead>, @lawnjelly, Lukas Tenbrink (@Ivorius/@Ivorforce), Rémi Verschelde (@akien-mga)
+   :maintainers: HP van Braam (@hpvb), <lead>Juan Linietsky (@reduz)</lead>, @lawnjelly, Lukas Tenbrink (@Ivorius/@Ivorforce), Rémi Verschelde (@akien-mga)
 
 Input
 ~~~~~
@@ -115,7 +115,7 @@ Input
    :communication: #input
    :github_reviews: @godotengine/input
    :github_labels: <gh-label>topic:input</gh-label>
-   :maintainers: Rémi Verschelde (@akien-mga), Gilles Roudière (@groud)
+   :maintainers: Alexander Hartmann (@Alex2782), Rémi Verschelde (@akien-mga), Gilles Roudière (@groud)
 
 .. _team_demos:
 
@@ -125,7 +125,7 @@ Demos
 .. gdareatable::
    :communication: #demo-content
    :github_reviews: @godotengine/demos
-   :maintainers: <lead>Aaron Franke (@aaronfranke)</lead>, Ilaria Cislaghi (@QbieShay), K. S. Ernest Lee (@fire), Rémi Verschelde (@akien-mga)
+   :maintainers: <lead>Aaron Franke (@aaronfranke)</lead>, Gilles Roudière (@groud), <lead>Hugo Locurcio (@Calinou)</lead>, K. S. Ernest Lee (@fire)
 
 .. _team_documentation:
 
@@ -140,7 +140,7 @@ for their area.
    :communication: #documentation
    :github_reviews: @godotengine/documentation
    :github_labels: <gh-label>documentation</gh-label>
-   :maintainers: A Thousand Ships (@AThousandShips), Clay John (@clayjohn), Hana - Piralein (@Piralein), Hugo Locurcio (@Calinou), Julian Murgia (@StraToN), <lead>Max Hilbrunner (@mhilbrunner)</lead>, Matthew (@skyace65), Micky (@Mickeon), Raul Santos (@raulsntos)
+   :maintainers: A Thousand Ships (@AThousandShips), Hana - Piralein (@Piralein), Hugo Locurcio (@Calinou), <lead>Max Hilbrunner (@mhilbrunner)</lead>, Matthew (@skyace65), Micky (@Mickeon)
 
 Editor
 ------
@@ -148,11 +148,44 @@ Editor
 All things related to the editor, both tools and usability (editor).
 
 .. gdareatable::
-   :communication: #editor, #editor-design
-   :github_reviews: @godotengine/2d-editor, @godotengine/3d-editor, @godotengine/debugger, @godotengine/docks, @godotengine/script-editor, @godotengine/usability
+   :communication: #editor
+   :github_reviews: @godotengine/editor
    :github_labels: <gh-label>topic:editor</gh-label>, <gh-label>topic:export</gh-label>, <gh-label>topic:plugin</gh-label>
    :triage_project: <gh-triage project=111>Editor issue triage</gh-triage>
-   :maintainers: Fabio Alessandrelli (@Faless), George Marques (@vnen), Gilles Roudière (@groud), Hendrik Brucker (@Geometror), Hugo Locurcio (@Calinou), Joan Fons Sanchez (@JFonS), K. S. Ernest Lee (@fire), Kit Bishop (@kitbdev), Michael Alexsander (@YeldhamDev), Paul Batty (@Paulb23), Tomasz Chabora (@KoBeWi)
+   :maintainers: Gilles Roudière (@groud), Hugo Locurcio (@Calinou), Kit Bishop (@kitbdev), Michael Alexsander (@YeldhamDev), Pāvels Nadtočajevs (@bruvzg), Tomasz Chabora (@KoBeWi)
+
+Debugger
+~~~~~~~~
+
+.. gdareatable::
+   :communication: #gui
+   :github_reviews: @godotengine/debugger
+   :github_labels: <gh-label>topic:gui</gh-label>
+   :triage_project: <gh-triage project=111>Editor issue triage</gh-triage>
+   :maintainers: Fabio Alessandrelli (@Faless), George Marques (@vnen)
+
+Script Editor
+~~~~~~~~~~~~~
+
+Everything that inherits Control (everything under ``scene/gui``) and can be used to build Graphical User Interfaces (both game UI and editor tools).
+
+.. gdareatable::
+   :communication: #gui
+   :github_reviews: @godotengine/script-editor
+   :github_labels: <gh-label>topic:gui</gh-label>
+   :triage_project: <gh-triage project=111>Editor issue triage</gh-triage>
+   :maintainers: Kit Bishop (@kitbdev), Michael Alexsander (@YeldhamDev), Paul Batty (@Paulb23)
+
+Usability
+~~~~~~~~~
+
+Everything that inherits Control (everything under ``scene/gui``) and can be used to build Graphical User Interfaces (both game UI and editor tools).
+
+.. gdareatable::
+   :communication: #editor-design
+   :github_reviews: @godotengine/usability
+   :github_labels: <gh-label>usability</gh-label>
+   :maintainers: Adriaan de Jongh (@AdriaandeJongh), Gilles Roudière (@groud), Hendrik Brucker (@Geometror), Hugo Locurcio (@Calinou), K. S. Ernest Lee (@fire), Michael Alexsander (@YeldhamDev), Micky (@Mickeon), Paul Batty (@Paulb23)
 
 GUI
 ---
@@ -165,18 +198,6 @@ Everything that inherits Control (everything under ``scene/gui``) and can be use
    :github_labels: <gh-label>topic:gui</gh-label>
    :triage_project: <gh-triage project=100>GUI issue triage</gh-triage>
    :maintainers: Gilles Roudière (@groud), Hendrik Brucker (@Geometror), Kit Bishop (@kitbdev), Michael Alexsander (@YeldhamDev), Paul Batty (@Paulb23), Pāvels Nadtočajevs (@bruvzg), Rémi Verschelde (@akien-mga), Tomasz Chabora (@KoBeWi)
-
-Import
-------
-
-Asset import pipeline for 2D (textures) and 3D (scenes, models, animations, etc.).
-
-.. gdareatable::
-   :communication: #asset-pipeline
-   :github_reviews: @godotengine/import
-   :github_labels: <gh-label>topic:import</gh-label>
-   :triage_project: <gh-triage project=72>Asset pipeline issue triage</gh-triage>
-   :maintainers: Aaron Franke (@aaronfranke), @BlueCube3310, Gordon MacPherson (@RevoluPowered), Hugo Locurcio (@Calinou), Joan Fons Sanchez (@JFonS), K. S. Ernest Lee (@fire), @Lyuma, Rémi Verschelde (@akien-mga)
 
 Navigation
 ----------
@@ -206,10 +227,10 @@ Physics servers and their implementation in 2D and 3D.
 
 .. gdareatable::
    :communication: #physics
-   :github_reviews: @godotengine/physics
+   :github_reviews: @godotengine/physics, @godotengine/jolt-physics
    :github_labels: <gh-label>topic:physics</gh-label>
    :triage_project: <gh-triage project=102>Physics issue triage</gh-triage>
-   :maintainers: Fabrice Cipolla (@fabriceci), Juan Linietsky (@reduz), @lawnjelly, Mikael Hermansson (@mihe), Ricardo Buring (@rburing)
+   :maintainers: Jorrit Rouwe (@jrouwe), Juan Linietsky (@reduz), @lawnjelly, Mikael Hermansson (@mihe), Ricardo Buring (@rburing)
 
 Platforms
 ---------
@@ -228,7 +249,7 @@ Android
    :communication: #android
    :github_reviews: @godotengine/android
    :github_labels: <gh-label>platform:android</gh-label>
-   :maintainers: Alexander Hartmann (@Alex2782), Anish (@syntaxerror247), <lead>Fredia Huya-Kouadio (@m4gr3d)</lead>, Rémi Verschelde (@akien-mga)
+   :maintainers: Alexander Hartmann (@Alex2782), Anish (@syntaxerror247), <lead>Fredia Huya-Kouadio (@m4gr3d)</lead>
    :triage_project: <gh-triage project=84>Platforms issue triage</gh-triage>
 
 Apple
@@ -241,6 +262,18 @@ Apple
    :maintainers: Bastiaan Olij (@BastiaanOlij), <lead>Pāvels Nadtočajevs (@bruvzg)</lead>
    :triage_project: <gh-triage project=84>Platforms issue triage</gh-triage>
 
+Buildsystem
+-----------
+
+Tools and scripts that we use to compile and maintain Godot, both for development purpose (SCons, CI) and releases (official build containers).
+
+.. gdareatable::
+   :communication: #buildsystem
+   :github_reviews: @godotengine/buildsystem
+   :github_labels: <gh-label>topic:buildsystem</gh-label>
+   :triage_project: <gh-triage project=53>Buildsystem issue triage</gh-triage>
+   :maintainers: Fabio Alessandrelli (@Faless), HP van Braam (@hpvb), Hugo Locurcio (@Calinou), Pāvels Nadtočajevs (@bruvzg), <lead>Rémi Verschelde (@akien-mga)</lead>, Thaddeus Crews (@Repiteo)
+
 Web
 ~~~
 
@@ -251,14 +284,14 @@ Web
    :maintainers: <lead>Adam Scott (@adamscott)</lead>, Fabio Alessandrelli (@Faless)
    :triage_project: <gh-triage project=84>Platforms issue triage</gh-triage>
 
-Windows / UWP
-~~~~~~~~~~~~~
+Windows
+~~~~~~~
 
 .. gdareatable::
    :communication: #platforms
-   :github_reviews: @godotengine/uwp, @godotengine/windows
-   :github_labels: <gh-label>platform:uwp</gh-label>, <gh-label>platform:windows</gh-label>
-   :maintainers: <lead>George Marques (@vnen)</lead>, Max Hilbrunner (@mhilbrunner), <lead>Pāvels Nadtočajevs (@bruvzg)</lead>
+   :github_reviews: @godotengine/windows
+   :github_labels: <gh-label>platform:windows</gh-label>
+   :maintainers: Max Hilbrunner (@mhilbrunner), <lead>Pāvels Nadtočajevs (@bruvzg)</lead>
    :triage_project: <gh-triage project=84>Platforms issue triage</gh-triage>
 
 Linux / BSD
@@ -268,7 +301,7 @@ Linux / BSD
    :communication: #platforms
    :github_reviews: @godotengine/linux-bsd
    :github_labels: <gh-label>platform:linuxbsd</gh-label>
-   :maintainers: Dery Almas (@deralmas), Fabio Alessandrelli (@Faless), HP van Braam (@hpvb), Rémi Verschelde (@akien-mga)
+   :maintainers: Dery Almas (@deralmas), Fabio Alessandrelli (@Faless), <lead>HP van Braam (@hpvb)</lead>, Pāvels Nadtočajevs (@bruvzg), Rémi Verschelde (@akien-mga)
    :triage_project: <gh-triage project=84>Platforms issue triage</gh-triage>
 
 Quality Assurance
@@ -283,14 +316,14 @@ Tests
 ~~~~~
 
 Tests for the engine and its systems.
-Note that, while there is a dedicated tests team, all other teams are expected to contribute to the tests
+Note that, while there is a dedicated tests team, every team is expected to contribute to the tests
 for their area.
 
 .. gdareatable::
    :communication: #quality-assurance
    :github_reviews: @godotengine/tests
    :github_labels: <gh-label>topic:tests</gh-label>
-   :maintainers: Hugo Locurcio (@Calinou), Gordon MacPherson (@RevoluPowered), Hendrik Brucker (@Geometror), Rémi Verschelde (@akien-mga)
+   :maintainers: Hugo Locurcio (@Calinou), Hendrik Brucker (@Geometror), Thaddeus Crews (@Repiteo)
 
 .. _team_triage:
 
@@ -300,7 +333,7 @@ Bugsquad / Issue triage
 .. gdareatable::
    :communication: #bugsquad, #bugsquad-sprints
    :github_reviews: @godotengine/bugsquad
-   :maintainers: <lead>A Thousand Ships (@AThousandShips)</lead>, K. S. Ernest Lee (@fire), @lawnjelly, Rémi Verschelde (@akien-mga)
+   :maintainers: <lead>A Thousand Ships (@AThousandShips)</lead>, K. S. Ernest Lee (@fire), @lawnjelly, Rémi Verschelde (@akien-mga), Ricardo Subtil (@rsubtil), Rudolph Bester (@Rudolph-B), Sébastien Dunne Fulmer (@CreatedBySeb)
 
 Rendering
 ---------
@@ -312,7 +345,7 @@ Rendering server and RenderingDevice implementations (Vulkan, OpenGL), as well a
    :github_reviews: @godotengine/rendering
    :github_labels: <gh-label>topic:rendering</gh-label>
    :triage_project: <gh-triage project=78>Rendering issue triage</gh-triage>
-   :maintainers: Bastiaan Olij (@BastiaanOlij), @BlueCube3310, <lead>Clay John (@clayjohn)</lead>, Hugo Locurcio (@Calinou), Joan Fons Sanchez (@JFonS), Juan Linietsky (@reduz), @lawnjelly, Skyth (Asilkan) (@blueskythlikesclouds), Stuart Carnie (@stuartcarnie)
+   :maintainers: Bastiaan Olij (@BastiaanOlij), @BlueCube3310, <lead>Clay John (@clayjohn)</lead>, Darío Banini (@DarioSamo), Hugo Locurcio (@Calinou), Juan Linietsky (@reduz), @lawnjelly, Skyth (Asilkan) (@blueskythlikesclouds), Stuart Carnie (@stuartcarnie)
 
 Shaders
 ~~~~~~~
@@ -322,7 +355,7 @@ Shaders
    :github_reviews: @godotengine/shaders
    :github_labels: <gh-label>topic:shaders</gh-label>
    :triage_project: <gh-triage project=78>Rendering issue triage</gh-triage>
-   :maintainers: Clay John (@clayjohn), Hendrik Brucker (@Geometror), Ilaria Cislaghi (@QbieShay), Patrick Exner (@paddy-exe), Skyth (Asilkan) (@blueskythlikesclouds), Yuri Rubinsky (@Chaosus)
+   :maintainers: <lead>Clay John (@clayjohn)</lead>, Hendrik Brucker (@Geometror), <lead>Ilaria Cislaghi (@QbieShay)</lead>, Patrick Exner (@paddy-exe), Skyth (Asilkan) (@blueskythlikesclouds), <lead>Yuri Rubinsky (@Chaosus)</lead>
 
 VFX / Tech Art / Particles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -351,7 +384,7 @@ GDExtension and godot-cpp.
    :github_reviews: @godotengine/gdextension
    :github_labels: <gh-label>topic:gdextension</gh-label>
    :triage_project: <gh-triage project=81>GDExtension issue triage</gh-triage>
-   :maintainers: Bastiaan Olij (@BastiaanOlij), <lead>David Snopek (@dsnopek)</lead>, Fabio Alessandrelli (@Faless), George Marques (@vnen), Gilles Roudière (@groud), Jan Haller (@Bromeon), Juan Linietsky (@reduz), Patrick Exner (@paddy-exe), Pāvels Nadtočajevs (@bruvzg), Rémi Verschelde (@akien-mga)
+   :maintainers: Bastiaan Olij (@BastiaanOlij), <lead>David Snopek (@dsnopek)</lead>, Fabio Alessandrelli (@Faless), George Marques (@vnen), Jan Haller (@Bromeon), Lukas Tenbrink (@Ivorius/@Ivorforce), Patrick Exner (@paddy-exe), Pāvels Nadtočajevs (@bruvzg)
 
 GDScript
 ~~~~~~~~
@@ -363,8 +396,7 @@ GDScript language implementation.
    :github_reviews: @godotengine/gdscript
    :github_labels: <gh-label>topic:gdscript</gh-label>
    :triage_project: <gh-triage project=79>GDScript issue triage</gh-triage>
-   :maintainers: Adam Scott (@adamscott), Danil Alexeev (@dalexeev), <lead>George Marques (@vnen)</lead>, @HolonProduction, Yuri Rubinsky (@Chaosus)
-
+   :maintainers: Adam Scott (@adamscott), Danil Alexeev (@dalexeev), <lead>George Marques (@vnen)</lead>, @HolonProduction
 
 C# / .NET / Mono
 ~~~~~~~~~~~~~~~~
@@ -375,6 +407,15 @@ C# / .NET / Mono
    :github_labels: <gh-label>topic:dotnet</gh-label>
    :triage_project: <gh-triage project=83>Dotnet issue triage</gh-triage>
    :maintainers: Paul Joannon (@paulloz), <lead>Raul Santos (@raulsntos)</lead>
+
+Server Infrastructure
+---------------------
+
+Managing the backend for the website and servers, e.g. `godotengine.org <https://godotengine.org>`__, `asset library <https://godotengine.org/asset-library>`__, and upcoming `asset store <https://store-beta.godotengine.org>`_.
+
+.. gdareatable::
+   :github_reviews: @godotengine/server-infrastructure
+   :maintainers: HP van Braam (@hpvb), Winston (@winston-yallow)
 
 Technical Leadership Committee (TLC)
 ------------------------------------
@@ -396,20 +437,22 @@ Internationalization and localization team - building the infrastructure to make
 If you work on Godot translations and contributors for your language have a dedicated communication channel for coordination, let us know so we can link it here.
 
 .. gdareatable::
+   :github_reviews: @godotengine/i18n
    :communication: #translation, #translation-de, #translation-es, #translation-fs, #translation-it
    :github_labels: <gh-label>topic:i18n</gh-label>
+   :maintainers: Rémi Verschelde (@akien-mga)
 
 .. _team_website:
 
 Website
 -------
 
-Creating the website `godotengine.org <https://godotengine.org>`__ and `asset library <https://godotengine.org/asset-library>`__ (and upcoming `asset store <https://store-beta.godotengine.org>`_).
+Creating and curating the website `godotengine.org <https://godotengine.org>`__ and `asset library <https://godotengine.org/asset-library>`__ (and upcoming `asset store <https://store-beta.godotengine.org>`_).
 
 .. gdareatable::
    :communication: #website, #asset-store
    :github_reviews: @godotengine/website
-   :maintainers: Adam Scott (@adamscott), Emilio Coppola (@coppolaemilio), Hugo Locurcio (@Calinou), Iñigo Allende (@InigoAllende/@i.allende), HP van Braam (@hpvb), Max Hilbrunner (@mhilbrunner), Rémi Verschelde (@akien-mga), <lead>Winston (@winston-yallow)</lead>
+   :maintainers: Adam Scott (@adamscott), <lead>Emilio Coppola (@coppolaemilio)</lead>, Hugo Locurcio (@Calinou), Iñigo Allende (@InigoAllende/@i.allende), Winston (@winston-yallow)
 
 XR
 --
