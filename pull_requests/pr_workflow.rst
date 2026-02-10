@@ -63,7 +63,8 @@ you can expect the following review timelines:
 - 80% of **bug fixes** are merged (or rejected) within **two weeks**.
 - 80% of **enhancements** are merged (or rejected) within **two months**.
 
-As you can imagine, simple pull requests will usually be reviewed more quickly than large and complicated pull requests.
+As you can imagine, simple and relevant pull requests will usually be reviewed more quickly than large and complicated
+pull requests.
 
 How quickly a PR gets reviewed or merged also depends on where in the release cycle we are currently in:
 
