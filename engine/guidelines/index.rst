@@ -24,14 +24,11 @@ Handling compatibility breakages
 Godot follows a **major.minor.patch** versioning scheme, and each level carries
 different expectations around compatibility:
 
-- **Patch releases** (e.g. 4.3.1 to 4.3.2) must not break compatibility at all.
-  Existing projects, scripts, and GDExtensions should continue to work without
-  any changes.
-- **Minor releases** (e.g. 4.3 to 4.4) aim to preserve compatibility, but small,
-  targeted breakages may occur in specific areas when necessary to fix
-  high-priority issues. The vast majority of projects should not be affected.
-- **Major releases** (e.g. 4.x to 5.0) may introduce significant compatibility
-  breakages that require porting work.
+Maintainers generally control what kind of feature is merged at which part of the dev cycle. That being said, you can expect the following kinds of changes to be merged per version:
+
+- **Patch releases** (e.g. 4.3.1 to 4.3.2) should not break compatibility at all.
+- **Minor releases** (e.g. 4.3 to 4.4) should generally not break compatibility, except to fix bugs. New features are added in backwards-compatible ways.
+- **Major releases** (e.g. 4.x to 5.0) are rare and can include major changes that break compatibility.
 
 When contributing changes to the engine, two types of compatibility matter:
 
