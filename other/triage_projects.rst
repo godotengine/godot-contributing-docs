@@ -32,7 +32,7 @@ Below the tabs you will find a large table. Each **row** represents an **issue**
     - **Needs further info**: The team is waiting for more information on the issue.
     - **Needs Proposal**: Resolving the issue requires adding new features, which should be :ref:`formally proposed <doc_contributing_ideas>` and discussed.
     - **In progress / assigned**: A maintainer is working on the issue.
-    - **Fix pending review**: A potential solution has been submitted and needs reviews.
+    - **Fix pending review**: A potential solution has been submitted and needs :ref:`reviews <doc_pr_review_guidelines>`.
     - **Done**: The issue is closed and the problem solved. Huzzah!
 - **Category**: Identifies the area of code the issue affects.
 - **Assignees**: When maintainers work on an issue, they will link themselves here. Regular contributors cannot be linked as assignees.
@@ -58,7 +58,8 @@ That being said, here are some things to keep in mind:
 - **Respect our code of conduct.** Please keep in mind that triage projects are public. Use the "Comments" column respectfully.
 - **Only triage what you know.** For example, if you don't know how complex a solution is going to be, it is better not to fill this value in than to guess.
 - **Use triage projects to your advantage.** If you were hoping to implement a feature or track down a bug,
-  but can't get around to it, make an issue or proposal and link it in the triage project. Community members may come and help you out!
+  but can't get around to it, make an :ref:`issue <doc_reporting_issues>` or :ref:`proposal <doc_contributing_ideas>` and link it in the triage project.
+  Community members may come and help you out!
 - **Be selective about "Up for grabs".** Contributors see this tag as a signal to start working on issues.
   For proposals especially, please only use it if you actually want to see implementations for this proposal posted by the community.
 - **Remember to work as a team.** If you disagree with the triage of an issue, please discuss it with the team before making changes.
