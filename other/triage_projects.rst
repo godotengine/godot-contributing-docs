@@ -30,6 +30,7 @@ Below the tabs you will find a large table. Each **row** represents an **issue**
     - **For team assessment**: The team has not discussed or triaged the issue yet.
     - **Up for grabs**: Any contributor is free to work on the issue.
     - **Needs further info**: The team is waiting for more information on the issue.
+    - **Needs Proposal**: Resolving the issue requires adding new features, which should be :ref:`formally proposed <doc_contributing_ideas>` and discussed.
     - **In progress / assigned**: A maintainer is working on the issue.
     - **Fix pending review**: A potential solution has been submitted and needs reviews.
     - **Done**: The issue is closed and the problem solved. Huzzah!
