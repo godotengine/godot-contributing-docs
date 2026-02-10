@@ -49,6 +49,8 @@ providing feedback, and :ref:`testing PRs <doc_testing_pull_requests>` locally o
 to confirm that they work as intended. Many of the currently active maintainers started out doing
 this before they became maintainers.
 
+.. _doc_when_will_a_pull_request_get_reviewed:
+
 When will a pull request get reviewed?
 --------------------------------------
 
