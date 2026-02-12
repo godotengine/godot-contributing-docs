@@ -85,3 +85,4 @@ for your topic of interest. You can also use the search function in the top-left
    other/demos
    other/benchmarks
    other/godot-cpp
+   other/maintenance_releases
