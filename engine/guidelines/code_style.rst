@@ -14,20 +14,29 @@ guidelines.
 C++ and Objective-C
 -------------------
 
-There are no written guidelines, but the code style agreed upon by the
-developers is enforced via the `clang-format <https://clang.llvm.org/docs/ClangFormat.html>`__
-code beautifier, which takes care for you of all our conventions.
+Most of the code style agreed upon by the developers is automatically enforced via the
+`clang-format <https://clang.llvm.org/docs/ClangFormat.html>`__ code beautifier.
 To name a few:
 
-- Indentation and alignment are both tab based (respectively one and two tabs)
-- One space around math and assignments operators as well as after commas
+- Indentation and alignment are both tab-based (respectively one and two tabs).
+- One space around math and assignments operators as well as after commas.
 - Pointer and reference operators are affixed to the variable identifier, not
-  to the type name
-- See further down regarding header includes
+  to the type name.
+- See further down regarding header includes.
 
 The rules used by clang-format are outlined in the
 `.clang-format <https://github.com/godotengine/godot/blob/master/.clang-format>`__
 file of the Godot repository.
+
+There are also some additional guidelines which are not enforced automatically
+by clang-format, but **must** be followed nonetheless:
+
+- There is one blank line between methods, unless the methods are implemented
+  on a single line (in which case there may not be a blank line between methods).
+- Braces are always used, even for one-liner conditionals.
+- Variable and method names follow the ``snake_case`` naming convention,
+  while class names use ``PascalCase``.
+- Method parameters start with ``p_``, or ``r_`` if they are used to return a value.
 
 As long as you ensure that your style matches the surrounding code and that you're
 not introducing trailing whitespace or space-based indentation, you should be
