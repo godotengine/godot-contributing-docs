@@ -144,7 +144,7 @@ All things related to the editor, both tools and usability (editor).
    :github_reviews: @godotengine/editor
    :github_labels: <gh-label>topic:editor</gh-label>, <gh-label>topic:export</gh-label>, <gh-label>topic:plugin</gh-label>
    :triage_project: <gh-triage project=111>Editor issue triage</gh-triage>
-   :maintainers: Gilles Roudière (@groud), Hugo Locurcio (@Calinou), Kit Bishop (@kitbdev), Michael Alexsander (@YeldhamDev), Pāvels Nadtočajevs (@bruvzg), Tomasz Chabora (@KoBeWi)
+   :maintainers: Gilles Roudière (@groud), Hugo Locurcio (@Calinou), Kit Bishop (@kitbdev), Michael Alexsander (@YeldhamDev), Pāvels Nadtočajevs (@bruvzg), Robert Yevdokimov (@ryevdokimov), Tomasz Chabora (@KoBeWi)
 
 Debugger
 ~~~~~~~~
@@ -196,7 +196,7 @@ Input
    :communication: #input
    :github_reviews: @godotengine/input
    :github_labels: <gh-label>topic:input</gh-label>
-   :maintainers: Alexander Hartmann (@Alex2782), Rémi Verschelde (@akien-mga), Gilles Roudière (@groud)
+   :maintainers: Alexander Hartmann (@Alex2782), Rémi Verschelde (@akien-mga), Gilles Roudière (@groud), @Nintorch
 
 Navigation
 ----------
