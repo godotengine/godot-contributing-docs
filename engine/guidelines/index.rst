@@ -31,15 +31,6 @@ That being said, you can expect the following kinds of changes to be merged for 
 - **Minor releases** (e.g. 4.3 to 4.4) should generally not break compatibility, except to fix bugs. New features are added in backwards-compatible ways.
 - **Major releases** (e.g. 4.x to 5.0) are rare and can include major changes that break compatibility.
 
-When contributing changes to the engine, two types of compatibility matter:
-
-- **Binary compatibility**: Existing compiled binaries (including GDExtensions)
-  load and execute correctly without recompilation, and their runtime behavior
-  does not change.
-- **Source compatibility**: Existing source code (scripts, scenes, and
-  GDExtension source) compiles and runs without modification after upgrading
-  Godot.
-
 If your change adds a parameter to a method, changes a return type, changes the
 type of a parameter, or alters a default value, you need to implement a
 `GDExtension compatibility method <https://docs.godotengine.org/en/stable/engine_details/development/handling_compatibility_breakages.html>`_.
