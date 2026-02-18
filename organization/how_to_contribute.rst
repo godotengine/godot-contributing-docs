@@ -69,8 +69,7 @@ Participate in Godot's development
 
 - **Engine code (mainly C++)**
   If you are a programmer, you can contribute to Godot by :ref:`working on its source code <doc_intro_to_engine_contributions>`.
-  You can participate in almost every step of the :ref:`PR workflow <doc_pr_workflow>`! Most commonly, contributors
-  fix bugs and make improvements by :ref:`opening pull requests <doc_creating_pull_requests>`.
+  Most commonly, contributors fix bugs and make improvements by :ref:`opening pull requests <doc_creating_pull_requests>`.
   Once you start getting more proficient with Godot's codebase, we'd also greatly appreciate help in the
   :ref:`code review process <doc_pr_review_guidelines>`!
 
