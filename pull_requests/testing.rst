@@ -11,16 +11,23 @@ Your feedback on any pull request is helpful to improve it and to test
 whether it works as intended. This can speed up the :ref:`review process <doc_pr_review_guidelines>`
 and improve the chance of the PR being merged.
 
-Thanks to GitHub Actions, all `pull requests <https://github.com/godotengine/godot/pulls>`__
-have continuous builds available. These builds let you try out pull requests
-without having to compile anything from source.
+What exactly needs to be tested depends on the pull request in question. For
+example, when the pull request changes the editor, you should try the feature
+in as many ways as you can think of. If the pull request is claiming a
+performance improvement, try to test this yourself by
+:ref:`benchmarking or profiling <doc_optimization>`.
+
+.. TODO: Should add testing guidelines to this doc
 
 Downloading a compiled build
 ----------------------------
 
-You can download pull request builds from GitHub Actions. Since only signed in
-users may download builds directly from GitHub Actions, the procedure varies
-depending on whether you have a GitHub account or not.
+Thanks to GitHub Actions, all `pull requests <https://github.com/godotengine/godot/pulls>`__
+have continuous builds available. These builds let you try out pull requests
+without having to compile anything from source.
+
+Since only signed in users may download builds directly from GitHub Actions, the procedure
+varies depending on whether you have a GitHub account or not.
 
 .. note::
 
