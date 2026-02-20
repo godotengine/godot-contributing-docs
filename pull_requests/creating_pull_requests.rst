@@ -1,7 +1,7 @@
 .. _doc_creating_pull_requests:
 
-Creating pull requests
-======================
+How to create pull requests
+===========================
 
 .. highlight:: shell
 

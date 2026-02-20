@@ -4,8 +4,12 @@ Testing pull requests
 =====================
 
 Many people are developing new features or fixing bugs on GitHub.
-To help with engine development, you may be asked to test those pull requests
+To help with engine development, you can test those pull requests
 with a Godot build that includes code from the pull request in question.
+
+Your feedback on any pull request is helpful to improve it and to test
+whether it works as intended. This can speed up the :ref:`review process <doc_pr_review_guidelines>`
+and improve the chance of the PR being merged.
 
 Thanks to GitHub Actions, all `pull requests <https://github.com/godotengine/godot/pulls>`__
 have continuous builds available. These builds let you try out pull requests

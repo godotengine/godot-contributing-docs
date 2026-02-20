@@ -47,7 +47,6 @@ for your topic of interest. You can also use the search function in the top-left
    pull_requests/creating_pull_requests
    pull_requests/review_guidelines
    pull_requests/testing
-   pull_requests/merge_guidelines
 
 .. toctree::
    :hidden:
@@ -85,4 +84,4 @@ for your topic of interest. You can also use the search function in the top-left
    other/demos
    other/benchmarks
    other/godot-cpp
-   other/maintenance_releases
+   other/release_management/index
