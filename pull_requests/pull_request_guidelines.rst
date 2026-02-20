@@ -1,9 +1,9 @@
 .. _doc_pull_request_guidelines:
 
-Pull request guidelines
-=======================
+Pull request rules and guidelines
+=================================
 
-This page contains guidelines relevant for contributing to any area of Godot.
+This page contains rules and guidelines relevant for contributing to any area of Godot.
 
 When contributing to any particular area, please also refer to its respective guidelines.
 
@@ -60,9 +60,13 @@ Explain your contributions
 
 When submitting a pull request, please make use of the pull request description.
 
-Your pull request description should be appropriate for the complexity of the change. For example, if you're just fixing
-a typo, a single sentence description is appropriate. However, if your change is large, or may affect multiple systems
-in potentially unexpected ways, we expect you to be more thorough with your explanation.
+Your pull request description should, as clearly and succinctly as possible, explain all the necessary
+information to understand the changes you made.
+
+For example, if you're just fixing a typo, a single sentence description is appropriate.
+
+However, if your change is large, or may affect multiple systems in potentially unexpected ways,
+we expect you to be more thorough with your explanation.
 
 Here are the components of a thorough pull request description:
 
