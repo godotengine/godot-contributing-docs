@@ -1,126 +1,151 @@
 .. _doc_cpp_usage_guidelines:
 
-C++ usage guidelines
-====================
+C++ rules and guidelines
+========================
 
-Rationale
----------
+To ensure the quality and coherence of the engine's codebase, the Godot
+developers document rules and guidelines for C++ code.
 
-Since Godot 4.0, the C++ standard used throughout the codebase is a subset of
-**C++17**. While modern C++ brings a lot of opportunities to write faster, more
-readable code, we chose to restrict our usage of C++ to a subset for a few
-reasons:
+Contributors are not expected to know and understand every detail, but
+please try to do your best and familiarize yourself with our expectations,
+especially if you make frequent or complex contributions.
 
-- It makes it easier to review code in online editors. This is because engine
-  contributors don't always have access to a full-featured IDE while reviewing
-  code.
-- It makes the code easier to grasp for beginner contributors (who may not be
-  professional C++ programmers). Godot's codebase is known to be easy to learn
-  from, and we'd like to keep it that way.
+.. tip::
 
-To get your pull request merged, it needs to follow the C++ usage guidelines
-outlined here. Of course, you can use features not allowed here in your own C++
-modules or GDExtensions.
+    As all other aspects of Godot, our code style is subject to be challenged
+    or expanded by the community. If you think it should be changed, please
+    :ref:`make proposals <doc_contributing_ideas>` or submit pull requests
+    using the :ref:`PR workflow <doc_pr_workflow>`.
 
-.. note::
+.. admonition:: Third-party code
 
-    Prior to Godot 4.0, the C++ standard used throughout the codebase was C++03,
-    with a handful of C++14 extensions. If you are contributing a pull request
-    to the `3.x` branch rather than `master`, your code can't use C++17 features.
-    Instead, your code must be able to be built with a C++14 compiler.
+    Godot's code style should *not* be applied to third-party code,
+    i.e. code that is included in Godot's source tree, but was not written
+    specifically for our project. Such code usually comes from
+    different upstream projects with their own style guides (or lack
+    thereof), and we don't want to introduce differences that would make
+    syncing with upstream repositories harder.
 
-    The guidelines below don't apply to third-party dependencies, although we
-    generally favor small libraries instead of larger solutions. See also
-    :ref:`doc_best_practices_for_engine_contributors`.
+    Most third-party code is in the ``thirdparty/`` folder, where our
+    automated style checks are configured not to run.
 
-.. seealso::
+Automated style checks
+----------------------
 
-    See :ref:`doc_code_style_guidelines` for formatting guidelines.
+Most of our code style is automatically enforced. Until your PR fails to follow
+the style laid out in our rules, the continuous integration (CI) on your pull
+request will fail. We recommend you :ref:`set up local checks <doc_pre_commit>`
+as well.
+
+This article focuses mostly on the parts of our style that are not automatically
+enforced.
+
+.. _doc_cpp_disallowed_features:
 
 Disallowed features
 -------------------
+
+Since Godot 4.0, the C++ standard used throughout the codebase is a subset of
+**C++17**. While modern C++ brings a lot of opportunities to write faster, more
+readable code, we choose to restrict our usage of C++ to a subset for a few
+reasons:
+
+- **It makes it easier to review code in online editors.** This is because engine
+  contributors often don't have access to a full-featured IDE while reviewing
+  code.
+- **It avoids bugs by keeping the complexity low.** New features might look fancy,
+  but if nobody fully understands them, it leads to misuse and buggy code.
+- **It makes the code easier to grasp for beginner contributors** (who may not be
+  professional C++ programmers). Godot's codebase is known to be easy to learn
+  from, and we'd like to keep it that way.
 
 **Any feature not listed below is allowed.** Using features like ``constexpr``
 variables and ``nullptr`` is encouraged when possible. Still, try to keep your
 use of modern C++ features conservative. Their use needs to serve a real
 purpose, such as improving code readability or performance.
 
-.. _doc_cpp_godot_types:
+- **Standard Template Library**:
+  We don't allow using the `STL <https://en.wikipedia.org/wiki/Standard_Template_Library>`__
+  as Godot provides its own data types (among other things).
+  See `Why does Godot not use STL? <https://docs.godotengine.org/en/stable/about/faq.html#why-does-godot-not-use-stl-standard-template-library>`__ for more information.
+  This means that pull requests should **not** use ``std::string``,
+  ``std::vector`` and the like. Instead, use Godot's data types as described in
+  the `Core types <https://docs.godotengine.org/en/latest/engine_details/architecture/core_types.html>`__ documentation.
 
-Standard Template Library
-~~~~~~~~~~~~~~~~~~~~~~~~~
+- ``auto`` **keyword**:
+  We do not allow the use of ``auto`` in the codebase, except in special cases
+  where it is impossible to avoid.
+  While many IDEs offer ways to inspect the type of ``auto`` variables, we need
+  our code to be readable without these inspection features. For example, most
+  contributors use GitHub's online code viewer to review code, which does not
+  support type inspection.
 
-We don't allow using the `STL <https://en.wikipedia.org/wiki/Standard_Template_Library>`__
-as Godot provides its own data types (among other things).
-See `Why does Godot not use STL? <https://docs.godotengine.org/en/stable/about/faq.html#why-does-godot-not-use-stl-standard-template-library>`__ for more information.
+- **Lambdas**:
+  Lambdas should not be used, unless it cannot reasonably be avoided. Prefer using
+  named ``inline`` functions.
 
-This means that pull requests should **not** use ``std::string``,
-``std::vector`` and the like. Instead, use Godot's datatypes as described in
-the `Core types <https://docs.godotengine.org/en/latest/engine_details/architecture/core_types.html>`__ documentation.
+- ``#ifdef`` **-based include guards**:
+  Starting with Godot 4.5, we use ``#pragma once`` instead of ``#ifdef``-based include guards.
 
-``auto`` keyword
-~~~~~~~~~~~~~~~~
+- ``try``-``catch`` **blocks**:
+  C++ exception handling is disabled in our codebase.
+  This makes it impossible to use ``try`` and ``catch`` blocks.
+  Use `Common engine methods and macros <https://docs.godotengine.org/en/latest/engine_details/architecture/common_engine_methods_and_macros.html>`__ instead.
+  This restriction is in place for several reasons, including performance, binary
+  size, and code complexity.
 
-Please don't use the ``auto`` keyword for type inference. While it can avoid
-repetition, it can also lead to confusing code:
+Naming
+------
 
-.. code-block:: cpp
+- Types and namespaces use ``PascalCase``, and macros and constants use ``UPPER_SNAKE_CASE``.
+  All other identifiers use ``snake_case``.
+- Method parameters start with ``p_*``, or ``r_*`` (if they are used to return a value).
+- Use full words. Avoid abbreviations except when the full name makes the code hard to read.
+- Pointer and reference operators are affixed to the variable identifier, not
+  to the type name.
 
-    // Not so confusing...
-    auto button = memnew(Button);
+Spacing
+-------
 
-    // ...but what about this?
-    auto result = EditorNode::get_singleton()->get_complex_result();
+- Indentation and alignment are both tab based (respectively one and two tabs).
+- One space around math and assignments operators as well as after commas.
+- Code is properly spaced (exactly one empty line between methods, no
+  unnecessary empty lines inside of method bodies).
 
-Keep in mind hover documentation often isn't readily available for pull request
-reviewers. Most of the time, reviewers will use GitHub's online viewer to review
-pull requests.
+Header includes
+---------------
 
-The ``auto`` keyword can be used in some special cases, like C++ lambda or Objective-C block
-definitions and C++ templates. Please ask before using templates with ``auto`` in a pull request.
+- In a ``.cpp`` file (e.g. ``filename.cpp``), the first include should be the
+  one where the class is declared (e.g. ``#include "filename.h"``), then the
+  compatibility header if there is one (e.g. ``#include "filename.compat.inc``),
+  followed by an empty line for separation.
+- Then come headers from Godot's own code base, included in alphabetical order
+  (enforced by ``clang-format``) with paths relative to the root folder. Those
+  includes should be done with quotes, e.g. ``#include "core/object.h"``. The
+  block of Godot header includes should then be followed by an empty line for
+  separation. Within modules, relative includes are preferred.
+- Next come third-party and system includes. Use regular quotes for thirdparty
+  headers, but < and > symbols for system includes, e.g. ``#include <png.h>``.
+  The block of third-party headers should also be followed by an empty line for separation.
+- Godot and third-party headers should be included in the file that requires
+  them, i.e. in the ``.h`` header if used in the declarative code or in the ``.cpp``
+  if used only in the imperative code.
 
-.. code-block:: cpp
+Comments
+--------
 
-    // Full type definitions.
-    void (*mult64to128)(uint64_t, uint64_t, uint64_t &, uint64_t &) = [](uint64_t u, uint64_t v, uint64_t &h, uint64_t &l) { ... }
-    void (^JOYSTICK_LEFT)(GCControllerDirectionPad *__strong, float, float) = ^(GCControllerDirectionPad *dpad, float xValue, float yValue) { ... }
+This comment style guide applies to all programming languages used within
+Godot's codebase.
 
-    // Less clutter with auto.
-    auto mult64to128 = [](uint64_t u, uint64_t v, uint64_t &h, uint64_t &l) { ... }
-    auto JOYSTICK_LEFT = ^(GCControllerDirectionPad *dpad, float xValue, float yValue) { ... }
-
-    // Compare function for different types.
-    template <typename T1, typename T2>
-    constexpr auto MIN(const T1 m_a, const T2 m_b) {
-        return m_a < m_b ? m_a : m_b;
-    }
-
-We chose to forbid ``auto`` in all other cases. Thank you for your understanding.
-
-Lambdas
-~~~~~~~
-
-Lambdas should be used conservatively when they make code effectively faster or
-simpler, and do not impede readability. Please ask before using lambdas in a
-pull request.
-
-``#ifdef``-based include guards
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Starting with 4.5, all files now use the ``#pragma once`` directive, as they
-improve readability and declutter macros. Use of ``#ifdef``-based include
-guards are now actively discouraged.
-
-``try``-``catch`` blocks
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-C++ style exception handling using ``try`` and ``catch`` blocks is forbidden.
-This restriction is in place for several reasons, including performance, binary
-size and code complexity.
-Use `Common engine methods and macros <https://docs.godotengine.org/en/latest/engine_details/architecture/common_engine_methods_and_macros.html>`__ instead.
-
-
-.. seealso::
-
-    See :ref:`doc_code_style_guidelines_header_includes` for guidelines on sorting
-    includes in C++ and Objective-C files.
+- Begin comments with a space character to distinguish them from disabled code.
+- Use sentence case for comments. Begin comments with an uppercase character and
+  always end them with a period.
+- Reference variable/function names and values using backticks.
+- Wrap comments to ~100 characters.
+- You can use ``TODO:``, ``FIXME:``, ``NOTE:``, ``WARNING:``, or ``HACK:`` as admonitions
+  when needed.
+- You can use Javadoc-style comments above function or macro definitions. Only use
+  them for methods which are not exposed to scripting, because exposed methods should
+  be documented in the :ref:`class reference XML <doc_updating_the_class_reference>`
+  instead.
+- For member variables, use single-line comments.

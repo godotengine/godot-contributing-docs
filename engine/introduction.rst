@@ -79,3 +79,43 @@ can find pull requests to review by browsing each :ref:`team's <doc_areas>` revi
 by browsing `pull requests <https://github.com/godotengine/godot/pulls>`__ and filtering by label,
 or by exploring the `Godot team reports <https://godotengine.github.io/godot-team-reports>`__ and
 `PRs by file <https://godotengine.github.io/godot-prs-by-file/>`__ websites.
+
+.. _doc_pre_commit:
+
+Setting up a dev environment
+----------------------------
+
+You can learn how to work with our source code using the `Engine development section <https://docs.godotengine.org/en/stable/engine_details/development/index.html>`__.
+
+Additionally, we recommend you set up style checks locally.
+For example, we use `clang-format <https://clang.llvm.org/docs/ClangFormat.html>`__ and `clang-tidy <https://clang.llvm.org/extra/clang-tidy/>`__
+to format our C++ code.
+The easiest way to set them up is via `pre-commit <https://pre-commit.com/>`__.
+
+You can install pre-commit in your local Python installation using pip using the shell code below.
+Depending on your system, there may be other ways to install it which you may prefer.
+
+.. code-block:: shell
+
+    pip install pre-commit
+    pre-commit install
+
+IDE integration
+^^^^^^^^^^^^^^^
+
+Learn how to configure an IDE in `respective Godot docs section <https://docs.godotengine.org/en/stable/engine_details/development/configuring_an_ide/index.html>`__.
+
+You may also want to set up style checks with your IDE.
+Most IDEs or code editors have beautifier plugins that can be configured to run
+clang-format automatically, for example, each time you save a file.
+
+Here is a non-exhaustive list of beautifier plugins for some IDEs:
+
+- Qt Creator: `Beautifier plugin <https://doc.qt.io/qtcreator/creator-beautifier.html>`__
+- Visual Studio Code: `Clang-Format <https://marketplace.visualstudio.com/items?itemName=xaver.clang-format>`__
+- Visual Studio: `Clang Power Tools 2022 <https://marketplace.visualstudio.com/items?itemName=caphyon.ClangPowerTools2022>`__
+- vim: `vim-clang-format <https://github.com/rhysd/vim-clang-format>`__
+- CLion: Starting from version ``2019.1``, no plugin is required. Instead, enable
+  `ClangFormat <https://www.jetbrains.com/help/clion/clangformat-as-alternative-formatter.html#clion-support>`__
+
+(Pull requests are welcome to extend this list with tested plugins.)
