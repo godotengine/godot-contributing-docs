@@ -217,15 +217,21 @@ The editor translations originate from C++ strings, and may use:
   placed in your translation where necessary for it to be meaningful after
   substitution. You may need to refer to the source string location to
   understand what kind of content will be substituted if it's not clear from the
-  sentence. Example (``%s``  will be substituted with a file name or path):
+  sentence. To change the argument order in the translated string, add an argument number
+  followed by a ``$`` sign, argument numbers start at 1.
+  Example (``%s`` will be substituted with a file name or path, ``%d`` with error code):
 
     ::
 
         # PO file:
-        "There is no '%s' file."
+        "Error %d: There is no '%s' file."
 
         # Weblate:
-        There is no '%s' file.
+        Error %d: There is no '%s' file.
+
+        # or, if a different order is more appropriate for the specific language:
+
+        There is no '%2$s' file, error %1$d.
 
 - **C escape characters** such as ``\n`` (line break) or ``\t`` (tabulation). In
   the Weblate editor, the ``\n`` characters are replaced by ``↵`` (return) and
@@ -233,7 +239,7 @@ The editor translations originate from C++ strings, and may use:
   breaks in the same way as the original English string (Weblate will issue a
   warning if you don't). Line breaks might sometimes be used for vertical
   spacing, or manual wrapping of long lines which would otherwise be too long
-  especially in the editor translation). Example:
+  especially in the editor translation. Example:
 
     ::
 
