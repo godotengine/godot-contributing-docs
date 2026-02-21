@@ -80,6 +80,31 @@ by browsing `pull requests <https://github.com/godotengine/godot/pulls>`__ and f
 or by exploring the `Godot team reports <https://godotengine.github.io/godot-team-reports>`__ and
 `PRs by file <https://godotengine.github.io/godot-prs-by-file/>`__ websites.
 
+Checklist for new contributors
+------------------------------
+
+By reading this list, you can make a great first impression as a new contributor:
+
+- **Test your pull request.** The code you submit might be used by tens of
+  thousands of users. At the very least, please test it to avoid any surprises.
+- **Disclose the use of AI.** If you use AI, you :ref:`need to tell us <doc_ai_assisted_contributions>`.
+  AI-written descriptions and code have risks, so if you care about the
+  long-term health of Godot, please be transparent about how you created your
+  contribution.
+- **Set up local style checks.** The tests will fail on your pull request if
+  it does not pass a style check. Save yourself some time and
+  :ref:`set up local style checks <doc_pre_commit>`.
+- **Keep it simple.** We :ref:`intentionally avoid <doc_cpp_usage_guidelines>`
+  using complex C++ features unless necessary. In most cases, avoid using
+  clever solutions if a simple solution does the trick.
+- **Adapt to the style of surrounding code.** Observe the code you are
+  changing, and avoid changing it to suit your own personal preferences unless
+  there is a tangible benefit.
+
+For everything else, we have the :ref:`pull request rules <doc_pull_request_guidelines>`
+and the :ref:`engine contribution guidelines <doc_engine_guidelines>`.
+To become a proficient contributor, continue reading at your own leisure.
+
 .. _doc_pre_commit:
 
 Setting up a dev environment
