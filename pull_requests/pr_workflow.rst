@@ -77,6 +77,6 @@ features will only be merged during the early part of the dev phase, to give us 
 or issues before release.
 
 If you think your pull request has been overlooked, or you have any questions about the review process,
-feel free to ask about it in the `Contributors' chat <https://chat.godotengine.org>`__.
+feel free to ask about it in the `Contributor's chat <https://chat.godotengine.org>`__.
 You can ask in `#new-contributors <https://chat.godotengine.org/channel/new-contributors>`__, `#devel <https://chat.godotengine.org/channel/devel>`__,
 or the channel of the :ref:`area <doc_areas>` you're expecting reviews from.
