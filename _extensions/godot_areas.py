@@ -115,3 +115,8 @@ class TeamRole(XRefRole):
 def setup(app):
     app.add_directive('gdareatable', TableDirective)
     app.add_role('team', TeamRole())
+
+    return {
+        "parallel_read_safe": True,
+        "parallel_write_safe": True,
+    }
