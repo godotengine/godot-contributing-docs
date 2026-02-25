@@ -118,3 +118,14 @@ helps clean up the review backlog.
 
 Pull requests are grouped by the teams assigned to review them, so that maintainers
 have a good overview of their area of the engine.
+
+Website article cover generator
+-------------------------------
+
+- **Link:** `godotengine.github.io/godot-website-cover-generator <https://godotengine.github.io/godot-website-cover-generator/>`__
+- `Source code <https://github.com/godotengine/godot-website-cover-generator>`__
+  (maintained by `adamscott <https://github.com/adamscott>`__)
+
+This tool is used to create the cover images for release blog posts, as well as
+other articles on the website. These article covers are designed to have a
+consistent style and render well as social media (Open Graph) embeds.
