@@ -137,7 +137,7 @@ for their area.
 Editor
 ------
 
-All things related to the editor, both tools and usability (editor).
+All things related to the editor.
 
 .. gdareatable::
    :communication: #editor
@@ -172,7 +172,7 @@ Usability
 User interface design and user experience.
 
 .. gdareatable::
-   :communication: #editor-design
+   :communication: #usability
    :github_reviews: @godotengine/usability
    :github_labels: <gh-label>usability</gh-label>
    :maintainers: Adriaan de Jongh (@AdriaandeJongh), Gilles Roudière (@groud), Hendrik Brucker (@Geometror), Hugo Locurcio (@Calinou), K. S. Ernest Lee (@fire), Michael Alexsander (@YeldhamDev), Micky (@Mickeon), Paul Batty (@Paulb23), Timothé Bonhoure (@ajreckof)
