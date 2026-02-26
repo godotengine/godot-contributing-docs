@@ -75,7 +75,7 @@ Do a code review
 ----------------
 
 When you have confirmed that the PR is valid, addresses a real problem, and
-takes a valid approach, you can start getting technical and review the code.
+takes an suitable approach, you can start getting technical and review the code.
 
 Here are some things to think about and look out for as you review:
 
