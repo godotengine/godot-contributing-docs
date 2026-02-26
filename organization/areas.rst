@@ -175,7 +175,7 @@ User interface design and user experience.
    :communication: #usability
    :github_reviews: @godotengine/usability
    :github_labels: <gh-label>usability</gh-label>
-   :maintainers: Adriaan de Jongh (@AdriaandeJongh), Gilles Roudière (@groud), Hendrik Brucker (@Geometror), Hugo Locurcio (@Calinou), K. S. Ernest Lee (@fire), Michael Alexsander (@YeldhamDev), Micky (@Mickeon), Paul Batty (@Paulb23), Timothé Bonhoure (@ajreckof)
+   :maintainers: Adriaan de Jongh (@AdriaandeJongh), Gilles Roudière (@groud), Hendrik Brucker (@Geometror), Hugo Locurcio (@Calinou), K. S. Ernest Lee (@fire), Michael Alexsander (@YeldhamDev), Micky (@Mickeon), @passivestar, Paul Batty (@Paulb23), Timothé Bonhoure (@ajreckof)
 
 GUI
 ---
