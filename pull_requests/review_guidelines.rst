@@ -133,8 +133,8 @@ What to avoid during review
   as possible.
 
 And ultimately, don't feel pressured to deal with the PR all alone. Feel free to
-ask for a helping hand on the `Godot Contributors Chat
-<https://chat.godotengine.org>`_, in the appropriate channel or in #general.
+ask for a helping hand on the `Godot Contributors Chat <https://chat.godotengine.org>`_,
+in the :ref:`appropriate channel <doc_areas>` or in `#devel <https://chat.godotengine.org/channel/devel>`__.
 Other teams may already be tagged for review, so you can also wait or ask for
 their assistance.
 
