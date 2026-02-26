@@ -30,7 +30,7 @@ request. Familiarize yourself with our :ref:`pull request rules <doc_pull_reques
 and ensure that the author did their best to abide by them.
 
 If you see any invalid PR, it might be best to just ignore it and wait for
-maintainers to take action. If you feel like someone is intentionally
+maintainers to take action. If you think someone is intentionally
 side-stepping rules, for example by using AI without disclosing
 it, feel free to let us know in the `Contributors' chat <https://chat.godotengine.org>`__.
 
@@ -144,8 +144,9 @@ Post your review
 When you are done with your review, assess the PRs current state in context:
 
 - If the PR is **not ready** to be merged in its current state, or is **invalid** or **inadequate**, use **"request changes"**.
+  If the PR is unlikely to recover, it can be closed.
 - If the PR **should be merged** in its current state, or with very minor changes, use **"approve"**.
-- If you have only reviewed parts of the PR, use **"comment"**.
+- If you cannot make a judgement call right now, use **"comment"**.
 
 Use the review comment to summarize your thoughts and specify the nature of your
 review. For example, if you reviewed the code but haven't tested the PR, you
