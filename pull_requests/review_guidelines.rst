@@ -92,7 +92,7 @@ Here are some things to think about and look out for as you review:
   Try to understand what is happening and call out anything that looks like it
   might not work as intended.
 
-* **The code only changes things described and motivated in the PR description.**
+* **The code only changes things described and justified in the PR description.**
 
   It can be tempting for pull request authors to change nearby code to fix
   bugs or improve style or performance. However, this increases the risk of
