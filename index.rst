@@ -32,6 +32,7 @@ for your topic of interest. You can also use the search function in the top-left
    :caption: Providing feedback
    :name: sec-providing-feedback
 
+   feedback/issue_report_writing
    feedback/reporting_issues
    feedback/ideas
    feedback/bisecting
