@@ -94,7 +94,7 @@ By reading this list, you can make a great first impression as a new contributor
 - **Set up local style checks.** The tests will fail on your pull request if
   it does not pass a style check. Save yourself some time and
   :ref:`set up local style checks <doc_pre_commit>`.
-- **Keep it simple.** We :ref:`intentionally avoid <doc_cpp_usage_guidelines>`
+- **Keep it simple.** We :ref:`intentionally avoid <doc_cpp_disallowed_features>`
   using complex C++ features unless necessary. In most cases, avoid using
   clever solutions if a simple solution does the trick.
 - **Adapt to the style of surrounding code.** Observe the code you are
