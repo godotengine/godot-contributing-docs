@@ -88,7 +88,7 @@ By reading this list, you can make a great first impression as a new contributor
 - **Test your pull request.** The code you submit might be used by tens of
   thousands of users. At the very least, please test it to avoid any surprises.
 - **Disclose the use of AI.** If you use AI, you :ref:`need to tell us <doc_ai_assisted_contributions>`.
-  AI-written descriptions and code have risks, so if you care about the
+  AI-written code and descriptions have risks, so if you care about the
   long-term health of Godot, please be transparent about how you created your
   contribution.
 - **Set up local style checks.** The tests will fail on your pull request if
