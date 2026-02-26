@@ -387,6 +387,8 @@ GDExtension and godot-cpp.
    :triage_project: <gh-triage project=81>GDExtension issue triage</gh-triage>
    :maintainers: Bastiaan Olij (@BastiaanOlij), <lead>David Snopek (@dsnopek)</lead>, Fabio Alessandrelli (@Faless), George Marques (@vnen), Jan Haller (@Bromeon), Lukas Tenbrink (@Ivorius/@Ivorforce), Patrick Exner (@paddy-exe), Pāvels Nadtočajevs (@bruvzg)
 
+.. _team_gdscript:
+
 GDScript
 ~~~~~~~~
 
