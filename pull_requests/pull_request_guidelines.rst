@@ -98,6 +98,8 @@ This especially applies if you implement the idea of another person, copy code f
 assist you with your contribution. In all of these cases, you must disclose which part of your submission wasn't fully
 authored by you.
 
+.. _doc_ai_assisted_contributions:
+
 AI-assisted contributions
 -------------------------
 
