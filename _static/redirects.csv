@@ -16,3 +16,4 @@ source,destination
 /triage/workflow.html,/other/triage/workflow.html
 /triage/sprint_instructions.html,/other/triage_sprints.html
 /other/triage/release_blockers.html,/other/triage/release_priorities.html
+/engine/guidelines/code_style.html,/engine/guidelines/cpp_usage_guidelines.html

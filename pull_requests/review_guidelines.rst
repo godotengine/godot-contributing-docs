@@ -3,115 +3,104 @@
 Reviewing pull requests
 =======================
 
-Code review and testing
------------------------
+To ensure a bug-free experience for Godot users, we rely on code review and
+:ref:`testing <doc_testing_pull_requests>` for pull requests.
 
-The following is a list of things that contributors and engine maintainers can
+While code review is usually done by maintainers, review by other contributors
+helps, especially if they are knowledgeable with the subject matter. By helping
+to review pull requests, you can improve their chances of being merged.
+
+This article lists things that contributors and engine maintainers can
 do to conduct a substantive code review of a pull request.
 
-.. note::
-  If you want to conduct a code review, but can't do everything on this list,
-  say that in your review comment. For example, it is still very helpful to
-  provide comments on code, even if you can't build the pull request locally to
-  test the pull request (or vice versa). Feel free to review the code, just
-  remember to make a note at the end of your review that you have reviewed the
-  code only and have not tested the changes locally.
+You don't have to do everything listed here to help with the review process.
+Just remember to comment which aspects you have reviewed, and which you haven't.
+Commenting a summary of your thoughts is especially helpful, as it shows that
+you actually put thought and effort into your review.
 
-1. Confirm that the problem exists
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. note::
+
+  During code review, please remember to abide by our `Code of Conduct <https://godotengine.org/code-of-conduct>`__.
+
+Confirm that that pull request is valid
+---------------------------------------
+
+Before anything else, please make sure that you are looking at a valid pull
+request. Familiarize yourself with our :ref:`pull request rules <doc_pull_request_guidelines>`
+and ensure that the author did their best to abide by them.
+
+If you see any invalid PR, it might be best to just ignore it and wait for
+maintainers to take action. If you feel like someone is intentionally
+side-stepping rules, for example by using AI without disclosing
+it, feel free to let us know in the `Contributors' chat <https://chat.godotengine.org>`__.
+
+Confirm that the problem exists
+-------------------------------
 
 PRs need to solve problems and problems need to be documented. Make sure that
 the pull request links and closes (or at least addresses) a bug or a proposal.
 If it doesn't, consider asking the contributor to update the opening message of
 the PR to explain the problem that the PR aims to solve in more detail.
 
-.. note::
-  It should be clear _why_ a pull request is needed before it is merged. This
-  assists reviewers in determining whether a PR does what it says it does and it
-  helps contributors in the future understand why the code is the way it is.
+If the pull request isn't sufficiently justified, we recommend you stop your
+review here. There is no point in reviewing a PR that will never be merged
+because it is not addressing a relevant issue.
 
-2. Test the PR and look for regressions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Confirm that the approach is appropriate
+----------------------------------------
 
-While strict code review and CI help to ensure that all pull requests work as
-intended, mistakes happen and sometimes contributors push code that creates a
-problem in addition to solving a problem. Maintainers will avoid merging code
-that contains a regression even if it solves the problem as intended.
+Many reviewers jump right into the code, but this skips one of the most important
+steps of the review process: you should ensure that the pull request takes a good
+approach to solving the problem at hand.
 
-When reviewing a pull request, ensure that the PR does what it says it does
-(i.e. fixes the linked bug or implements the new feature) and nothing outside of
-the PR target area is broken by the change. You can do this by running the
-editor and trying out some common functions of the editor (adding objects to a
-scene, running GDScript, opening and closing menus etc.). Also, while reviewing
-the code, look for suspicious changes in other parts of the engine. Sometimes
-during rebasing changes slip through that contributors are not aware of.
+You should read the pull request description, the linked issue or proposal, and
+related discussions, and try to assess whether the pull request is a good way to
+approach solving the issue. We have documented some expectations in :ref:`doc_best_practices_for_engine_contributors`.
 
-3. Do a code review
-~~~~~~~~~~~~~~~~~~~
+If the approach of the PR seems inadequate, please comment this on the PR and stop
+your review here. The author may revise their PR significantly to improve the
+approach, meaning code reviews on the old approach might be wasted effort.
 
-Code reviews are usually done by people who are already experienced in a given
-area. They may be able to provide ideas to make code faster, more organized, or
-more idiomatic. But, even if you are not very experienced, you may want to
-conduct a code review to provide feedback within the scope of what you are
-comfortable reviewing. Doing so is valuable for the area maintainer (as a second
-set of eyes on a problem is always helpful) and it is also helpful for you as it
-will help you get more familiar with that area of code and will expose you to
-how other people solve problems. In fact, reviewing the code of experienced
-engine maintainers is a great way to get to know the codebase.
+Test the PR and look for regressions
+------------------------------------
 
-Here are some things to think about and look out for as you review the code:
+While the author should test their own pull request, pull request reviewers
+are just as responsible for ensuring that pull requests they approve work as
+intended.
+There is no better way to ensure this than to test the functionality yourself.
 
-* **Code only touches the areas announced in the PR (and the commit
-  message).**
+Find how to test pull requests in the section :ref:`doc_testing_pull_requests`.
 
-  It can be tempting to fix random things in the code, as you see them. However,
-  this can quickly make a pull request difficult to review and can make it hard
-  to dig through in the commit history. Small touch-ups next to the related area
-  are alright, but often bugs that you can find along the way are better fixed
-  in their own PRs.
+Do a code review
+----------------
 
-* **Code properly uses Godot's own APIs and patterns.**
+When you have confirmed that the PR is valid, addresses a real problem, and
+takes a valid approach, you can start getting technical and review the code.
 
-  Consistency is very important, and a solution that already exists in the
-  codebase is preferable to an ad-hoc solution.
+Here are some things to think about and look out for as you review:
 
-* **Are core areas affected by the change?**
+* **The code follows the area's guidelines.**
 
-  Sometimes a PR that is supposed to solve a local problem can have a
-  far-reaching effect way outside of its scope. Usually it is best to keep code
-  changes local to where the problem arises. If you think that the solution
-  requires changes outside the scope of the problem, it is usually best to seek
-  the opinion of a team leader who may have another idea for how to solve the
-  problem.
+  In addition to :ref:`pull request rules <doc_pull_request_guidelines>`,
+  each area has a set of guidelines we expect PRs to follow. For example,
+  engine contributions should follow the guidelines laid out in
+  :ref:`doc_engine_guidelines`, and documentation changes should follow the
+  :ref:`doc_documentation_guidelines`.
 
-4. Iterate with the contributor and improve the PR
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* **The code will work as intended and is unlikely to introduce risks or regressions.**
 
-Maintainers should provide feedback and suggestions for improvement if they spot
-things in the code that they would like changed. Preferably, suggestions should
-come in order of importance: first, address overall code design and the approach
-to solving the problem, then make sure the code is complying with the engine's
-best practices, and lastly, do the :ref:`code style review <doc_code_style_review>`.
+  Try to understand what is happening and call out anything that looks like it
+  might not work as intended.
 
-.. note::
+* **The code only changes things described and motivated in the PR description.**
 
-    **Communicate barriers to merging early in the review process.**
+  It can be tempting for pull request authors to change nearby code to fix
+  bugs or improve style or performance. However, this increases the risk of
+  regressions and makes the pull request hard to review. If you see a change
+  that is not needed to fix the problem at hand, don't hesitate to call it out.
 
-    If the PR has clear blockers or will likely not get merged for whatever other
-    reason, that fact should be communicated as early and clearly as possible. We
-    want to avoid stringing people along because it feels bad to say "sorry, no".
-
-As you review pull requests, keep the Godot `Code of Conduct
-<https://godotengine.org/code-of-conduct>`_ in mind. Especially the following:
-
-* Politeness is expected at all times. Be kind and courteous.
-
-* Always assume positive intent from others.
-
-* Feedback is always welcome, but keep your criticism constructive.
-
-Here are some things to avoid as you iterate on a pull request with a
-contributor:
+What to avoid during review
+---------------------------
 
 * **Needless double reviews.**
 
@@ -121,10 +110,18 @@ contributor:
 
 * **Being overly nitpicky.**
 
-  Code quality can be flexible depending on the area of the engine you are
-  working in. In general, our standard for code quality is much higher in core
-  areas and in performance-sensitive areas than it is in editor code for
-  example.
+  Only comment things that will have an actual impact on the quality of the PR.
+  Our expectations are flexible depending on the area of the engine you are
+  working in. For example, our standard for code quality is much higher in core
+  areas and in performance-sensitive areas than it is in editor code.
+
+* **Reviewing by subjective preference.**
+
+  As Godot is a large codebase with many contributors, our style can vary a lot.
+  Please keep an open mind and try to differentiate personal preferences versus
+  comments that actually improve the quality of the PR.
+  We have laid out our stylistic expectations in :ref:`doc_cpp_usage_guidelines`.
+  Please avoid commenting too much on style unless it is explicitly described here.
 
 * **Expanding the scope of a pull request.**
 
@@ -141,56 +138,20 @@ ask for a helping hand on the `Godot Contributors Chat
 Other teams may already be tagged for review, so you can also wait or ask for
 their assistance.
 
-5. Approve the pull request
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post your review
+----------------
 
-After reviewing the code, if you think that the code is ready to be merged into
-the engine, then go ahead and "approve" it. Make sure to also comment and
-specify the nature of your review (i.e. say whether you ran the code locally,
-whether you reviewed for style as well as correctness, etc.). Even if you are
-not an engine maintainer, approving a pull request signals to others that the
-code is good and likely solves the problem the PR says it does. Approving a pull
-request as a non-engine maintainer does not guarantee that the code will be
-merged, other people will still review it, so don't be shy.
+When you are done with your review, assess the PRs current state in context:
 
-.. _doc_code_style_review:
+- If the PR is **not ready** to be merged in its current state, or is **invalid** or **inadequate**, use **"request changes"**.
+- If the PR **should be merged** in its current state, or with very minor changes, use **"approve"**.
+- If you have only reviewed parts of the PR, use **"comment"**.
 
-Code style review
------------------
+Use the review comment to summarize your thoughts and specify the nature of your
+review. For example, if you reviewed the code but haven't tested the PR, you
+should disclose this in your review.
 
-Generally speaking, we aim to conduct a code review before a style/clarity
-review as contributors typically want to know if their general approach is
-acceptable before putting in the effort to make nitpicky changes to style. In
-other words, maintainers shouldn't ask contributors to change the style of code
-that may need to be rewritten in subsequent reviews. Similarly, maintainers
-should avoid asking for contributors to rebase PRs if the PR has not been
-reviewed.
-
-That being said, not everyone feels confident enough to provide a review on code
-correctness, in that case, providing comments on code style and clarity ahead of
-a more substantive code review is totally appropriate and more than welcome.
-
-In practice the code style review can be done as part of the substantive code
-review. The important thing is that both the substantive code and the code style
-need to be reviewed and considered before a pull request is merged.
-
-When reviewing code style pay particular attention to ensuring that the pull
-request follows the :ref:`doc_code_style_guidelines`. While ``clang-format`` and
-various CI checks can catch a lot of inconsistencies, they are far from perfect
-and are unable to detect some issues. For example, you should check that:
-
-  * The style of header includes is respected.
-  * Identifiers use ``snake_case`` and follow our naming conventions.
-  * Method parameters start with ``p_*`` or ``r_*`` (if they are used to return
-    a value).
-  * Braces are used appropriately, even for one-liner conditionals.
-  * Code is properly spaced (exactly one empty line between methods, no
-    unnecessary empty lines inside of method bodies).
-
-.. note::
-
-    This list is not complete and doesn't aim to be complete. Refer to
-    the linked style guide document for a complete set of rules. Keep
-    in mind that ``clang-format`` may not catch things you hope it would,
-    so pay attention and try to build a sense of what exactly it can and
-    cannot detect.
+Practically, the approval of :ref:`area maintainers <doc_areas>` is always needed
+before the PR can be merged. However, if you conduct useful reviews, maintainers
+will take them into account. They will especially take note if you often leave
+helpful reviews in their area.
