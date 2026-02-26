@@ -12,7 +12,7 @@ especially if you make frequent or complex contributions.
 
 .. tip::
 
-    As all other aspects of Godot, our code style is subject to be challenged
+    Like many aspects of Godot, our code style is subject to be challenged
     or expanded by the community. If you think it should be changed, please
     :ref:`make proposals <doc_contributing_ideas>` or submit pull requests
     using the :ref:`PR workflow <doc_pr_workflow>`.
