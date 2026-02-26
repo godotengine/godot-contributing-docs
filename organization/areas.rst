@@ -169,7 +169,11 @@ Script Editor
 Usability
 ~~~~~~~~~
 
-User interface design and user experience.
+The usability team represents a user-oriented view of the engine, and plans and reviews functionality, workflows,
+and accessibility.
+
+Feel free to approach the usability team for guidance and support in planning an engine feature, especially if it
+involves GUI or user experience (UX).
 
 .. gdareatable::
    :communication: #usability
