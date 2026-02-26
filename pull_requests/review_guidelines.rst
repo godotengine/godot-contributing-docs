@@ -117,7 +117,7 @@ What to avoid during review
 
 * **Reviewing by subjective preference.**
 
-  As Godot is a large codebase with many contributors, our style can vary a lot.
+  As Godot is a large codebase with many contributors, our style can vary a bit.
   Please keep an open mind and try to differentiate personal preferences versus
   comments that actually improve the quality of the PR.
   We have laid out our stylistic expectations in :ref:`doc_cpp_usage_guidelines`.
