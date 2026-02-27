@@ -166,21 +166,6 @@ Script Editor
    :triage_project: <gh-triage project=111>Editor issue triage</gh-triage>
    :maintainers: Kit Bishop (@kitbdev), Michael Alexsander (@YeldhamDev), Paul Batty (@Paulb23)
 
-Usability
-~~~~~~~~~
-
-The usability team represents a user-oriented view of the engine, and plans and reviews functionality, workflows,
-and accessibility.
-
-Feel free to approach the usability team for guidance and support in planning an engine feature, especially if it
-involves GUI or user experience (UX).
-
-.. gdareatable::
-   :communication: #usability
-   :github_reviews: @godotengine/usability
-   :github_labels: <gh-label>usability</gh-label>
-   :maintainers: Adriaan de Jongh (@AdriaandeJongh), Gilles Roudière (@groud), Hendrik Brucker (@Geometror), Hugo Locurcio (@Calinou), K. S. Ernest Lee (@fire), Michael Alexsander (@YeldhamDev), Micky (@Mickeon), @passivestar, Paul Batty (@Paulb23), Timothé Bonhoure (@ajreckof)
-
 GUI
 ---
 
@@ -447,6 +432,21 @@ If you work on Godot translations and contributors for your language have a dedi
    :communication: #translation, #translation-de, #translation-es, #translation-fs, #translation-it
    :github_labels: <gh-label>topic:i18n</gh-label>
    :maintainers: Rémi Verschelde (@akien-mga)
+
+Usability
+---------
+
+The usability team represents a user-oriented view of the engine, and plans and reviews functionality, workflows,
+and accessibility.
+
+Feel free to approach the usability team for guidance and support in planning an engine feature, especially if it
+involves GUI or user experience (UX).
+
+.. gdareatable::
+   :communication: #usability
+   :github_reviews: @godotengine/usability
+   :github_labels: <gh-label>usability</gh-label>
+   :maintainers: Adriaan de Jongh (@AdriaandeJongh), Gilles Roudière (@groud), Hendrik Brucker (@Geometror), Hugo Locurcio (@Calinou), K. S. Ernest Lee (@fire), Michael Alexsander (@YeldhamDev), Micky (@Mickeon), @passivestar, Paul Batty (@Paulb23), Timothé Bonhoure (@ajreckof)
 
 .. _team_website:
 
