@@ -106,7 +106,6 @@ Categories
    Also for issues that are very incomplete, such as missing reproduction steps.
 -  *Performance*: issues that directly impact engine or editor performance.
    Can also be used for pull requests that improve performance or add low-end-friendly options.
-   Should not be coupled with *Usability*.
 -  *Regression*: the bug appeared after a stable release not exhibiting
    the bug was released.
 -  *Salvageable*: the pull request can't be merged due to design issues or
@@ -118,7 +117,8 @@ Categories
    most cases, *Needs work* or *Archived* is more appropriate.
 -  *Tracker*: issue used to track other issues (like all issues related to
    the plugin system).
--  *Usability*: issues that directly impact user usability. Should not be coupled with *Performance*.
+-  *Usability*: issues and pull requests that concern user workflow, editor
+   accessibility, and *how* user-facing features work.
 
 The categories are used for general triage of the issues. They can be combined
 in some way when relevant, e.g. an issue can be labeled *Bug* and *Usability*
