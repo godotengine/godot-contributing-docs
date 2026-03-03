@@ -36,6 +36,8 @@ are simple. This is usually not a problem, unless the proposal is complex or pot
 In this case, we recommend checking in with the responsible :ref:`teams <doc_areas>` before
 starting work to implement something.
 
+.. _doc_evaluating_proposals:
+
 Evaluating proposals
 --------------------
 
