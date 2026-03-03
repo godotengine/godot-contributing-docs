@@ -69,7 +69,7 @@ Nodes and features for 2D and 3D animation and IK workflows.
    :communication: #animation
    :github_reviews: @godotengine/animation
    :github_labels: <gh-label>topic:animation</gh-label>
-   :triage_project: <gh-triage project=74>Animation issue triage</gh-triage>
+   :triage_project: <gh-triage project=74>Animation issue triage</gh-triage>, <gh-triage project=137>Animation Team Priorities and Actions</gh-triage> (maintainers only)
    :maintainers: Juan Linietsky (@reduz), K. S. Ernest Lee (@fire), @Lyuma, @SaracenOne, <lead>Silc 'Tokage' Renew (@TokageItLab)</lead>
 
 Asset pipeline
@@ -81,7 +81,7 @@ Asset import pipeline for 2D (textures) and 3D (scenes, models, animations, etc.
    :communication: #asset-pipeline
    :github_reviews: @godotengine/asset-pipeline
    :github_labels: <gh-label>topic:import</gh-label>
-   :triage_project: <gh-triage project=72>Asset pipeline issue triage</gh-triage>
+   :triage_project: <gh-triage project=72>Asset pipeline issue triage</gh-triage>, <gh-triage project=144>Asset Pipeline Team Priorities and Actions</gh-triage> (maintainers only)
    :maintainers: Aaron Franke (@aaronfranke), @BlueCube3310, Hugo Locurcio (@Calinou), K. S. Ernest Lee (@fire), @Lyuma, Rémi Verschelde (@akien-mga)
 
 Audio
@@ -446,6 +446,7 @@ involves GUI or user experience (UX).
    :communication: #usability
    :github_reviews: @godotengine/usability
    :github_labels: <gh-label>usability</gh-label>
+   :triage_project: <gh-triage project=145>Usability Team Review Tracker</gh-triage> (maintainers only)
    :maintainers: Adriaan de Jongh (@AdriaandeJongh), Gilles Roudière (@groud), Hendrik Brucker (@Geometror), Hugo Locurcio (@Calinou), K. S. Ernest Lee (@fire), Michael Alexsander (@YeldhamDev), Micky (@Mickeon), @passivestar, Paul Batty (@Paulb23), Timothé Bonhoure (@ajreckof)
 
 .. _team_website:
