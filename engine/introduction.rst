@@ -58,6 +58,7 @@ and uncontroversial changes to contribute, especially at first.
 A great place to start is by fixing bugs. Issues labeled as
 `good first issue <https://github.com/godotengine/godot/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22>`__
 are issues that maintainers think should be good for newcomers.
+However, these issues are claimed pretty quickly, so it is possible you won't find anything actionable here.
 
 If you are knowledgeable or interested in a specific :ref:`area <doc_areas>`, you can browse its `bug reports <https://github.com/godotengine/godot/issues>`__
 using the associated labels or by looking through `trackers <https://github.com/orgs/godotengine/projects/58>`__.
