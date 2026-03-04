@@ -153,6 +153,33 @@ Write your titles like plain sentences, without capitalizing each word:
 Only proper nouns, projects, people, and node class names should have their
 first letter capitalized.
 
+Section headers
+~~~~~~~~~~~~~~~
+
+Sections and subsections can be created by underlining text with ``-`` and ``-`` respectively. The underline must be at least as long as the text, for example:
+
+.. code:: rst
+
+   Insert section here
+   -------------------
+
+   Insert subsection 1 here
+   ~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Insert subsection 2 here
+   ~~~~~~~~~~~~~~~~~~~~~~~~
+
+Headers which begin with a number lead to incorrect link fragments. To workaround this, add a custom anchor before any such header:
+
+.. code:: rst
+
+   .. _doc_2d_movement_8-way_movement:
+
+   8-way movement
+   --------------
+
+Try to use the convention ``_doc_<page_slug>_<section_slug>:`` or, if that isn't unique, ``_doc_<page_slug>_<section_slug>_<subsection_slug>:``. The only allowed characters are alphanumeric (``A-Z``, ``a-z``, ``0-9``) and underscores (``_``). 
+
 Sphinx and reStructuredText syntax
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
