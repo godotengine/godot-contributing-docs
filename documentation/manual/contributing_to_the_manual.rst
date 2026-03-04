@@ -156,20 +156,7 @@ first letter capitalized.
 Section headers
 ~~~~~~~~~~~~~~~
 
-Sections and subsections can be created by underlining text with ``-`` and ``-`` respectively. The underline must be at least as long as the text, for example:
-
-.. code:: rst
-
-   Insert section here
-   -------------------
-
-   Insert subsection 1 here
-   ~~~~~~~~~~~~~~~~~~~~~~~~
-
-   Insert subsection 2 here
-   ~~~~~~~~~~~~~~~~~~~~~~~~
-
-Headers which begin with a number lead to incorrect link fragments. To workaround this, add a custom anchor before any such header:
+Headers which begin with a number lead to incorrect link fragments. To work around this, add a custom anchor before any such header:
 
 .. code:: rst
 
