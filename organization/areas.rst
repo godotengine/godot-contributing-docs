@@ -35,6 +35,30 @@ You can find information about the teams' `current priorities <https://godotengi
    - In particular, ask them how they'd like to be referred to.
    - If you are a maintainer, you can also open a PR to add yourself, if you are on the respective GitHub team.
 
+How to join a team / become a maintainer
+----------------------------------------
+
+Prospective maintainers are invited by other maintainers. As such, there is no way to apply to become one.
+
+At the same time, the primary goal of any contributor should be to improve Godot. Becoming a maintainer can
+be an honor, but is primarily a responsibility.
+
+Regardless of whether you work with the goal of becoming a maintainer, or simply want to make
+effective contributions for the community, we have some advice for you:
+
+- **Take on maintainer tasks.** Many people assume that tasks like :ref:`reviewing PRs <doc_pr_review_guidelines>`,
+  taking on :ref:`team tasks <doc_triage_projects>`, and critically :ref:`evaluating proposals <doc_evaluating_proposals>`
+  are reserved to maintainers. This is not true! These kinds of tasks are a major bottleneck for Godot's development,
+  so we appreciate everyone who contributes in this way.
+- **Be aligned with the project direction.** Try to work in the best interest of Godot.
+  Many people like implementing exciting new features, but often this is not the best way to contribute. What are other
+  ways to help? Where do you see problems or jobs that nobody else is taking on? What plans or roadblocks do the teams
+  currently have, and can you help? By being well informed and aligning with the teams, you can make effective
+  contributions in the interest of Godot.
+- **Earn trust from other maintainers.** Casual contributors come and go, but we take note of those who stay around
+  and communicate well, take on tasks and responsibility in an area, and are proactive when solving problems and fixing
+  regressions.
+
 .. Html hyperlink targets cannot start with numbers. We're using a trick to override the default generated target: https://stackoverflow.com/a/65284203/503822
 .. _2d:
 .. _team-2d:
