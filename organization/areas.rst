@@ -378,7 +378,7 @@ VFX / Tech Art / Particles
    :communication: #vfx-tech-art
    :github_reviews: @godotengine/rendering, @godotengine/shaders
    :github_labels: <gh-label>topic:particles</gh-label>
-   :triage_project: <gh-triage project=115>Particles issue triage</gh-triage>
+   :triage_project: <gh-triage project=115>Particles issue triage</gh-triage>, <gh-triage project=54>VFX and TechArt wishlist</gh-triage>
 
 Scripting
 ---------
@@ -470,6 +470,7 @@ involves GUI or user experience (UX).
    :communication: #usability
    :github_reviews: @godotengine/usability
    :github_labels: <gh-label>usability</gh-label>
+   :triage_project: <gh-triage project=145>Usability Team Review Tracker</gh-triage>
    :maintainers: Adriaan de Jongh (@AdriaandeJongh), Gilles Roudière (@groud), Hendrik Brucker (@Geometror), Hugo Locurcio (@Calinou), K. S. Ernest Lee (@fire), Michael Alexsander (@YeldhamDev), Micky (@Mickeon), @passivestar, Paul Batty (@Paulb23), Timothé Bonhoure (@ajreckof)
 
 .. _team_website:
