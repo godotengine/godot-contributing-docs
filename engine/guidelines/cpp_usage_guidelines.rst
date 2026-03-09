@@ -108,8 +108,11 @@ Naming
 Spacing
 -------
 
-- Indentation and alignment are both tab based (respectively one and two tabs).
-- One space around math and assignments operators as well as after commas.
+- Indentation and alignment are both tab-based (respectively one and two tabs).
+  In some cases, spaces may be used after tab characters to align parameters in
+  long method calls. ``clang-format`` is configured to enforce this, according
+  to how the method call was wrapped over multiple lines.
+- One space around math and assignments operators, as well as after commas.
 - Code is properly spaced (exactly one empty line between methods, no
   unnecessary empty lines inside of method bodies).
 
