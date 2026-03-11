@@ -42,7 +42,7 @@ class or global object. The majority of these files is located in `doc/classes/
 <https://github.com/godotengine/godot/tree/master/doc/classes>`_, but some modules
 contain their own documentation as well. You will find it in the ``modules/<module_name>/doc_classes/``
 directory. To learn more about editing XML files refer to the latest documentation of the
-`class reference <https://docs.godotengine.org/en/latest/engine_details/class_reference_primer.html>`__.
+`class reference <https://docs.godotengine.org/en/latest/engine_details/class_reference/index.html>`__.
 
 .. seealso::
 
