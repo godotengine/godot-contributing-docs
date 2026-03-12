@@ -148,9 +148,17 @@ When you are done with your review, assess the PRs current state in context:
 - If the PR **should be merged** in its current state, or with very minor changes, use **"approve"**.
 - If you cannot make a judgement call right now, use **"comment"**.
 
-Use the review comment to summarize your thoughts and specify the nature of your
-review. For example, if you reviewed the code but haven't tested the PR, you
-should disclose this in your review.
+Please always use the review comment to summarize your thoughts and specify the nature
+of your review. For example, if you reviewed the code but haven't tested the PR, you
+should disclose this in your review. Reviews without a summary are not very useful
+to us.
+
+.. note:: Maintainers may sometimes approve PRs without a summary. We acknowledge it may seem
+          unfair to allow this while asking non-maintainers to always provide a summary.
+          The reason behind this is simply that release managers know the maintainers, and
+          trust them to do their due diligence before approving a PR. Since release managers
+          may not know you, we need more info from you if you want us to consider your approval
+          as a meaningful PR review.
 
 Practically, the approval of :ref:`area maintainers <doc_areas>` is always needed
 before the PR can be merged. However, if you conduct useful reviews, maintainers
