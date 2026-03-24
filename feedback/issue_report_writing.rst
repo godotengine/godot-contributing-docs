@@ -129,15 +129,15 @@ helps them confirm that what they are seeing when testing the issue is the same 
 If you are adding large blocks of text, like crash information, to your report, please use the ``<details>`` tag to hide it by default,
 like so:
 
-.. code-block::
+.. code-block:: text
 
   <!-- Keep one blank line after the summary tag, or the formatting won't work. -->
   <details>
   <summary>Backtrace</summary>
 
-  \`\`\`
+  ```
   Put your long crash trace here.
-  \`\`\`
+  ```
 
   </details>
 
@@ -230,18 +230,18 @@ Code snippets in reports
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 Adding short and specific code snippets to a report can be very helpful in testing the issue. Please make sure to format the code correctly:
-use a single backtick (\`) for short snippets of code inside other text, ``\`# Like this!\```. For longer pieces of code or other text,
+use a single backtick (`````) for short snippets of code inside other text, ```# Like this!```. For longer pieces of code or other text,
 use triple backticks, and if appropriate add syntax highlighting hints, like this:
 
 .. code-block:: text
 
-  \`\`\`gdscript
+  ```gdscript
   var foo
-  \`\`\`
+  ```
 
 
 .. warning::
 
-  Note that the backtick symbol ``\``` is *not* the same as the apostrophe symbol ``'``. On a standard US keyboard,
+  Note that the backtick symbol ````` is *not* the same as the apostrophe symbol ``'``. On a standard US keyboard,
   the key for the backtick symbol is to the left of the `1` key. If you're struggling to find the backtick key on your keyboard,
   GitHub usually offers a "Code" button in its text editor toolbar.
