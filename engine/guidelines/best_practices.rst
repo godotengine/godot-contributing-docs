@@ -187,6 +187,21 @@ In real-life scenarios, these use cases will be at most rare and uncommon
 anyway, so it makes sense a custom solution needs to be written. This is why
 it's important to still provide users the basic building blocks to do it.
 
+Especially, this criteria will be used to determine whether to merge a pull
+request that adds new features.
+
+In other words, features that can already be implemented using add-ons or a few
+lines of script code are not a high priority for merging. This does not mean they
+will never be merged, but sufficient practicality and demand must be demonstrated.
+
+During reviews, you may be asked why an add-on is not sufficient for that pull
+request, and in some cases, this may block the pull request from being merged.
+
+For example, editors designed for specific workflows are recommended to be
+implemented as add-ons. Then, if there are not enough APIs exposed by the core to
+create an add-on, you can create a pull request to expose the necessary APIs,
+rather than trying to add new features to the core.
+
 #7: Prefer local solutions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
