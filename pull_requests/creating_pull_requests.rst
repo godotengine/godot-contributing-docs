@@ -236,7 +236,9 @@ Making changes
 
 You would then do your changes to our example's
 ``editor/project_manager.cpp`` file with your usual development environment
-(text editor, IDE, etc.).
+(text editor, IDE, etc.). If you use an IDE (e.g. Xcode, Visual Studio,
+or VS Code), see `Configuring an IDE <https://docs.godotengine.org/en/stable/engine_details/development/configuring_an_ide/index.html>`__
+in the main Godot documentation for project setup and debugging.
 
 By default, those changes are *unstaged*. The staging area is a layer between
 your working directory (where you make your modifications) and the local Git
