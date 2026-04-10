@@ -89,7 +89,7 @@ Consider adding tooltips whenever the action performed by a button or menu
 action isn't obvious. You can also provide additional context or highlight
 caveats in the tooltip.
 
-You can do this by calling ``set_tooltip(TTR("Text here."))`` on the
+You can do this by calling ``set_tooltip_text(TTRC("Text here."))`` on the
 Control-based node in question. If the tooltip is particularly long (more than
 ~80 characters), wrap it over several lines by adding line breaks using ``\n``.
 
