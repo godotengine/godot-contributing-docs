@@ -64,10 +64,13 @@ like using certain parts of the engine, or that causes loss of data or work, and
 significant workflow disruption.
 
 Examples of showstopper issues are:
+
 * Parts of the editor or engine that do not work, or are difficult to use, including only on some platforms:
+
     - Changes to the animation system causing errors when using animation features,
     - Improvements to the way the editor generates previews and thumbnails causing severe performance regressions,
     - Changes to the export process causing C# code to not be exported.
+
 * Errors that cause loss of data or work, for example deleting or corrupting project files.
 * Issues using or importing file formats.
 * Issues with specific hardware, like controllers not working or rendering being broken on certain graphics hardware.
