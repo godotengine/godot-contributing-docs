@@ -39,7 +39,7 @@ Provide feedback
 ----------------
 
 - **Report bugs & other issues**
-  As active users of the engine, you are the most equipped to identify bugs and issues.
+  As active users of the engine, you are well equipped to identify bugs and issues.
   To let us know about your findings, fill out this `bug report form <https://github.com/godotengine/godot/issues/new/choose>`_ on our GitHub.
   Make sure to include as much information as possible to ensure these issues can easily be reproduced by contributors.
 
