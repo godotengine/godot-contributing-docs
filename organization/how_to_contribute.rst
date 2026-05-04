@@ -50,7 +50,6 @@ Provide feedback
 - **Test development versions**
   While it is recommended to use the stable releases for your projects, you can :ref:`help us test <doc_testing_development_versions>`
   development releases, betas, and release candidates. You can open a copy of your project in the development versions and check if any new problems are created, and what problems are solved.
-  
   It is strongly recommended to back up your project before opening it in a development version to avoid potential irreversible changes in your project.
 
   Find recent `development versions <https://godotengine.org/download/preview/>`_ directly on our download page, or linked in their own blog posts.
