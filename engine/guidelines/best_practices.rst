@@ -187,6 +187,18 @@ In real-life scenarios, these use cases will be at most rare and uncommon
 anyway, so it makes sense a custom solution needs to be written. This is why
 it's important to still provide users the basic building blocks to do it.
 
+Overall, our low-level APIs allow us to prioritize pull requests that unblock
+people from creating games.
+
+For example, when users request or implement a new feature, maintainers look at
+the community need, complexity and maintainability of the feature. If it's too
+niché, they might suggest to implement it as an add-on instead, using the
+low-level APIs (if there are any fitting ones, or by adding new ones otherwise).
+
+If an add-on later becomes popular, and authors are still interested to add it to
+Godot, it might be adopted by the maintainers — to give an example, this is what
+happened with the Jolt physics engine.
+
 #7: Prefer local solutions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
