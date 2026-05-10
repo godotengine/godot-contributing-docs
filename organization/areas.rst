@@ -425,7 +425,7 @@ C# / .NET / Mono
 Server Infrastructure
 ---------------------
 
-Managing the backend for the website and servers, e.g. `godotengine.org <https://godotengine.org>`__, `asset library <https://godotengine.org/asset-library>`__, and upcoming `asset store <https://store-beta.godotengine.org>`_.
+Managing the backend for the website and servers, e.g. `godotengine.org <https://godotengine.org>`__, `asset library <https://godotengine.org/asset-library>`__, and upcoming `asset store <https://store.godotengine.org>`_.
 
 .. gdareatable::
    :communication: #website, #asset-store
@@ -478,7 +478,7 @@ involves GUI or user experience (UX).
 Website
 -------
 
-Creating and curating the website `godotengine.org <https://godotengine.org>`__ and `asset library <https://godotengine.org/asset-library>`__ (and upcoming `asset store <https://store-beta.godotengine.org>`_).
+Creating and curating the website `godotengine.org <https://godotengine.org>`__ and `asset library <https://godotengine.org/asset-library>`__ (and upcoming `asset store <https://store.godotengine.org>`_).
 
 .. gdareatable::
    :communication: #website, #asset-store
