@@ -218,7 +218,7 @@ Navigation
    :communication: #navigation
    :github_reviews: @godotengine/navigation
    :github_labels: <gh-label>topic:navigation</gh-label>
-   :triage_project: <gh-triage project=103>Navigation issue triage</gh-triage>
+   :triage_project: <gh-triage project=103>Navigation issue triage</gh-triage> (private)
 
 Networking
 ----------
