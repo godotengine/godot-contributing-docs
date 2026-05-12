@@ -35,7 +35,7 @@ Automated style checks
 Most of our code style is automatically enforced with formatters (clang-format
 and clang-tidy). If your code does not pass the style checks, the continuous
 integration (CI) on your pull request will fail and your pull request cannot
-be merged. We recommend you :ref:`set up local checks <doc_pre_commit>` to
+be merged. We recommend you :ref:`set up local checks <doc_prek>` to
 save yourself some time.
 
 This article focuses mostly on the parts of our style that are not automatically

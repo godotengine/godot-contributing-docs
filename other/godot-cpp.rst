@@ -17,7 +17,7 @@ If you wish to help out, ensure you have an account on GitHub and create a "fork
 To contribute, please use our regular :ref:`PR workflow <doc_pr_workflow>`.
 The code should adhere to the same :ref:`code guidelines <doc_engine_guidelines>` as the engine itself.
 
-Please install clang-format and the `pre-commit <https://pre-commit.com/>`__ Python framework so formatting is done
+Please install clang-format and the `prek <https://prek.j178.dev/>`__ pre-commit framework so formatting is done
 before your changes are submitted. See the :ref:`code style guidelines <doc_code_style_guidelines>` for instructions.
 
 Feature guidelines

@@ -17,13 +17,13 @@ Objective-C
 
 Our Objective-c and Objective-c++ code should follow our :ref:`C++ guidelines <doc_cpp_usage_guidelines>`.
 
-Some styles are also automatically enforced using our :ref:`pre-commit hooks <doc_pre_commit>`.
+Some styles are also automatically enforced using our :ref:`prek hooks <doc_prek>`.
 
 Java
 ----
 
 Godot's Java code (mostly in ``platform/android``) is enforced via ``clang-format``.
-It is automatically enforced using our :ref:`pre-commit hooks <doc_pre_commit>`.
+It is automatically enforced using our :ref:`prek hooks <doc_prek>`.
 
 Keep in mind that our style guide only applies to code written and maintained by Godot,
 not third-party code such as the ``java/src/com/google`` subfolder.
@@ -35,6 +35,6 @@ Godot's SCons buildsystem is written in Python, and various scripts included
 in the source tree are also using Python. We use the
 `Ruff linter and code formatter <https://docs.astral.sh/ruff/>`__ to format it.
 
-We recommend you run ruff using our :ref:`pre-commit hooks <doc_pre_commit>`.
+We recommend you run ruff using our :ref:`prek hooks <doc_prek>`.
 
 Alternatively, you can install and run Ruff separately.

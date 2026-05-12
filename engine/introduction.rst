@@ -94,7 +94,7 @@ By reading this list, you can make a great first impression as a new contributor
   contribution.
 - **Set up local style checks.** The tests will fail on your pull request if
   it does not pass a style check. Save yourself some time and
-  :ref:`set up local style checks <doc_pre_commit>`.
+  :ref:`set up local style checks <doc_prek>`.
 - **Keep it simple.** We :ref:`intentionally avoid <doc_cpp_disallowed_features>`
   using complex C++ features unless necessary. In most cases, avoid using
   clever solutions if a simple solution does the trick.
@@ -106,7 +106,7 @@ For everything else, we have the :ref:`pull request rules <doc_pull_request_guid
 and the :ref:`engine contribution guidelines <doc_engine_guidelines>`.
 To become a proficient contributor, continue reading at your own leisure.
 
-.. _doc_pre_commit:
+.. _doc_prek:
 
 Setting up a dev environment
 ----------------------------
@@ -116,15 +116,15 @@ You can learn how to work with our source code using the `Engine development sec
 Additionally, we recommend you set up style checks locally.
 For example, we use `clang-format <https://clang.llvm.org/docs/ClangFormat.html>`__ and `clang-tidy <https://clang.llvm.org/extra/clang-tidy/>`__
 to format our C++ code.
-The easiest way to set them up is via `pre-commit <https://pre-commit.com/>`__.
+The easiest way to set them up is via `prek <https://prek.j178.dev/>`__.
 
-You can install pre-commit in your local Python installation using pip using the shell code below.
+You can install prek in your local Python installation using pip using the shell code below.
 Depending on your system, there may be other ways to install it which you may prefer.
 
 .. code-block:: shell
 
-    pip install pre-commit
-    pre-commit install
+    pip install prek
+    prek install
 
 IDE integration
 ^^^^^^^^^^^^^^^
