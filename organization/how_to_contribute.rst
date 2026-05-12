@@ -39,7 +39,7 @@ Provide feedback
 ----------------
 
 - **Report bugs & other issues**
-  As active users of the engine, you are better equipped to identify bugs and other issues than anyone else.
+  As active users of the engine, you are well equipped to identify bugs and issues.
   To let us know about your findings, fill out this `bug report form <https://github.com/godotengine/godot/issues/new/choose>`_ on our GitHub.
   Make sure to include as much information as possible to ensure these issues can easily be reproduced by others.
 
@@ -49,8 +49,8 @@ Provide feedback
 
 - **Test development versions**
   While it is recommended to use the stable releases for your projects, you can :ref:`help us test <doc_testing_development_versions>`
-  dev releases, betas, and release candidates by opening a copy of your project in them and checking what problems this
-  might introduce or maybe even solves. Make sure to have a backup ready, to avoid potential irreversible changes.
+  development releases, betas, and release candidates. You can open a copy of your project in the development versions and check if any new problems are created, and what problems are solved.
+  It is strongly recommended to back up your project before opening it in a development version to avoid potential irreversible changes in your project.
 
   Find recent `development versions <https://godotengine.org/download/preview/>`_ directly on our download page, or linked in their own blog posts.
 
