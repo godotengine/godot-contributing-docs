@@ -116,4 +116,6 @@ outline to use to assign this if you are able:
 * *Very Bad*: This is a critical issue which either affects a lot of users, or is a showstopper for a significant part of the userbase.
 * *Bad*: This is an annoying issue which may affect a lot of users, but isn’t a showstopper.
 * *Not Critical*: This is an overall minor issue, but which may affect a new feature and would be nice to fix before stable.
+* *Needs Further Info*: An attempt was made to evaluate the issue but the report lacks details, or answers to some follow-up questions, either by the author or others able to reproduce the issue.
+  Further details are required before proceeding.
 * *Unassessed*: This issue was added to the tracker but without assessing its severity. This needs to be evaluated by maintainers as it may be a release priority.
