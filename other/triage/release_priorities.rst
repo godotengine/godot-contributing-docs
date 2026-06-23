@@ -15,6 +15,8 @@ and how to assign a :ref:`severity <doc_release_priority_severity>` to them. Whe
 release priorities. We can always remove issues from the list, but it is critical
 that we know about potentially important issues before releasing a version.
 
+Any issue added to the tracker should also be :ref:`assigned to the current milestone <doc_bug_triage_assigning_milestones>`.
+
 .. _doc_identifying_release_priorities:
 
 Identifying release priority issues
