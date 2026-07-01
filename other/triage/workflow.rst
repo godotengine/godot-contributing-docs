@@ -8,10 +8,12 @@ bugs. For a basic introduction, please see :ref:`doc_bug_triage_intro`. If you h
 or if there’s anything missing, please don’t hesitate to ask in the
 `#bugsquad <https://chat.godotengine.org/channel/bugsquad>`__ channel.
 
+.. _doc_bug_triage_checklist:
+
 Triage checklist
 ----------------
 
--  Make sure the issue is `valid <#check-issue-validity>`__:
+-  Make sure the issue is :ref:`valid <doc_bug_triage_check_issue_validity>`:
 
    -  If the issue is not filled in properly, i.e. ignores the template,
       ask the author to do so.
@@ -21,12 +23,12 @@ Triage checklist
 
 -  Make sure the issue has all the required information, if not ask the
    author to add the missing information.
--  `Check for duplicates <#check-for-duplicates>`__.
+-  :ref:`Check for duplicates <doc_bug_triage_check_for_duplicates>`.
 -  Check if the issue is a recent regression. If it is, add it to the
    :ref:`release priorities <doc_bug_triage_release_priorities>` and
    mark it as a “regression”.
 -  Add initial labels.
--  `Assign a milestone <#assigning-milestones>`__ if relevant.
+-  :ref:`Assign a milestone <doc_bug_triage_assigning_milestones>` if relevant.
 -  Test the issue if you are able, or ask others to test it.
 
    -  If you cannot replicate the issue, and it has been fixed, close
@@ -37,6 +39,8 @@ Triage checklist
 
 -  Finalize the assessment, updating any labels or milestone if needed
    and adding it to the appropriate :ref:`team trackers <doc_areas>`.
+
+.. _doc_bug_triage_check_issue_validity:
 
 Check Issue Validity
 --------------------
@@ -65,6 +69,8 @@ marked as archived.
 
 See :ref:`how to write a good issue report <doc_issue_report_writing>` for more details.
 
+.. _doc_bug_triage_initial_assessment:
+
 Initial Assessment
 ------------------
 
@@ -90,6 +96,8 @@ will double checks reports when investigating, and will change tags as
 necessary. It’s more important to get an issue tagged correctly than
 getting it right from the start.
 
+.. _doc_bug_triage_check_for_duplicates:
+
 Check for Duplicates
 --------------------
 
@@ -98,11 +106,13 @@ is a duplicate. For example a bug reported for and fixed in ``4.5``,
 which is marked for cherry-picking for ``4.4`` (i.e. the PR has the
 “cherrypick:4.4” label), should not be tracked separately for ``4.4``.
 
+.. _doc_bug_triage_assigning_milestones:
+
 Assigning Milestones
 --------------------
 
 Note that this is for assigning milestones to *open* issues, please see
-`closing an issue <#closing-an-issue>`__ for details on closed issues
+:ref:`closing an issue <doc_bug_triage_closing_an_issue>` for details on closed issues
 and milestones.
 
 Below is an outline of the different milestones we use, but as a general
@@ -114,12 +124,17 @@ For the ``master`` branch:
 * ``4.x``: For Godot 4 in general, i.e. the ``master`` branch. We do not use the ``4.x`` milestone on issues, issues with no milestone are assumed to be relevant for the current development cycle.
 * *The current development version*: Should be assigned to issues that are :ref:`release priorities <doc_bug_triage_release_priorities>`, or otherwise prioritized for the current version.
 * *The next release version*: When we enter feature freeze we usually create a new milestone used for PRs that are approved but won’t make it into the current release, this milestone is not used for issues.
-* *Older Godot 4 versions*: This is used for issues that are only relevant for this specific version (or older versions), but not any newer version. An example of this would be an issue that was solved in ``4.5`` as part of an enhancement, but that enhancement cannot be cherry-picked for ``4.4`` and a separate issue is necessary to track the specific solution for ``4.4`` (and older, if relevant). For such issues it can also be relevant to add “[4.4]” at the beginning of the issue title to help clarify it is specific to this version.
+* *Older Godot 4 versions*: This is used for issues that are only relevant for this specific version (or older versions), but not any newer version.
+  An example of this would be an issue that was solved in ``4.5`` as part of an enhancement, but that enhancement cannot be cherry-picked for ``4.4`` and a separate issue is necessary to track the specific solution for ``4.4`` (and older, if relevant).
+  For such issues it can also be relevant to add “[4.4]” at the beginning of the issue title to help clarify it is specific to this version.
 
 For Godot 3:
 
-* ``3.x``: For the ``3.x`` branch in general. Used for issues that are only relevant for the ``3.x`` version, and occurs on the current development version of ``3.x``. For these issues it can also help to add “[3.x]” at the beginning of the issue title to help identifying the issue.
+* ``3.x``: For the ``3.x`` branch in general. Used for issues that are only relevant for the ``3.x`` version, and occurs on the current development version of ``3.x``.
+  For these issues it can also help to add “[3.x]” at the beginning of the issue title to help identifying the issue.
 * Other Godot 3 milestones work the same way as for the ``master`` branch, except we do not track release priorities for ``3.x``.
+
+.. _doc_bug_triage_testing_an_issue:
 
 Testing an Issue
 ----------------
@@ -143,13 +158,15 @@ different GPU manufacturer or family), please drop it in the
 `#bugsquad <https://chat.godotengine.org/channel/bugsquad>`__ channel
 and ask for someone to test it.
 
+.. _doc_bug_triage_finalize_assessment:
+
 Finalize Assessment
 -------------------
 
 For pre-release versions, it’s critical to identify what change caused a
 specific bug. **All** such regressions should be bisected. You can ask
-the issue author to follow the instructions in the :ref:`Bisecting
-regressions <doc_bisecting_regressions>` documentation. If they are not
+the issue author to follow the instructions in the
+:ref:`Bisecting regressions <doc_bisecting_regressions>` documentation. If they are not
 able to (or the issue is critical and should be fixed as quickly as possible),
 then you can look into bisecting the issue yourself.
 
@@ -159,6 +176,8 @@ for a list of triage projects. Functional enhancements shouldn’t generally be 
 trackers (i.e. new features, not enhancements to documentation). Some
 teams have dedicated trackers for enhancements, but they aren’t detailed
 here.
+
+.. _doc_bug_triage_closing_an_issue:
 
 Closing an issue
 ----------------
@@ -177,6 +196,8 @@ report was made long ago), it should be marked as archived as well.
 
 The “needs testing” and “needs work” labels should also be removed when
 an issue is closed, regardless of how it was solved.
+
+.. _doc_bug_triage_team_workflow:
 
 Team Workflow
 -------------
