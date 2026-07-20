@@ -13,3 +13,4 @@ This section explains the workflow and guidelines of the :team:`Triage`.
    workflow
    guidelines
    release_priorities
+   triage_sprint_organization
