@@ -6,3 +6,6 @@ build-backend = "flit_core.buildapi"
 name = "Godot Contributing Docs"
 authors = [{name = "Graziella", email = "graziella@lumache"}]
 dynamic = ["version", "description"]
+
+[tool.codespell]
+ignore-words = "_tools/codespell-ignore.txt"
