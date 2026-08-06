@@ -633,6 +633,34 @@ is fine too.
     - Godot uses *nodes* with *scripts* in a *scene tree*.
     - Godot uses **nodes** with **scripts** in a **scene tree**.
 
+Numbers
+~~~~~~~
+
+Use digits to write numbers larger than ten, negative numbers, and for all
+:ref:`literals <doc_docs_writing_guidelines_literals>`.
+Spell out numbers between zero and ten, as well as large inexact numbers
+like "hundreds" or "thousands".
+
+**Bad:**
+
+    - There are 5 types of nodes.
+    - Use one of these twenty five cases.
+    - Returns zero if successful.
+    - Choose from 1000s of free models.
+
+**Good:**
+
+    - There are five types of nodes.
+    - Use one of these 25 cases.
+    - Returns ``0`` if successful.
+    - Choose from thousands of free models.
+
+When in doubt, consider how readable each option is.
+
+Use thousands separators (commas) for large numbers to improve readability (except in literals):
+
+    - The area of a 4K screen is 8,294,400 pixels.
+
 .. _doc_docs_writing_guidelines_literals:
 
 Literals
