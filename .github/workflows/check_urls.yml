@@ -24,12 +24,11 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           args: >
-            --base .
+            --root-dir .
             --no-progress
             --cache
             --max-cache-age 1d
             --exclude-path _templates/
-            --exclude-path classes/
             "**/*.md" "**/*.html" "**/*.rst"
 
       - name: Fail if there were link errors
