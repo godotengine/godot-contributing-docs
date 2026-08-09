@@ -412,7 +412,7 @@ GDScript language implementation.
    :github_reviews: @godotengine/gdscript
    :github_labels: <gh-label>topic:gdscript</gh-label>
    :triage_project: <gh-triage project=79>GDScript issue triage</gh-triage>
-   :maintainers: Adam Scott (@adamscott), Danil Alexeev (@dalexeev), <lead>George Marques (@vnen)</lead>, @HolonProduction
+   :maintainers: Adam Scott (@adamscott), <lead>George Marques (@vnen)</lead>, @HolonProduction
 
 C# / .NET / Mono
 ~~~~~~~~~~~~~~~~
