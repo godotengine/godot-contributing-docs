@@ -5,7 +5,7 @@ Bug triage overview
 
 This is page is meant to outline in more detail the process of triaging
 bugs. For a basic introduction, please see :ref:`doc_bug_triage_intro`. If you have any questions,
-or if there’s anything missing, please don’t hesitate to ask in the
+or if there's anything missing, please don't hesitate to ask in the
 `#bugsquad <https://chat.godotengine.org/channel/bugsquad>`__ channel.
 
 .. _doc_bug_triage_checklist:
@@ -42,7 +42,7 @@ Triage checklist
 
 .. _doc_bug_triage_check_issue_validity:
 
-Check Issue Validity
+Check issue validity
 --------------------
 
 The first step of triage is to confirm that the issue is valid and
@@ -52,11 +52,13 @@ filled in properly. This means that:
     - Feature proposal, belonging in `Godot Proposals <https://github.com/godotengine/godot-proposals>`__
     - Online documentation issue, belonging in `Godot Docs <https://github.com/godotengine/godot-docs>`__ (this should generally be transferred)
     - A support question, these should be directed to other `community channels <https://godotengine.org/community/>`__
+
 * Has all the required information:
     - The engine version tested with (with a specific version hash if not using an official release)
     - System information in most cases
     - Clear and detailed reproduction steps
-    - A valid MRP if the steps are not trivial, or if the issue depends on scene setup or requires data, such as animations, meshes, etc., where getting the required setup to test are not trivial.
+    - A valid MRP if the steps are not trivial, or if the issue depends on scene setup or requires data, such as animations, meshes, etc.,
+      where getting the required setup to test are not trivial.
 
 If the report is missing this information, ask for this information
 before proceeding. If the issue lacks critical information, or is
@@ -71,7 +73,7 @@ See :ref:`how to write a good issue report <doc_issue_report_writing>` for more 
 
 .. _doc_bug_triage_initial_assessment:
 
-Initial Assessment
+Initial assessment
 ------------------
 
 Once the basic details of the issue have been verified the issue should
@@ -83,22 +85,22 @@ If the bug is reported on the current development version (i.e. the
 important to verify if it also occurs on a past stable release. If this
 information is missing from the report (i.e. the author only reports
 having tested development versions) please either ask the author to test
-with a stable version or test the bug yourself. If it *doesn’t* occur on
+with a stable version or test the bug yourself. If it *doesn't* occur on
 a past release it is considered a regression and should be tagged with
 the “regression” label, and should also be added to the “4.x Release
 Priorities” project. See :ref:`doc_bug_triage_release_priorities` for details.
 
 Try to tag an issue as specifically as possible, adding “needs testing”
-and “needs work” if necessary. Don’t worry about misidentifying issues,
-for example classifying something as a “bug” when it’s actually an issue
+and “needs work” if necessary. Don't worry about misidentifying issues,
+for example classifying something as a “bug” when it's actually an issue
 in the documentation or a missing feature. Maintainers for each area
 will double checks reports when investigating, and will change tags as
-necessary. It’s more important to get an issue tagged correctly than
+necessary. It's more important to get an issue tagged correctly than
 getting it right from the start.
 
 .. _doc_bug_triage_check_for_duplicates:
 
-Check for Duplicates
+Check for duplicates
 --------------------
 
 If the same bug, with the same fix, is reported in multiple versions, it
@@ -108,7 +110,7 @@ which is marked for cherry-picking for ``4.4`` (i.e. the PR has the
 
 .. _doc_bug_triage_assigning_milestones:
 
-Assigning Milestones
+Assigning milestones
 --------------------
 
 Note that this is for assigning milestones to *open* issues, please see
@@ -116,16 +118,20 @@ Note that this is for assigning milestones to *open* issues, please see
 and milestones.
 
 Below is an outline of the different milestones we use, but as a general
-rule you can assume that issues that aren’t release priorities, or
-specific to ``3.x``, shouldn’t have milestones assigned.
+rule you can assume that issues that aren't release priorities, or
+specific to ``3.x``, shouldn't have milestones assigned.
 
 For the ``master`` branch:
 
-* ``4.x``: For Godot 4 in general, i.e. the ``master`` branch. We do not use the ``4.x`` milestone on issues, issues with no milestone are assumed to be relevant for the current development cycle.
-* *The current development version*: Should be assigned to issues that are :ref:`release priorities <doc_bug_triage_release_priorities>`, or otherwise prioritized for the current version.
-* *The next release version*: When we enter feature freeze we usually create a new milestone used for PRs that are approved but won’t make it into the current release, this milestone is not used for issues.
+* ``4.x``: For Godot 4 in general, i.e. the ``master`` branch. We do not use the ``4.x`` milestone on issues,
+  as issues with no milestone are assumed to be relevant for the current development cycle.
+* *The current development version*: Should be assigned to issues that are :ref:`release priorities <doc_bug_triage_release_priorities>`,
+  or otherwise prioritized for the current version.
+* *The next release version*: When we enter feature freeze we usually create a new milestone used for PRs that are
+  approved but won't make it into the current release, this milestone is not used for issues.
 * *Older Godot 4 versions*: This is used for issues that are only relevant for this specific version (or older versions), but not any newer version.
-  An example of this would be an issue that was solved in ``4.5`` as part of an enhancement, but that enhancement cannot be cherry-picked for ``4.4`` and a separate issue is necessary to track the specific solution for ``4.4`` (and older, if relevant).
+  An example of this would be an issue that was solved in ``4.5`` as part of an enhancement,
+  but that enhancement cannot be cherry-picked for ``4.4`` and a separate issue is necessary to track the specific solution for ``4.4`` (and older, if relevant).
   For such issues it can also be relevant to add “[4.4]” at the beginning of the issue title to help clarify it is specific to this version.
 
 For Godot 3:
@@ -136,7 +142,7 @@ For Godot 3:
 
 .. _doc_bug_triage_testing_an_issue:
 
-Testing an Issue
+Testing an issue
 ----------------
 
 A valid MRP is a *minimal* project that reproduces a bug. This means
@@ -160,10 +166,10 @@ and ask for someone to test it.
 
 .. _doc_bug_triage_finalize_assessment:
 
-Finalize Assessment
+Finalize assessment
 -------------------
 
-For pre-release versions, it’s critical to identify what change caused a
+For pre-release versions, it's critical to identify what change caused a
 specific bug. **All** such regressions should be bisected. You can ask
 the issue author to follow the instructions in the
 :ref:`Bisecting regressions <doc_bisecting_regressions>` documentation. If they are not
@@ -172,9 +178,9 @@ then you can look into bisecting the issue yourself.
 
 Once identified correctly it should be put on the relevant triage
 project(s) if appropriate. See :ref:`team trackers <doc_areas>`
-for a list of triage projects. Functional enhancements shouldn’t generally be put on the
+for a list of triage projects. Functional enhancements shouldn't generally be put on the
 trackers (i.e. new features, not enhancements to documentation). Some
-teams have dedicated trackers for enhancements, but they aren’t detailed
+teams have dedicated trackers for enhancements, but they aren't detailed
 here.
 
 .. _doc_bug_triage_closing_an_issue:
@@ -184,22 +190,24 @@ Closing an issue
 
 Normally issues that have a linked PR are closed automatically when the
 linked PR is merged. [1]_ Note that an issue can still be valid though
-it has a linked and merged PR, for example if the issue wasn’t fully
+it has a linked and merged PR, for example if the issue wasn't fully
 resolved by the PR. So make sure an issue is no longer relevant before
 closing.
 
 Issues closed as duplicates should be marked with the archived label,
-and the milestone should be removed if it has one. If an issue can no
-longer be replicated, it should be assigned to the milestone it was
-fixed in. If you can’t pin down when it was fixed (for example if the
-report was made long ago), it should be marked as archived as well.
+and the milestone should be removed if it has one.
+
+If an issue can no longer be replicated, it should be assigned to the
+milestone it was fixed in. If you can't pin down when it was fixed
+(for example if the report was made long ago),
+it should have no milestone and be marked as archived.
 
 The “needs testing” and “needs work” labels should also be removed when
 an issue is closed, regardless of how it was solved.
 
 .. _doc_bug_triage_team_workflow:
 
-Team Workflow
+Team workflow
 -------------
 
 When issues arrive in the triage projects they will have the “For Team
