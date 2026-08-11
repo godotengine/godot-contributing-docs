@@ -80,7 +80,7 @@ Before file extensions the general rule is to always use "a" and write the exten
 And/or with lists
 ~~~~~~~~~~~~~~~~~
 
-When listing things and add a noun at the end the noun should be plural if using "and" and singular if using "or", so it should be:
+When listing things and adding a noun at the end, the noun should be plural if using "and" and singular if using "or", so it should be:
 "The Forward+ and Mobile renderers" or "The Forward+ or Mobile renderer". Also combine "either" with "or", not "and",
 and "both" with "and", not "or".
 
