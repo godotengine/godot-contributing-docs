@@ -369,7 +369,7 @@ upload mode.
     version.
 
 If you want to test changes locally (especially for the editor translation), you
-can use the downloaded PO file and `compile Godot from source <https://docs.godotengine.org/en/latest/engine_details/development/compiling/index.html>`.
+can use the downloaded PO file and `compile Godot from source <https://docs.godotengine.org/en/latest/engine_details/development/compiling/index.html>`__.
 
 Rename the editor translation PO file to ``<lang>.po`` (e.g. ``eo.po`` for
 Esperanto) and place it in the ``editor/translations/`` folder
