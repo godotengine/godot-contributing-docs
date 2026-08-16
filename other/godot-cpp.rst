@@ -37,6 +37,6 @@ If you want to make changes to Godot's API, you can use one of two systems:
 * `Core features <https://docs.godotengine.org/en/latest/tutorials/scripting/index.html#core-features>`__: You can add
   new methods and classes to Godot's core features. This exposes the new functionality on godot-cpp as well.
   To get started, please see :ref:`doc_intro_to_engine_contributions`.
-* `GDExtension API <https://docs.godotengine.org/en/latest/tutorials/scripting/gdextension/index.html>`__: You can add
+* `GDExtension API <https://docs.godotengine.org/en/latest/engine_details/engine_api/gdextension/index.html>`__: You can add
   GDExtension lifecycle methods to the GDExtension API itself. We do not have an article for this kind of change as of
   yet.
