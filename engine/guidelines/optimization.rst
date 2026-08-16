@@ -28,7 +28,7 @@ reasoning about why a certain chunk of code is slow is often impossible to do
 without detailed metrics (e.g. from a profiler). 
 
 Instructions on using some common profilers with Godot can be found `here
-<https://docs.godotengine.org/en/stable/engine_details/development/debugging/using_cpp_profilers.html>`_.
+<https://docs.godotengine.org/en/stable/engine_details/development/profiling/index.html>`_.
 
 As an example, you may optimize a chunk of code by caching intermediate values.
 However, if that code was slow due to memory constraints, caching the values and
