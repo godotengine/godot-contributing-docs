@@ -26,7 +26,7 @@ Performance goals
 GDScript should be fast enough to be usable for normal gameplay logic.
 
 However, it is more important for GDScript to be easy to use than it is for it to be fast.
-For performance-critical operations, `GDExtension <https://docs.godotengine.org/en/stable/tutorials/scripting/gdextension/what_is_gdextension.html>`__
+For performance-critical operations, `GDExtension <https://docs.godotengine.org/en/stable/engine_details/engine_api/gdextension/what_is_gdextension.html>`__
 is a better suited tool.
 
 Performance optimizations to GDScript are welcome as long as they don't jeopardize
