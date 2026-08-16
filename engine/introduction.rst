@@ -137,7 +137,9 @@ clang-format automatically, for example, each time you save a file.
 
 Here is a non-exhaustive list of beautifier plugins for some IDEs:
 
-- Qt Creator: `Beautifier plugin <https://doc.qt.io/qtcreator/creator-beautifier.html>`__
+- Qt Creator: Starting from version ``10.0``, the ClangFormat plugin is enabled by default.
+  Follow the `Qt Creator configuration guide for Godot <https://docs.godotengine.org/en/stable/engine_details/development/configuring_an_ide/qt_creator.html#code-style-configuration>`__
+  to set it up
 - Visual Studio Code: `Clang-Format <https://marketplace.visualstudio.com/items?itemName=xaver.clang-format>`__
 - Visual Studio: `Clang Power Tools 2022 <https://marketplace.visualstudio.com/items?itemName=caphyon.ClangPowerTools2022>`__
 - vim: `vim-clang-format <https://github.com/rhysd/vim-clang-format>`__
