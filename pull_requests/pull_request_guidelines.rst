@@ -103,18 +103,57 @@ authored by you.
 AI-assisted contributions
 -------------------------
 
-The use of AI to contribute to Godot is discouraged, and contributions made entirely by AI are prohibited.
+This policy is intended to provide clarity for contributors and maintainers as to what amount of AI-assistance is
+acceptable. The rules should be interpreted with empathy and considering our code of conduct. Ultimately, our goal is to
+reduce the review burden on maintainers and to review PRs with a focus on quality and maintainability.
 
 .. note:: "AI" in this page refers to any LLM/generative
           AI model like ChatGPT, Claude, Grok, etc., or any other
-          models that fulfill the same role. Using translation
-          software to communicate is fine, and single-line code
-          completion does not have to be disclosed.
+          models that fulfill the same role. Translation software
+          used only for communicating is not considered AI in the
+          context of this policy.
 
-We acknowledge that AI can be useful, but we are convinced that human effort results in better and more relevant
-contributions.
+.. note:: This policy does not apply to thirdparty libraries
+          which the Godot project relies on.
 
-If you do use AI, we expect that you put in effort to proofread and improve anything it generates, and that you disclose
-what you used AI for. As maintainers spend significant time reviewing your code, please make sure
-that the code you submit is well-tested and functional.
-Please be respectful of their time and only submit something you have put thought and effort into.
+For Contributors:
+~~~~~~~~~~~~~~~~~
+
+-  **Do not use AI-generated text in human-to-human communication**
+
+   - This includes all interactions on Github, on RocketChat, and in official Godot communities.
+   - Machine translations are still acceptable as long as the original content was written by a human.
+
+-  **Do not use autonomous AI agents**
+
+   - This includes any style of AI usage where there is no human in the loop. 
+
+-  **Do not use AI to generate substantial pieces of code or documentation**
+
+   - AI should not be used to author code. Code authoring is more than typing, it includes making decisions about where the code should go, what techniques/algorithms should be used, and ultimately what the code should look like. All those decisions need to be made by a human.
+   - For example using AI for code completion is permissible. The important consideration is whether the AI is producing the same code you would have written manually or not. If you do not have the knowledge/ability to write the code yourself, you cannot use AI to write it.
+   - You must understand and take responsibility for everything that you submit.
+
+-  **Do not use AI to generate images in engine or documentation**
+
+If you do use AI, in compliance with the above principles, we expect that you put in effort to proofread and improve
+anything it generates. As maintainers spend significant time reviewing your code, please make sure that the code you
+submit is well-tested and functional. Please be respectful of their time and only submit something you have put thought
+and effort into. Repeated submission of poor code may result in limits or bans being placed on your account.
+
+
+For Maintainers:
+~~~~~~~~~~~~~~~~
+
+-  **Maintainers are not obliged to review AI-assisted PRs**
+-  **Maintainers must pay special attention to quality and maintainability when reviewing AI-assisted PRs**
+-  **“Substantial code” definition**
+
+   - “Substantial code” is code that poses potential risks to quality and maintainability of the engine is to be measured on the basis of: the amount of code involved, its degree of complexity, the level of experience of the contributor in the Godot project, the area of the codebase, and ultimately the risk of merging the code.
+   - It is commonly accepted that code changes of 15 lines or less are generally trivial (and cannot be the subject of copyright). Accordingly, we presume that anything under 15 lines should be considered trivial unless otherwise shown.
+
+-  **All PRs must be reviewed and approved by a human before merging**
+
+     - We want humans to have the last word on every review and approval.
+
+-  **Remember the Code of Conduct and always presume good intent**
