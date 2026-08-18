@@ -40,8 +40,8 @@ game engines like Unreal or Unity, nor use their code as inspiration. We strongl
 No features from new contributors
 ---------------------------------
 
-Given that the Godot project has grown considerably over the years and that reviewing contributions takes a heavy
-toll on maintainers, while also creating risks for the stability of the existing codebase, we want to ensure that
+The Godot project has grown considerably over the years and reviewing contributions takes a heavy toll on maintainers,
+while also creating risks for the stability of the existing codebase. Given this we want to ensure that
 new contributors take the time to learn the codebase and engage with maintainers to build trust by working on bug
 fixes and documentation before diving into significant projects.
 
