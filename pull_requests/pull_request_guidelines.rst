@@ -37,6 +37,17 @@ This also applies for libraries that are only linked in the editor.
 game engines like Unreal or Unity, nor use their code as inspiration. We strongly recommend against reading any
 "source-available" code before contributing to Godot.
 
+No features from new contributors
+---------------------------------
+
+The Godot project has grown considerably over the years and reviewing contributions takes a heavy toll on maintainers,
+while also creating risks for the stability of the existing codebase. Given this we want to ensure that
+new contributors take the time to learn the codebase and engage with maintainers to build trust by working on bug
+fixes and documentation before diving into significant projects.
+
+As a consequence, new features or significant re-factoring from new contributors will not be accepted without explicit
+permission from maintainers in advance. We consider a new contributor to be someone with 3 or fewer merged pull requests.
+
 Contribute one change at a time
 -------------------------------
 
