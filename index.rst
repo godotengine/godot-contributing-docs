@@ -43,6 +43,7 @@ for your topic of interest. You can also use the search function in the top-left
    :caption: Pull requests
    :name: sec-pull-requests
 
+   pull_requests/release_cycle_outline
    pull_requests/pr_workflow
    pull_requests/pull_request_guidelines
    pull_requests/creating_pull_requests
