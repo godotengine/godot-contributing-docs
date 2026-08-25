@@ -116,8 +116,8 @@ reduce the review burden on maintainers and to review PRs with a focus on qualit
           This policy does not apply to thirdparty libraries
           which the Godot project relies on.
 
-For Contributors
-~~~~~~~~~~~~~~~~~
+For contributors
+~~~~~~~~~~~~~~~~
 
 -  **Do not use AI-generated text in human-to-human communication**
 
@@ -140,8 +140,8 @@ submit is well-tested and functional. Please be respectful of their time and onl
 and effort into. Repeated submission of low-effort contributions may result in limits or bans being placed on your account.
 
 
-For Maintainers
-~~~~~~~~~~~~~~~~
+For maintainers
+~~~~~~~~~~~~~~~
 
 -  **Maintainers are not obliged to review AI-assisted PRs**
 -  **Maintainers must pay special attention to quality and maintainability when reviewing AI-assisted PRs**
