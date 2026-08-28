@@ -12,12 +12,21 @@ Use this checklist to make sure you've covered all the necessary details and tha
 For more details, check the links to each section, or :ref:`here <doc_reporting_issue_report_anatomy>` for the full process,
 as well as the :ref:`before opening an issue <doc_before_reporting_an_issue>` section.
 
+- Make sure the :ref:`issue title <doc_reporting_issue_title>` is clear and detailed.
 - Add your :ref:`system details <doc_reporting_system_details>` if they are relevant.
 - Make sure your :ref:`issue description <doc_reporting_issue_description>` is clear, detailed, and readable.
-- Confirm that your :ref:`reproduction steps <doc_reporting_reproduction_steps>` are clear and reproduce your issue correctly..
+- Confirm that your :ref:`reproduction steps <doc_reporting_reproduction_steps>` are clear and reproduce your issue correctly.
 - Add a :ref:`minimal reproduction project (MRP) <doc_reporting_minimal_reproduction_project>` if needed.
 - Make sure any necessary :ref:`videos or screenshots <doc_reporting_videos_and_screenshots>` are included and work correctly.
 - Confirm any :ref:`error messages or code snippets <doc_reporting_code_snippets>` are correctly formatted.
+
+.. note::
+
+  Please do not use LLMs or other generative AI tools to write your report. These tools often invent details that aren't true,
+  they are also usually unnecessarily verbose making it harder to read and understand issues written this way.
+
+  If you aren't comfortable with English, write your proposal in your mother tongue and use dedicated translation software (not a chat bot)
+  to translate it into English.
 
 .. _doc_before_reporting_an_issue:
 
@@ -28,6 +37,9 @@ Please make sure you have done the following before opening an issue, to avoid u
 
 - Check the most recent version, including pre-release versions, to make sure your issue is still relevant,
   and make sure you are on a `supported version of Godot <https://docs.godotengine.org/en/latest/about/release_policy.html>`__.
+- If you are experiencing a bug on a custom branch, make sure to confirm that the bug occurs without your changes, either
+  using an official pre-release or building from the latest branch version. If you are experiencing issues in code from a PR,
+  please report these issues on the PR instead of making an issue report.
 - Check the documentation. Some issues are caused by a misunderstanding about how a feature works,
   or involve known and documented limitations.
 - Search for `existing issues, both open *and* closed <https://github.com/godotengine/godot/issues?q=is%3Aissue>`__,
@@ -54,37 +66,61 @@ Please make a clear note on the issue report for issues that might cause any of 
 - Damage to the device the bug happens on, like deleting files outside the project or the device running very hot.
 - Disruption or other problems, like crashing or locking up the device, slowing down the device until restarted, etc.
 
-The critical parts
-~~~~~~~~~~~~~~~~~~
+.. _doc_reporting_issue_title:
 
-There are a few parts of an issue report that are critical. Without these, an issue is
-unlikely to be solved (or even tested as triagers are unlikely to spend time testing a report
-with these details missing).
+The issue title
+~~~~~~~~~~~~~~~
+
+Please try to make the title of your issue as short as possible while still being clear and detailed. Please do not open issues with titles
+that are too long or too vague, such as "editor crashes".
+
+Try to focus on the area of the engine that the issue affects (for example if it happens with the Label node, or in GDScript),
+what happens (if it is a crash, lag, file corruption, etc.), if it is specific to some hardware or configuration
+(i.e. if it happens on Windows, or when using specific hardware, see :ref:`the system details <doc_reporting_system_details>`),
+and critical information like if it is a regression (for example add ``[4.6]`` at the start of the title if it only affects ``4.6``).
+
+Please do *not* list details like those above unless it is specific to those things, or if you are unsure if it is specific.
+So even if you discovered the issue when using ``4.6`` but you haven't tried with other versions, avoid adding ``[4.6]`` or similar to the title.
+
+Having an issue title that is easy to identify when searching helps finding duplicates, and helps other users find workarounds for issues they are facing.
+Clear and specific titles helps a lot with this.
+
+.. TODO: Add some examples of good vs bad titles.
 
 .. _doc_reporting_tested_versions:
 
 The tested versions
-^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~
 
 List *all* versions you have tested if you have tested more than one. This helps make it
 clear if an issue is a regression or not. If the issue is for a feature that was different or
 unavailable in previous versions to the ones tested, please mention this in the tested versions
-for ease of testing. Please group tested versions to make it easier to evaluate, like so:
+for ease of testing.
+
+If you are reporting an issue on a development branch and not on an official release,
+please also include the build hash in the version details (this information is usually available in the console when the engine starts,
+as well as when :ref:`copying system info <doc_reporting_system_details>`).
+
+Please group tested versions to make it easier to evaluate, like so:
 
 .. code-block:: text
 
-  Reproducible in: 4.6.1, 4.5.1, 4.5
+  Reproducible in: 4.7.dev [3f63a40], 4.6.1, 4.5.1, 4.5
   Not reproducible in: 4.4.1 and earlier
 
 If a bug has been present for the last few minor versions there's usually no need to test it further back.
+If you encounter the issue in a new version released after making the report, please update the list of tested versions
+instead of making a comment in the thread (unless asked to confirm it still occurs, in that case please do both).
 
 If you are testing a pre-release version, like ``4.7.dev``, please also test the latest stable version to
 help confirm if this is a new regression.
 
+If you experience issues on a custom branch, make sure to test without your changes, and only list official versions.
+
 .. _doc_reporting_system_details:
 
 The system details
-^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 Make sure to include details about your system in your bug report, as these can help contributors find and fix the bug faster.
 For example, if a graphics bug is reported and is determined to only happen on Windows, then contributors can spend more time
@@ -92,12 +128,12 @@ looking into Windows-specific code.
 
 .. note::
 
-  In **Godot 4.1+**, you can easily copy your system's info to your clipboard by clicking **Help > Copy System Info** in the top menu bar.
+  In **Godot 4.x**, you can easily copy your system's info to your clipboard by clicking **Help > Copy System Info** in the top menu bar.
 
 .. _doc_reporting_issue_description:
 
 The issue description
-^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~
 
 The most important part of an issue report is the description of the issue. While clear steps
 to reproduce the issue, or even a :ref:`minimal reproduction project (MRP) <doc_reporting_minimal_reproduction_project>`,
@@ -117,14 +153,16 @@ When writing the description of your issue, it's important that you cover the fo
 Having a clear description of the issue, and not relying on people replicating the issue to see what is going on,
 helps in many ways. Many contributors can find the time to look through an issue and try to understand what is
 going on, even when they aren't able to dedicate the time to run an MRP or try to reproduce a bug. Many bugs are
-solved without even running the editor by contributors figuring out what is happening from just the description.
+solved without ever running the editor by contributors figuring out what is happening from just the description.
 This includes, when appropriate, :ref:`adding snippets of code <doc_reporting_code_snippets>` to the report description
 even if they are already in the MRP.
 
 A clear description also makes it easier for triagers to work out what is happening, even when they can't test the bug
-themselves (such as if it is happening on a platform they don't have access to). Even when a bug requires actively
+themselves (such as bugs happening on a platform they don't have access to). Even when a bug requires actively
 reproducing to solve it, a clear description helps to get triagers on the right path. More importantly, it
 helps them confirm that what they are seeing when testing the issue is the same as what you are facing.
+
+Clear descriptions also helps identifying duplicate issues or related issues, which helps to get a better picture of what is going on.
 
 If you are adding large blocks of text, like crash information, to your report, please use the ``<details>`` tag to hide it by default,
 like so:
@@ -148,27 +186,27 @@ Remember that it's *impossible* for contributors to fix an issue without a clear
 .. _doc_reporting_reproduction_steps:
 
 The reproduction steps
-^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~
 
 Almost all bugs require clear steps to reproduce the issue. They are a *complement* to the issue description above,
 and should help triagers to test and confirm the bug. Try to make the reproduction steps as detailed as possible, without
 getting too long or difficult to follow. Long descriptions or explanations should be in the description section. You can
 direct readers to the description section if you need to explain something, but try to keep the reproduction steps simple.
 
-Make sure to go through the steps yourself to confirm that they are correct. It can be easy to misremember the details, and if
-contributors cannot reproduce the issue with your description, they cannot fix the bug.
+Make sure to go through the steps yourself to confirm that they are correct, as it can be easy to misremember the details.
 
 .. _doc_reporting_minimal_reproduction_project:
 
 The Minimal Reproduction Project (MRP)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A common misconception about the MRP is that its main goal is to "prove" that a bug is happening.
 
-It actually provides a way for contributors to reproduce the bug.
-Fixing a bug often requires being able to reproduce it, an MRP provides a reliable way to do exactly that.
+It actually provides a way for contributors to reproduce the bug. Fixing a bug,
+and confirming the fix is correct and complete, often requires being able to reproduce it,
+and an MRP provides a reliable way to do exactly that.
 
-This is important both because knowing how to make a bug happen easily is critical to finding what is causing the issue;
+Knowing how to make a bug happen reliably is critical to finding what is causing the issue;
 for example, by being able to slightly adjust the MRP and see if it stops happening, or running on
 a different platform to see if it still happens. Once you have figured out what is causing the bug, the MRP once again
 comes in handy to help you make sure the bug *stops* happening after you've created a fix. The hardest kind of bug to fix is
@@ -183,7 +221,8 @@ Full game projects or exported games (executable files) are *not* valid MRPs. If
 and are unable to recreate it in a new project, please create a copy of your project and remove components from it until you
 reach a point where the bug happens and nothing unnecessary is left.
 
-If the bug requires any third-party content, like an add-on, please include it in the MRP.
+If the bug requires any third-party content, like an add-on, please include it in the MRP. If it is too large to include directly,
+make sure to provide clear steps to add it to the project.
 
 .. note::
 
@@ -193,7 +232,7 @@ If the bug requires any third-party content, like an add-on, please include it i
 .. _doc_reporting_videos_and_screenshots:
 
 Videos and screenshots in reports
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------
 
 Adding screenshots or videos of what is happening is a great way to add more detail to this, but behavior should,
 if possible, be described in text as well to make sure everyone understands and that everyone can access the information.
@@ -206,12 +245,10 @@ making it much harder to discover existing issues when reporting.
 Code should *always* be posted as text (using
 `code formatting tags <https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks>`__),
 unless the issue is not about the code itself (for example, if it is about syntax highlighting instead).
-Error messages should also always be provided in text form rather than image or video for multiple reasons,
-including the aforementioned accessibility and search-ability.
+Error messages should also always be provided in text form rather than image or video.
 
-Having clear details of an error message can be enough to solve an issue, especially if the error message is very specific.
-It is, after all, the very reason error messages even exist: to give clear information that users and maintainers can use
-to work out what is wrong.
+Having clear details of an error message can be enough to solve an issue, especially if the error message is very specific
+(this is why error messages exist after all).
 
 Make sure to put an empty line before *and* after the link to any content. If you don't, GitHub won't embed the videos or images,
 and it will be much harder for others to view them.
@@ -227,7 +264,7 @@ and it will be much harder for others to view them.
 .. _doc_reporting_code_snippets:
 
 Code snippets in reports
-^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 
 Adding short and specific code snippets to a report can be very helpful in testing the issue. Please make sure to format the code correctly:
 use a single backtick (`````) for short snippets of code inside other text, ```# Like this!```. For longer pieces of code or other text,
@@ -243,5 +280,5 @@ use triple backticks, and if appropriate add syntax highlighting hints, like thi
 .. warning::
 
   Note that the backtick symbol ````` is *not* the same as the apostrophe symbol ``'``. On a standard US keyboard,
-  the key for the backtick symbol is to the left of the `1` key. If you're struggling to find the backtick key on your keyboard,
+  the key for the backtick symbol is to the left of the ``1`` key. If you're struggling to find the backtick key on your keyboard,
   GitHub usually offers a "Code" button in its text editor toolbar.
