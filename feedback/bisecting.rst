@@ -127,12 +127,6 @@ Run the engine
 
 Run the binary located in the ``bin/`` folder and try to reproduce the bug.
 
-.. note::
-
-    `Double-check the output file name <https://docs.godotengine.org/en/latest/engine_details/development/compiling/introduction_to_the_buildsystem.html>`__
-    in ``bin/`` to make sure you're actually running the binary you've just compiled.
-    Different Godot versions will output binaries with different names.
-
 If the build **still** exhibits the bug, run the following command:
 
 .. code-block:: shell
