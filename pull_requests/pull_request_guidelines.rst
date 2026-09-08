@@ -115,7 +115,7 @@ AI-assisted contributions
 -------------------------
 
 This policy is intended to provide clarity for contributors and maintainers as to what amount of AI-assistance is
-acceptable. These rules should be applied with empathy and considering `code of conduct <https://godotengine.org/code-of-conduct/>`_. Ultimately, our goal is to
+acceptable. These rules should be applied considering `code of conduct <https://godotengine.org/code-of-conduct/>`_. Ultimately, our goal is to
 reduce the review burden on maintainers and to review PRs with a focus on quality and maintainability.
 
 .. note:: "AI" in this page refers to any LLM/generative
