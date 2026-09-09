@@ -37,6 +37,8 @@ This also applies for libraries that are only linked in the editor.
 game engines like Unreal or Unity, nor use their code as inspiration. We strongly recommend against reading any
 "source-available" code before contributing to Godot.
 
+.. _doc_new_features_from_new_contributors:
+
 No features from new contributors
 ---------------------------------
 
