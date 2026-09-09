@@ -1,25 +1,7 @@
-.. _doc_engine_guidelines:
-
-Engine contribution guidelines
-==============================
-
-This section explains guidelines for contributing to the engine.
-
-.. toctree::
-   :maxdepth: 1
-   :name: sec-engine-contribution-guidelines
-
-   best_practices
-   cpp_usage_guidelines
-   other_languages
-   optimization
-   editor_style_guide
-   gdscript_language_guidelines
-
 .. _doc_handling_compatibility_breakages:
 
 Handling compatibility breakages
---------------------------------
+================================
 
 Godot follows a **major.minor.patch** versioning scheme, and each level carries
 different expectations around compatibility:
