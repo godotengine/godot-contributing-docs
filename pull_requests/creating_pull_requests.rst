@@ -449,10 +449,10 @@ upstream ``master`` branch, which you can do with:
 
 .. note:: Referencing branches in Git is a bit tricky due to the distinction
           between remote and local branches. Here, ``upstream/master`` (with a
-          `/`) is a local branch which has been pulled from the ``upstream``
+          ``/``) is a local branch which has been pulled from the ``upstream``
           remote's ``master`` branch.
 
-          Interactive rebases can only be done on local branches, so the `/`
+          Interactive rebases can only be done on local branches, so the ``/``
           is important here. As the upstream remote changes frequently, your
           local ``upstream/master`` branch may become outdated, so you can
           update it with ``git fetch upstream master``. Contrarily to

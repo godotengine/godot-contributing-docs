@@ -243,5 +243,5 @@ use triple backticks, and if appropriate add syntax highlighting hints, like thi
 .. warning::
 
   Note that the backtick symbol ````` is *not* the same as the apostrophe symbol ``'``. On a standard US keyboard,
-  the key for the backtick symbol is to the left of the `1` key. If you're struggling to find the backtick key on your keyboard,
+  the key for the backtick symbol is to the left of the ``1`` key. If you're struggling to find the backtick key on your keyboard,
   GitHub usually offers a "Code" button in its text editor toolbar.

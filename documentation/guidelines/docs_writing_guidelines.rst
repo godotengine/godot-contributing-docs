@@ -69,8 +69,8 @@ instead of blending the sounds together like a normal word. This, combined with 
 pronounced, means that many of these words should use "an" and not "a" like you might expect.
 
 So it's "an RID", not "a RID", because "RID" is pronounced like "aR-I-Dee". The English letters that are
-pronounced with a vowel before the consonant, and should use "an" and not "a" are: `F`, `H`, `L`, `M`, `N`, `R`,
-`S`, and `X`.
+pronounced with a vowel before the consonant, and should use "an" and not "a" are: ``F``, ``H``, ``L``, ``M``, ``N``, ``R``,
+``S``, and ``X``.
 
 There are some exceptions to this, like "MIDI", where the word comes from the letters of a phrase, but aren't pronounced this
 way. If you are unsure what to do, try saying the word out loud.
@@ -330,7 +330,7 @@ From the Oxford dictionary:
 
     Create a CharacterBody2D node, a CollisionShape2D node and a sprite node.
 
-**Do** add a comma before `and` or `or`, for the last
+**Do** add a comma before ``and`` or ``or``, for the last
 element of a list with more than two elements.
 
 ::
@@ -723,7 +723,7 @@ in the link itself, or include the section and subsection separately from the
 link. Since long links are not split into multiple lines when the page is
 rendered, prefer splitting the setting name and the section when the link is long.
 
-    - Set the `Application > Run > Max FPS setting to ``60``.
+    - Set the **Application > Run > Max FPS setting to ``60``**.
     - In the project settings under **Application > Run**, set Max FPS to ``60``.
     - In **Project Settings > Application > Run**, set Max FPS to ``60``.
 

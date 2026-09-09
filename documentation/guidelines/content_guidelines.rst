@@ -32,7 +32,7 @@ should ensure that we cover everything Godot does.
 .. note::
 
     When adding or updating an engine feature, the :team:`Documentation` needs to
-    know about it. Contributors should open an issue on the `godot-docs` repository
+    know about it. Contributors should open an issue on the ``godot-docs`` repository
     when their work gets merged and requires documentation.
 
 Do your best to keep documents **under 1000 words in length**. If a page goes
@@ -63,7 +63,7 @@ Finally, it's also important to know what *not* to document. There are some case
 where things should be left out of the documentation to avoid causing problems.
 In short, do not document something in the following cases:
 
-- The behavior is a bug. In that case, please make a [bug report](https://github.com/godotengine/godot/issues) instead.
+- The behavior is a bug. In that case, please make a `bug report <https://github.com/godotengine/godot/issues>`_ instead.
 - The behavior is not an intentional part of a feature, but only a consequence of the current implementation
   (also called an "implementation detail").
 

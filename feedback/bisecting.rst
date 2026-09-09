@@ -57,7 +57,7 @@ reproduce the bug.
 
     Before bisecting a regression, you need to set up a build environment to
     compile Godot from source. To do so, read the
-    `Compiling <https://docs.godotengine.org/en/latest/engine_details/development/compiling/index.html>` page for your target platform.
+    `Compiling <https://docs.godotengine.org/en/latest/engine_details/development/compiling/index.html>`_ page for your target platform.
     (Compiling Godot from source doesn't require C++ programming knowledge.)
 
     Note that compiling Godot can take a while on slow hardware (up an hour for

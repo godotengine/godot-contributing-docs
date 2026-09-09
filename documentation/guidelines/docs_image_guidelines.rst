@@ -209,7 +209,7 @@ than directly aiming for a small file size, as real-time compression methods are
 less efficient than slower compression methods.
 
 To re-encode videos for a smaller file size, use `HandBrake <https://handbrake.fr/>`__
-or the `FFmpeg <https://ffmpeg.org/>` command line below:
+or the `FFmpeg <https://ffmpeg.org/>`_ command line below:
 
 ::
 
