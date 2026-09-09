@@ -1,7 +1,7 @@
 .. _doc_updating_the_class_reference:
 
-Contributing to the class reference
-=====================================
+The class reference
+===================
 
 .. highlight:: shell
 
@@ -58,40 +58,6 @@ directory. To learn more about editing XML files refer to the latest documentati
 the `godot-docs repository <https://github.com/godotengine/godot-docs/>`_
 or comment on an existing issue. Doing so lets others know you're already
 taking care of a given class.
-
-What to contribute
-------------------
-
-The natural place to start contributing is the classes that you are most familiar with.
-This ensures that the added description will be based on experience and the necessary
-know-how, not just the name of a method or a property. We advise not to add low effort
-descriptions, no matter how appealing it may look. Such descriptions obscure the need
-for documentation and are hard to identify automatically.
-
-.. seealso::
-
-    Following this principle is important and allows us to create tools for contributors.
-    Such as the class reference's `completion status tracker <https://godotengine.github.io/doc-status/>`_.
-    You can use it to quickly find documentation pages missing descriptions.
-
-If you decide to document a class, but don't know what a particular method does, don't
-worry. Leave it for now, and list the methods you skipped when you open a pull request
-with your changes. Another writer will take care of it.
-
-You can still look at the method's implementation in Godot's source code on GitHub.
-If you have doubts, feel free to ask on the `Godot Forum <https://forum.godotengine.org/>`_
-and `Godot Contributors Chat <https://chat.godotengine.org/>`_.
-
-.. warning::
-
-    Unless you make minor changes, like fixing a typo, we do not recommend using the
-    GitHub web editor to edit the class reference's XML files. It lacks features to edit
-    XML well, like keeping indentations consistent, and it does not allow amending commits
-    based on reviews.
-
-    It also doesn't allow you to test your changes in the engine or with validation
-    scripts as described in the `class reference documentation <https://docs.godotengine.org/en/latest/engine_details/class_reference/index.html>`__.
-
 
 Updating class reference when working on the engine
 ---------------------------------------------------

@@ -1,7 +1,7 @@
 .. _doc_pull_request_guidelines:
 
-Pull request rules and guidelines
-=================================
+Rules for development
+=====================
 
 This page contains rules and guidelines relevant for contributing to any area of Godot.
 
@@ -36,6 +36,8 @@ This also applies for libraries that are only linked in the editor.
 "Source-available" is **not** "open-source". For example, you cannot submit exclusive code or ideas from proprietary
 game engines like Unreal or Unity, nor use their code as inspiration. We strongly recommend against reading any
 "source-available" code before contributing to Godot.
+
+.. _doc_new_contributor_rules:
 
 No features from new contributors
 ---------------------------------

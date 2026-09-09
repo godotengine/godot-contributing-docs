@@ -19,7 +19,7 @@ add-on.
 
 All contributors are welcome to help on the Godot contributing documentation.
 
-To get started, head to the [explainer article](https://contributing.godotengine.org/en/latest/documentation/contributing_to_the_contributing_docs.html). 
+To get started, head to the [explainer article](https://contributing.godotengine.org/en/latest/development/documentation/contributing_docs.html).
 
 ## License
 

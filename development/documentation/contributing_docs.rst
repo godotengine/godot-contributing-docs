@@ -1,7 +1,7 @@
 .. _doc_updating_the_contributing_docs:
 
-Contributing to the contributing docs
-=====================================
+The contributing docs
+=====================
 
 The contributing documentation documents how people can best contribute
 to Godot. It is the website you are looking at right now!
@@ -58,11 +58,9 @@ The following kinds of information **should not** be documented here:
 How is this page structured?
 ----------------------------
 
-This page is structured such that it is easy to find the different ways
-in which you can contribute to Godot. To accomplish this, every *kind*
-of contribution should have a dedicated section in the side bar. If a new
-way to contribute emerges, it should get a dedicated section in the side
-bar so that it is easy to find.
+This page is structured such that visitors can easily find what they are looking for.
+There should be few sections that need navigating into, easy to identify, and each
+subsection then expands into the content that's actually relevant.
 
 Building the documentation locally
 ----------------------------------

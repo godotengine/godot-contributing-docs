@@ -1,16 +1,5 @@
-.. _doc_reporting_issues:
-
-Testing and reporting issues
-============================
-
-Godot uses `GitHub's issue tracker <https://github.com/godotengine/godot/issues>`_
-for bug reports. Please see the :ref:`instructions for writing an issue report <doc_issue_report_writing>`
-before reporting a bug.
-
-.. _doc_testing_development_versions:
-
 Testing development versions
-----------------------------
+============================
 
 A great way of contributing to the engine is to test development releases
 or the development branch and to report issues found therein.
