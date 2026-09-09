@@ -95,7 +95,8 @@ Categories
 -  *Good first issue*: the issue is *assumed* to be an easy one to fix, which makes
    it a great fit for new contributors who want to become familiar with
    the code base. It should be removed while an active PR is available, that
-   resolves this issue.
+   resolves this issue. See :ref:`good first issues <doc_good_first_issues>` for details on how
+   to assign this.
 -  *High priority:* the issue is particularly important as it can
    prevent people from releasing their projects or cause data loss.
 -  *Needs testing*: the issue/pull request could not be completely tested
@@ -285,3 +286,60 @@ the next minor version, or to ``4.x``. As a rule, we assign new features to the
 ``4.x`` milestone initially to avoid continually reassigning a PR from version
 to version. However, a PR being in ``4.x`` does not mean it won't be merged;
 it's just the default for new features.
+
+.. _doc_good_first_issues:
+
+Good first issues
+~~~~~~~~~~~~~~~~~
+
+Assigning the "good first issue" label to issues is not an exact science, and it is
+usually down to maintainer experience and feel, but this section contains some general
+guidelines and when *not* to assign this label.
+
+The following should **never** be considered good first issues:
+
+- Anything :ref:`not appropriate for new contributors <doc_new_features_from_new_contributors>`,
+  in particular refactors, issues that require new features to resolve, as well as stylistic changes
+  and "nitpicking".
+- :ref:`Priority issues and blockers <doc_bug_triage_release_priorities>`.
+- Issues with risky solutions, changes that break compatibility or might introduce regressions.
+- Potentially controversial issues, issues that might need maintainer consensus or might involve
+  significant discussion in review (this would include issues labelled ``discussion``).
+- Issues that are not well understood or require testing to determine the scope or complexity
+  (often labelled ``needs testing``) or that lack details or are unclear (usually labelled ``needs work``).
+
+These are almost never valid or appropriate, so avoid them in general. Other issues might be appropriate
+only under certain conditions:
+
+- Performance issues, or more generally issues with solutions that require benchmarking. This does not
+  include cases where the issue has a trivial solution, for example where the code has an obvious error causing
+  performance issues. The change should still have a low risk for performance regressions.
+- Changes with significant API impact, for example adding new properties or methods, leading to a steeper
+  learning curve and getting familiar with more engine systems and figuring out CI.
+- Changes that are hard to validate or replicate, happening in edge cases or that only occurs on certain hardware
+  or platforms. These risk leading inexperienced contributors to incorrect solutions, or might encourage
+  making fixes for bugs without being able to validate the solution, causing confusion or friction if the PR
+  is invalid.
+- Issues in areas with limited maintainer resources, which risk taking unusually long to get reviewed and approved,
+  causing friction. This includes cases where there are maintainers available but the bug is hard to replicate or
+  is hardware or platform specific.
+
+When evaluating if an issue should be considered a good first issue consider these two factors:
+
+- How hard finding the solution likely is, for a new contributor, and how much work might be involved. This includes
+  how steep the learning curve might be, what resources are available to guide new contributors, etc. Also consider
+  the risk of the contributor missing important parts of a complete solution, for example a bug that requires fixing both
+  GDScript and C# code, or involves code from multiple parts of the codebase.
+- How complicated and smooth the review and merge process might be, and potential sources of friction. Consider especially
+  how likely the review process is to involve a lot of maintainer assistance and attention to get the PR to a mergeable state.
+  Avoid issues that where there's a risk of additional work if the solution is incomplete, or where there might be a lot of
+  extra scrutiny to make sure it is accepted.
+
+When possible good first issues should not only be an easy first task, but should also provide a smooth curve for introducing
+contributing to the engine to inexperienced contributors. Avoid overloading them with issues that might require figuring out
+a lot of different workflows at once, or that might take a long time to get merged or involves a lot of unexpected work for the
+contributor.
+
+All this being said; do not worry too much about "incorrectly" assigning this label. Evaluating how hard an issue might be to solve,
+and how complicated the review process might be, is not easy and mistakes happen, so don't let that stop you from assigning it.
+At them same time, avoid assigning the label if you are not sure about it being appropriate. Make sure to remove it if things change.
