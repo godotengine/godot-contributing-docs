@@ -1,7 +1,7 @@
 .. _doc_resources:
 
-Resources
-=========
+Development resources
+=====================
 
 This section lists resources that can be useful when contributing to Godot.
 Most of these resources are part of the `Godot organization on GitHub <https://github.com/godotengine>`__,

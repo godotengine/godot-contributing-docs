@@ -10,7 +10,7 @@ concrete guides to make changes to the documentation.
 Be sure to also check the :ref:`workflow guidelines <doc_contributing_to_the_documentation>`,
 especially if you're new to using Git or GitHub.
 
-There are two separate resources referred to as "documentation" in Godot:
+There are three separate resources referred to as "documentation" in Godot:
 
 - **The class reference.** This is the documentation for the complete Godot API
   as exposed to GDScript and the other scripting languages. It can be consulted
@@ -27,6 +27,10 @@ There are two separate resources referred to as "documentation" in Godot:
   (rst) format, to which you can contribute via pull requests on the
   `godot-docs <https://github.com/godotengine/godot-docs>`_ GitHub repository.
   See :ref:`doc_contributing_to_the_documentation` for more details.
+
+- **The contributing docs.**
+  This is the page you're on, right now! See :ref:`doc_updating_the_contributing_docs`
+  for more information and guidelines.
 
 The documentation is managed by the :team:`Documentation`. If you are serious about helping out,
 come join us in the `#documentation <https://chat.godotengine.org/channel/documentation>`__ channel!
