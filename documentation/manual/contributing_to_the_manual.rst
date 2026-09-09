@@ -178,7 +178,7 @@ a meaningful name and include them in your page with:
 
    .. image:: img/image_name.webp
 
-Alternatively, you can use the `figure` directive, which gives the image a contrasting
+Alternatively, you can use the ``figure`` directive, which gives the image a contrasting
 border and allows centering it on the page.
 
 .. code:: rst
@@ -193,7 +193,7 @@ into a ``files/`` folder next to the ``.rst`` file, and using this inline markup
 
    :download:`file_name.zip <files/file_name.zip>`
 
-Consider using the `godot-docs-project-starters <https://github.com/godotengine/godot-docs-project-starters>`
+Consider using the `godot-docs-project-starters <https://github.com/godotengine/godot-docs-project-starters>`_
 repository for hosting support materials, such as project templates and asset packs.
 You can use a direct link to the generated archive from that repository with the regular
 link markup:

@@ -16,8 +16,8 @@ languages can rely on static typing alone to ensure type correctness, Godot expo
 lots of ways to interact with the data such that this assumption might fail.
 Therefore, new typing features need to be guaranteed by core in order to be useful to
 GDScript.
-For example, `Array[int]` might be handled by Godot core as `Array` (without typing). That means
-that `Array[int]` must validate newly added elements to be `int`, to avoid non-int elements being
+For example, ``Array[int]`` might be handled by Godot core as ``Array`` (without typing). That means
+that ``Array[int]`` must validate newly added elements to be ``int``, to avoid non-int elements being
 added in other contexts.
 
 Performance goals
