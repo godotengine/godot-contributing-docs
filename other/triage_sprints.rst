@@ -7,7 +7,7 @@
     `#bugsquad-sprints <https://chat.godotengine.org/channel/bugsquad-sprints>`__ channel, subscribe
     to get updates when new sprints are announced.
 
-    .. TODO: Add link to instructions for organizing sprints here once written.
+    For instructions on arranging triage sprints, see :ref:`doc_bug_triage_sprint_organization`.
 
 Participating in triage sprints
 ===============================
