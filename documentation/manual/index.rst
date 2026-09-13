@@ -14,3 +14,4 @@ and how to build a version locally for testing.
 
    contributing_to_the_manual
    building_the_manual
+   manual_merge_guidelines
