@@ -153,6 +153,21 @@ Write your titles like plain sentences, without capitalizing each word:
 Only proper nouns, projects, people, and node class names should have their
 first letter capitalized.
 
+Section headers
+~~~~~~~~~~~~~~~
+
+Headers which begin with a number lead to incorrect link fragments. To work around this, add a custom anchor before any such header:
+
+.. code:: rst
+
+   .. _doc_2d_movement_8-way_movement:
+
+   8-way movement
+   --------------
+
+Try to use the convention ``_doc_<page_slug>_<section_slug>:`` or, if that isn't unique, ``_doc_<page_slug>_<section_slug>_<subsection_slug>:``.
+The only allowed characters are alphanumeric characters (``A-Z``, ``a-z``, ``0-9``) and underscores (``_``). 
+
 Sphinx and reStructuredText syntax
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
