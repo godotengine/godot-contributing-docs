@@ -168,6 +168,34 @@ how to use Sphinx directives like ``.. note::`` or ``.. seealso::``, check out
 the `Sphinx directives documentation
 <https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html>`__.
 
+Code blocks and syntax highlighting
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Code blocks can use syntax highlighting by specifying a language with the
+``code-block`` directive. For example:
+
+.. code:: rst
+
+   .. code-block:: python
+
+      print("Hello, world!")
+
+Syntax highlighting is provided by Pygments. The language specified after
+``code-block`` should correspond to a supported Pygments lexer and should
+match the contents of the code block.
+
+If syntax highlighting isn't appropriate, use ``none``:
+
+.. code:: rst
+
+   .. code-block:: none
+
+      This text won't use syntax highlighting.
+
+When adding code examples to the documentation, choose the lexer that best
+matches the language or format being shown. Using the correct lexer makes
+examples easier to read and avoids incorrect highlighting.
+
 Adding images and attachments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
