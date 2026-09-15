@@ -1,7 +1,7 @@
 .. _doc_editor_and_docs_localization:
 
-Contributing translations
-=========================
+Translating Godot
+=================
 
 .. highlight:: none
 

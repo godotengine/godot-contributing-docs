@@ -2,8 +2,8 @@
 
 .. _doc_contributing_writing_documentation:
 
-Contributing to the manual
-==========================
+The manual
+==========
 
 These articles explain how to contribute to the `online documentation <https://docs.godotengine.org/en/stable/>`_,
 and how to build a version locally for testing.

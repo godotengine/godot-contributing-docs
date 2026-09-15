@@ -1,7 +1,7 @@
 .. _doc_contributing_unit_tests:
 
-Contributing unit tests
-=======================
+Unit tests
+==========
 
 The Godot teams are dedicated to ensuring a reliable, bug-free experience for users.
 Therefore, we expect important logic to be tested with unit tests.
