@@ -71,19 +71,19 @@ If you are new, start by selecting the profile that best matches how you'd like 
         }
     </style>
     <div class="grid-container">
-        <a class="grid-item new-to-game" href="en/latest/ways_to_contribute/fundraising.html">
+        <a class="grid-item new-to-game" href="ways_to_contribute/fundraising.html">
             <strong>Fundraising</strong><br>
             I'll help to sponsor Godot's development.
         </a>
-        <a class="grid-item know-game-learn-godot" href="en/latest/ways_to_contribute/feedback.html">
+        <a class="grid-item know-game-learn-godot" href="ways_to_contribute/feedback.html">
             <strong>Feedback</strong><br>
             I'll report bugs and discuss ideas.
             </a>
-        <a class="grid-item know-godot-learn-godot" href="en/latest/ways_to_contribute/development.html">
+        <a class="grid-item know-godot-learn-godot" href="ways_to_contribute/development.html">
             <strong>Development</strong><br>
             I'll participate in Godot's development directly.
         </a>
-        <a class="grid-item contribute-to-godot" href="en/latest/ways_to_contribute/ecosystem.html">
+        <a class="grid-item contribute-to-godot" href="ways_to_contribute/ecosystem.html">
             <strong>Ecosystem</strong><br>
             I'll support Godot on my own terms.
         </a>
