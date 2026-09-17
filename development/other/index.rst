@@ -11,4 +11,5 @@ Other
    demos
    godot-cpp
    website
+   release_pages
    resources
