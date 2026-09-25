@@ -1,0 +1,6 @@
+# Placeholder URLs used in examples.
+^https://github\.com/USERNAME/
+^https://github\.com/godotengine/godot-docs-project-starters/releases/download/latest-4\.x/file_name\.zip$
+
+# Blocks requests from CI runners (403).
+^https://stackoverflow\.com/

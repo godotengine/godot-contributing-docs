@@ -562,8 +562,8 @@ out form (:kbd:`Control`/:kbd:`Command`). For combinations, use the ``+`` symbol
 with a space on either side of the symbol.
 
 Make sure to mention shortcuts that differ on macOS compared to other platforms.
-You can find a list of all shortcuts, including what they are on macOS, on
-`this documentation page <https://docs.godotengine.org/en/stable/tutorials/editor/default_key_mapping.html>`__.
+You can find a list of all shortcuts in the editor under
+**Editor > Editor Settings > Shortcuts**.
 
 Try to integrate the shortcut into sentences the best you can. Here are some
 examples with the ``:kbd:`` tag left as-is for better visibility:
