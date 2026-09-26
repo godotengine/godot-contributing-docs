@@ -9,5 +9,8 @@ It is intended to document internal procedures, and is not actionable by regular
    :maxdepth: 1
    :name: sec-release-management
 
+   release_cycle_checklists
+   documentation_workflow
+   translation_workflow
    merge_guidelines
    maintenance_releases
