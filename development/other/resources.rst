@@ -20,6 +20,16 @@ The `godot-benchmarks <https://github.com/godotengine/godot-benchmarks>`__
 are run daily on a dedicated server. This makes it possible to track
 performance improvements and regressions over time.
 
+Binary size history
+-------------------
+
+- **Link:** `godot-size-history.github.io <https://godot-size-history.github.io/>`__
+- `Source code <https://github.com/godot-size-history/godot-size-history.github.io>`__
+  (maintained by `Calinou <https://github.com/Calinou>`__)
+
+Tracks official Godot Engine release binary sizes of every stable version to
+check for trends and regressions.
+
 Class reference status
 ----------------------
 
