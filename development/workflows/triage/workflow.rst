@@ -60,6 +60,19 @@ filled in properly. This means that:
     - A valid MRP if the steps are not trivial, or if the issue depends on scene setup or requires data, such as animations, meshes, etc.,
       where getting the required setup to test are not trivial.
 
+For issues that use C#, check the following additional details:
+
+* Whether the issue can also be reproduced with GDScript or ``godot-cpp``.
+* Whether the author can build non-Godot C# projects successfully.
+
+    - The author can check by running ``dotnet new console -o MyApp && dotnet build MyApp``.
+    - If the same issue occurs in that project, it may be an upstream .NET or C# issue rather than a Godot issue.
+
+* The output of ``dotnet --info``. This helps identify problems in the development environment.
+* For an MRP, the complete project including its ``.csproj`` file.
+
+    - Confirm that the author could build the project by running ``dotnet build`` from the project directory.
+
 If the report is missing this information, ask for this information
 before proceeding. If the issue lacks critical information, or is
 written in a way that makes it difficult to classify the issue, it
