@@ -130,7 +130,7 @@ Low-level Core API: Object, Variant, templates, base nodes like Node, Viewport, 
    :github_reviews: @godotengine/core
    :github_labels: <gh-label>topic:core</gh-label>
    :triage_project: <gh-triage project=95>Core issue triage</gh-triage>
-   :maintainers: HP van Braam (@hpvb), <lead>Juan Linietsky (@reduz)</lead>, @lawnjelly, Lukas Tenbrink (@Ivorius/@Ivorforce), Rémi Verschelde (@akien-mga)
+   :maintainers: HP van Braam (@hpvb), <lead>Lukas Tenbrink (@Ivorius/@Ivorforce)</lead>, @lawnjelly, Rémi Verschelde (@akien-mga)
 
 .. _team_demos:
 
@@ -293,7 +293,7 @@ Web
    :communication: #web
    :github_reviews: @godotengine/web
    :github_labels: <gh-label>platform:web</gh-label>
-   :maintainers: <lead>Adam Scott (@adamscott)</lead>, Fabio Alessandrelli (@Faless)
+   :maintainers: Fabio Alessandrelli (@Faless)
    :triage_project: <gh-triage project=84>Platforms issue triage</gh-triage>
 
 Windows
@@ -412,7 +412,7 @@ GDScript language implementation.
    :github_reviews: @godotengine/gdscript
    :github_labels: <gh-label>topic:gdscript</gh-label>
    :triage_project: <gh-triage project=79>GDScript issue triage</gh-triage>
-   :maintainers: Adam Scott (@adamscott), <lead>George Marques (@vnen)</lead>, @HolonProduction
+   :maintainers: Adam Scott (@adamscott), George Marques (@vnen), @HolonProduction
 
 C# / .NET / Mono
 ~~~~~~~~~~~~~~~~
