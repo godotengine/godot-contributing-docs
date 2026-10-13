@@ -145,7 +145,7 @@ For contributors
    - For example using AI for code completion is permissible. The important consideration is whether the AI is producing the same code you would have written manually or not. If you do not have the knowledge/ability to write the code yourself, you are not allowed to use AI to write it.
    - You must understand and take responsibility for everything that you submit.
 
--  **Do not use AI to generate user-facing media (e.g. documentation, images and audio)**
+-  **Do not use AI to generate user-facing media (e.g. documentation, images, audio and script templates)**
 
 If you do use AI, in compliance with the above principles, we expect that you put in effort to proofread and improve
 anything it generates. As maintainers spend significant time reviewing your code, please make sure that the code you
