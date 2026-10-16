@@ -50,7 +50,7 @@ Once signed in, browse to the Godot resource which you want to contribute to (in
 this page we will use the `editor translation <https://hosted.weblate.org/projects/godot-engine/godot/>`__
 as an example) to find the list of all languages:
 
-.. image:: img/l10n_01_language_list.png
+.. image:: other/img/l10n_01_language_list.png
 
 .. seealso::
 
@@ -68,7 +68,7 @@ If your language is not listed, scroll to the bottom of the list of languages
 and click the "Start new translation" button, and select the language you want
 to translate to:
 
-.. image:: img/l10n_02_new_translation.png
+.. image:: other/img/l10n_02_new_translation.png
 
 .. important::
 
@@ -100,12 +100,12 @@ can be clicked and used to browse through the corresponding list. You can also
 click the "Translate" button to get started on the list of strings needing
 action.
 
-.. image:: img/l10n_03_translation_overview.png
+.. image:: other/img/l10n_03_translation_overview.png
 
 After selecting a list of clicking "Translate", you will see the main
 translation interface where all the work happens:
 
-.. image:: img/l10n_04_translation_interface.png
+.. image:: other/img/l10n_04_translation_interface.png
 
 On that page, you have:
 
@@ -184,9 +184,9 @@ A handy tool to locate specific pages/classes is to use Weblate's advanced
 search feature, and especially the "Location strings" query (which can also be
 used with the ``location:`` token, e.g. ``location:nodes_and_scenes.rst``):
 
-.. image:: img/l10n_05_search_location.png
+.. image:: other/img/l10n_05_search_location.png
 
-.. image:: img/l10n_06_browse_by_location.png
+.. image:: other/img/l10n_06_browse_by_location.png
 
 .. note::
 
@@ -354,7 +354,7 @@ preferred PO editing application, such as `Poedit <https://poedit.net/>`__ or
 To download the PO file locally, browse to the translation overview for your
 language, and select the first item in the "Files" menu:
 
-.. image:: img/l10n_07_download_po_file.png
+.. image:: other/img/l10n_07_download_po_file.png
 
 Once you are done with a series of edits, use the "Upload translation" item in
 that same menu and select your file. Choose "Add as translation" for the file
@@ -401,14 +401,14 @@ documentation. To do so, browse the relevant page in the docs, e.g.
 `Introduction to editor development <https://docs.godotengine.org/en/latest/engine_details/editor/introduction_to_editor_development.html>`__. Click the "Edit on GitHub" link in the
 top right corner:
 
-.. image:: img/l10n_08_edit_on_github.png
+.. image:: other/img/l10n_08_edit_on_github.png
 
 On GitHub, click on the image you want to translate. If relevant, click on
 "Download" to download it locally and edit it with an image edition tool.
 Note the full path to the image as it will be needed further down (here
 ``getting_started/step_by_step/img/project_manager_first_open.png``).
 
-.. image:: img/l10n_09_path_to_image.png
+.. image:: other/img/l10n_09_path_to_image.png
 
 Create your localized version of the image, either by editing the English one,
 or by taking a screenshot of the editor with your language, if it's an editor
