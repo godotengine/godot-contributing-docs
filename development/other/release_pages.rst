@@ -4,7 +4,7 @@ Contributing to release pages
 =============================
 
 Every minor (4.x) release of Godot has a release page dedicated to explaining the
-version’s improvements and changes.
+version's improvements and changes.
 
 See the following pages for examples of previous 4.x release pages:
 
@@ -59,7 +59,7 @@ Spelling, grammar, and formatting
 
 In general, the :ref:`documentation writing guidelines <doc_docs_writing_guidelines>`
 are applicable when writing or editing content for release pages.
-Notably, however, the words listed in the section “Ban these 8 words” are acceptable to use on
+Notably, however, the words listed in the section "Ban these 8 words" are acceptable to use on
 release pages.
 
 Title and subtitle formatting
@@ -72,7 +72,7 @@ if the sentence needs them.
 Tense
 ~~~~~
 
-Use the present tense when referring to features or fixes in the current version
+Use the present tense when referring to features or fixes in the new version
 of Godot, and the past tense when referring to previous versions of Godot.
 
 **Bad:**
@@ -96,7 +96,7 @@ Referring to authors and readers
 
 Within the body text of a block, avoid naming specific PR authors by name.
 Instead, refer to the Godot contributors as a collective “we”.
-The authors will credited in the space at the bottom of the feature card.
+The authors will be credited in the space at the bottom of the feature card.
 
 Likewise, refer to the reader (and potential user of the new Godot version) as “you”.
 
@@ -121,7 +121,8 @@ Use the correct quotation mark and apostrophe symbols:
 * Closing quote: ``”`` (``U+201D``)
 
 .. warning::
-    If you are using a code-focused text editor, it may by default use these symbols,
+
+    If you are using a code-focused text editor, it may not use these symbols by default,
     but instead symbols that look very much like them. Pay close attention to the direction
     that the symbols “lean” in!
 
