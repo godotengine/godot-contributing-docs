@@ -95,10 +95,10 @@ Referring to authors and readers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Within the body text of a block, avoid naming specific PR authors by name.
-Instead, refer to the Godot contributors as a collective “we”.
+Instead, refer to the Godot contributors as a collective "we".
 The authors will be credited in the space at the bottom of the feature card.
 
-Likewise, refer to the reader (and potential user of the new Godot version) as “you”.
+Likewise, refer to the reader (and potential user of the new Godot version) as "you".
 
 **Bad:**
 
@@ -124,7 +124,7 @@ Use the correct quotation mark and apostrophe symbols:
 
     If you are using a code-focused text editor, it may not use these symbols by default,
     but instead symbols that look very much like them. Pay close attention to the direction
-    that the symbols “lean” in!
+    that the symbols "lean" in!
 
 **Bad:**
 
