@@ -10,7 +10,7 @@ Bug triage is a fundamental part of our development, this should not be
 surprising, but this process is far more than just confirming that a bug
 is happening. The more information we have on a bug, what problems it
 causes, when it was introduced, what areas it affects, and so on makes a
-lot of difference. A bug being thoroughly triaged bug helps other
+lot of difference. A bug being thoroughly triaged helps other
 contributors a lot. Knowing something was an intentional change means
 not wasting time trying to “fix” it, knowing all the details means
 solving the complete issue and not just part of it, and it minimizes the
