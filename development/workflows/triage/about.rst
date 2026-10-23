@@ -56,7 +56,11 @@ what might be going on.
 If you’re unable to reproduce the bug it could mean that the steps are
 incomplete, or that the MRP is incorrect. In this case you might need to
 ask the author for further details or ask them to create an MRP.
-   
+
+Use the `needs testing <https://github.com/godotengine/godot/issues?q=is%3Aissue+is%3Aopen+label%3A%22needs+testing%22>`__
+label to find issues that need to be confirmed or that need further testing to figure out what is going on.
+These can vary a lot but they can be a good starting point as some are issues that simply need to be tested on specific platforms.
+
 
 Creating MRPs
 ~~~~~~~~~~~~~
@@ -84,6 +88,8 @@ reproducible on ``4.3``. Next you can test development releases, such as
 ``4.4.beta1``, these can be found in the `Godot archive <https://godotengine.org/download/archive/>`__.
 Once the specific development release has been identified you can go one step
 further and :ref:`bisect <doc_bisecting_regressions>` the regression.
+Use the `needs bisect <https://github.com/godotengine/godot/issues?q=is%3Aissue+is%3Aopen+label%3A%22needs+bisect%22>`__
+label to find issues that need to be bisected.
 
 Make sure to announce the fact that you are bisecting a bug on the issue
 report to make sure no one else starts bisecting it as well, as
