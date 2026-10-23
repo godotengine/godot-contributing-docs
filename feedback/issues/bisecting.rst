@@ -11,6 +11,8 @@ be asked by a contributor to *bisect* the issue. Bisecting makes it possible for
 contributors to fix bugs faster, as they can know in advance which commit caused
 the regression. Your effort will be widely appreciated :)
 
+Bisecting issues labeled "needs bisect" is also appreciated.
+
 The guide below explains how to find a regression by bisecting.
 
 What is bisecting?

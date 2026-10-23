@@ -69,8 +69,6 @@ some basic tags to the issue and add the “needs testing” tag.
 Issues that are clearly spam should be closed and tagged as “spam” and
 marked as archived.
 
-See :ref:`how to write a good issue report <doc_issue_report_writing>` for more details.
-
 .. _doc_bug_triage_initial_assessment:
 
 Initial assessment
@@ -174,7 +172,8 @@ specific bug. **All** such regressions should be bisected. You can ask
 the issue author to follow the instructions in the
 :ref:`Bisecting regressions <doc_bisecting_regressions>` documentation. If they are not
 able to (or the issue is critical and should be fixed as quickly as possible),
-then you can look into bisecting the issue yourself.
+then you can look into bisecting the issue yourself. Such issues should also be labeled
+"needs bisect", unless you start bisecting the issue yourself.
 
 Once identified correctly it should be put on the relevant triage
 project(s) if appropriate. See :ref:`team trackers <doc_areas>`
