@@ -11,6 +11,9 @@ be asked by a contributor to *bisect* the issue. Bisecting makes it possible for
 contributors to fix bugs faster, as they can know in advance which commit caused
 the regression. Your effort will be widely appreciated :)
 
+Bisecting issues labeled "`needs bisect <https://github.com/godotengine/godot/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22needs%20bisect%22>`__"
+is also appreciated.
+
 The guide below explains how to find a regression by bisecting.
 
 What is bisecting?
