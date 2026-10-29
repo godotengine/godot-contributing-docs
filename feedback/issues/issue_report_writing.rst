@@ -50,6 +50,8 @@ Please make sure you have done the following before opening an issue, to avoid u
 - Double check that the issue is not caused by any add-on or plugin in your project, unless the issue is specifically
   about a bug in how add-ons or plugins work. Generally, issues caused by add-ons or plugins should be reported to the
   creator of the add-on or plugin first. Only if the issue is a problem in Godot should a report be made for Godot.
+- For C# issues, double check that the issue is not caused by your .NET installation. You can do this by checking if
+  you can build a non-Godot C# project. To check, run ``dotnet new console -o MyApp && dotnet build MyApp``.
 
 If you are unsure if something is a bug, and not a missing feature or a documented limitation, please don't hesitate
 to ask in the `#is-this-a-godot-bug Discord channel <https://discord.com/channels/1235157165589794909/1334482804863406101>`__
@@ -165,6 +167,14 @@ When writing the description of your issue, it's important that you cover the fo
 - **How the way it behaves conflicts with that expectation.** Even with a clear description of what happens,
   and how you expect it to behave, it might not always be clear exactly in what way the two don't align.
 
+When the project uses C#, the following additional details should also be covered:
+
+- **Is the issue exclusive to C#?** Test if you can you reproduce the issue with GDScript or ``godot-cpp``. This helps
+  to determine where the source of the problem is, and can save you and contributors a lot of time.
+- **Details about your .NET installation.** Information about your .NET environment can help diagnose issues that can
+  only be reproduced under certain conditions. Include the output of ``dotnet --info`` to show your .NET SDK and runtime
+  environment.
+
 Having a clear description of the issue, and not relying on people replicating the issue to see what is going on,
 helps in many ways. Many contributors can find the time to look through an issue and try to understand what is
 going on, even when they aren't able to dedicate the time to run an MRP or try to reproduce a bug. Many bugs are
@@ -243,6 +253,9 @@ make sure to provide clear steps to add it to the project.
 
   If you include add-ons or any other third-party content that you do not own or did not create, make sure that the license
   for that content allows you to share it, and include any required license files.
+
+For C# issues, please include the complete project in the MRP, including its ``.csproj`` file, and verify that it builds from the
+terminal by running ``dotnet build`` in the project directory.
 
 Follow these basic rules to make your MRP as clear and useful as possible.
 
