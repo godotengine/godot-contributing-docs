@@ -174,3 +174,12 @@ the Godot project, the area of the codebase, and ultimately the risk of merging 
 It is commonly accepted that code changes of 15 lines or less are generally trivial (and cannot be the subject of
 copyright). Accordingly, we presume that anything under 15 lines should be considered trivial unless otherwise shown.
 
+Cybersecurity Policy
+--------------------
+
+Godot maintainers and contributors, when working on the engine's codebase, addons or plugins, should:
+
+- Be aware of the importance of security concerns and take appropriate measures to avoid or limit vulnerabilities.
+- Report and document vulnerabilities they have discovered in the same way as they would report a bug or issue, in view of addressing them and promoting the sharing of information concerning vulnerabilities within the open-source community.
+
+Godot users are encouraged to and Godot Foundation contractors should report security breaches to the Godot Foundation via its usual contact channels.
