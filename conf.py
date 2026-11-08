@@ -35,6 +35,9 @@ templates_path = ['_templates']
 
 smartquotes = False
 
+# Disable collapsing tabs for codeblocks.
+sphinx_tabs_disable_tab_closing = True
+
 # Pygments (syntax highlighting) style to use
 pygments_style = "sphinx"
 highlight_language = "gdscript"
