@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Contributing to Godot'
-copyright = '2025, Godot Engine Contributors'
+copyright = '2025-present, Godot Engine Contributors'
 author = 'Godot Engine Contributors'
 
 release = '0.1'
