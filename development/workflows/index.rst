@@ -14,4 +14,5 @@ This section describes Godot's development workflows and organization.
    review_guidelines
    testing_pull_requests
    triage/index
+   release_cycle_outline
    release_management/index
