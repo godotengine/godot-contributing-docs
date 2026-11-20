@@ -29,6 +29,8 @@ always seek to solve something that can be described as a *Problem*.
 Best Practices
 --------------
 
+.. _doc_best_practices_problem_always_comes_first:
+
 #1: The problem always comes first
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

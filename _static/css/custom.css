@@ -1921,3 +1921,15 @@ span.team-lead:before {
 span.team-lead {
     font-weight: bold;
 }
+
+/* Distinguishes block quotes from their surrounding text with a semitransparent
+background, instead of only indentation. */
+blockquote {
+    background-color: var(--code-background-color);
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 4px;
+}
+
+blockquote > div > p:last-child {
+    margin-bottom: 0px !important;
+}
